@@ -1,6 +1,6 @@
 import urllib2
 
-url = "http://www.thebeerstore.ca/beers/1857-kolsch-style-ale"
+url = "http://www.thebeerstore.ca/beers/keiths"
 raw = urllib2.urlopen(url)
 content = raw.read()
 

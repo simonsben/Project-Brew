@@ -1,0 +1,31 @@
+data = open("temp.dat")
+page = data.read()
+
+#Beer Name
+name_begin = page.find("<h1 class=\"page-title\">") + len("<h1 class=\"page-title\">")
+name_end = page.find("</h1>", name_begin)
+print("Beer is: " + page[name_begin:name_end])
+
+#Price List
+list_begin = page.rfind("<h2 class=\"element-invisible\">Price List</h2>", name_begin) + len("<h2 class=\"element-invisible\">Price List</h2>")
+can_begin = page.find("<tbody>", list_begin) + len("<tbody>")
+can_end = page.find("</tbody>", can_begin)
+bottle_begin = page.find("<tbody>", can_end + len("</tbody>")) + len("<tbody>")
+bottle_end = page.find("</tbody>", bottle_begin)
+
+print("List: " + str(list_begin) )
+print("Can: " + str(can_begin) + " " +  str(can_end))
+print("Bottle: " + str(bottle_begin) + " " + str(bottle_end))
+
+#Count number of can entries
+point = can_begin
+count = 0
+index = 1
+while(index > 0):
+    index = page.find("<tr class=", point, can_end)
+    if(index > 0):
+        point =index + len("<tr class=")
+        count += 1
+print("Total count is: " + str(count))
+
+data.close()

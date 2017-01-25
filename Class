@@ -2,12 +2,15 @@
 
 #Individual beer class
 class Beer:
-    def __init__(self, brnd, nm, sz, qnt, alc):
+    def __init__(self, brnd, nm, sz, qnt, alc, prc):
         self.brand = brnd
         self.name = nm
         self.size = sz
         self.quantity = qnt
         self.alcohol = alc
+        self.price = prc
+        self.value = (qnt * sz) / prc
+        self.valueAlcohol = (qnt * sz * (alc / 100)) / prc
     def prnt(self):
         print(str(self.quantity) + ' x ' + str(self.size) + 'mL ' + str(self.brand) + ' ' + str(self.name))
 
@@ -68,12 +71,13 @@ listOfBeer.prnt()
 print(' ')
 print(' ')
 print(' Sorted: ')
-listOfBeer.sort("size")
+listOfBeer.sort("brand")
 listOfBeer.prnt()
 
+#Example insert into sorted list
 print(' ')
 print(' ')
 print(' Sorted: ')
 KIPA = Beer("Meiths", "India Pale Ale", 1500, 24, 5.0)
-listOfBeer.insertName(KIPA, "size")
+listOfBeer.insertName(KIPA, "brand")
 listOfBeer.prnt()

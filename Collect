@@ -4,7 +4,8 @@ page = data.read()
 
 #Beer name
 begin = page.find('only-desktop')
-beer_name_location = page.find('page-title', begin) + len('page-title') + 2
+beer_name_location = page.find('class="filter"', begin)
+beer_name_location = page.find('class="filter"', beer_name_location + 1) + len('class="filter"') + 1
 beer_name = page[beer_name_location:page.find('<', beer_name_location + 1)]
 
 #Brewer
@@ -54,6 +55,8 @@ while(page.find('<th class="large">', type_location) != -1):
 
 with open('Site.csv', 'wb') as site_file:
     writer = csv.writer(site_file)
+    writer.writerow(beer_name)
+    writer.writerow(brewer)
     writer.writerow(type)
     writer.writerow(quantity)
     writer.writerow(size)

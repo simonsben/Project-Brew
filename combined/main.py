@@ -1,6 +1,5 @@
 import beerClass
 import functionClass
-from urllib.request import urlopen
 
 #Class Instantiation
 typeClass = beerClass.Beer
@@ -14,8 +13,7 @@ listOfBeer = listClass()
 
 #Strip links for all beer pages
 link = funcClass.stripURL(funcClass)
-print("Strip done.")
+listOfBeer = funcClass.ripList(funcClass, link)
 
-print(link[0])
-listOfBeer = funcClass.collectInfo(listOfBeer, link[0])
+#Print list of beers
 listOfBeer.prnt()

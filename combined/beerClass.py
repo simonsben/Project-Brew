@@ -2,17 +2,19 @@
 
 #Individual beer class
 class Beer:
-    def __init__(self, brnd, nm, sz, qnt, alc, prc):
+    def __init__(self, brnd, nm, tp, sz, qnt, alc, prc, sl):
         self.brand = brnd
         self.name = nm
+        self.type = tp
         self.size = sz
         self.quantity = qnt
         self.alcohol = alc
         self.price = prc
+        self.sale = sl
         self.value = (qnt * sz) / prc
         self.valueAlcohol = (qnt * sz * (alc / 100)) / prc
     def prnt(self):
-        print(str(self.quantity) + ' x ' + str(self.size) + 'mL ' + str(self.brand) + ' ' + str(self.name))
+        print(str(self.quantity) + ' x ' + str(self.size) + 'mL ' + str(self.type) + ' ' + str(self.brand) + ' ' + str(self.name))
 
 
 #List of all beers class

@@ -14,8 +14,10 @@ class Beer:
         self.value = (qnt * sz) / prc
         self.valueAlcohol = (qnt * sz * (alc / 100)) / prc
     def prnt(self):
-        print(str(self.quantity) + ' x ' + str(self.size) + 'mL ' + str(self.type) + ' ' + str(self.brand) + ' ' + str(self.name))
-
+        print(str(self.quantity) + ' x ' + str(self.size) + 'mL ' + str(self.type) + ' ' + str(self.brand) + ' ' + str(self.name) + ' ' + str(self.price) + '$')
+    def prntAsString(self):
+        strng = str(self.quantity) + ' x ' + str(self.size) + 'mL ' + str(self.type) + ' ' + str(self.brand) + ' ' + str(self.name) + ' ' + str(self.price) + '$'
+        return strng
 
 #List of all beers class
 class BeerList:
@@ -31,7 +33,7 @@ class BeerList:
     def sort(self, quant):
         for i in range(0, self.length):
             for j in range(i, self.length):
-                if(getattr(self.list[i], quant) > getattr(self.list[j], quant)):
+                if(getattr(self.list[i], quant) < getattr(self.list[j], quant)):
                     swap =  self.list[i]
                     self.list[i] = self.list[j]
                     self.list[j] = swap
@@ -42,3 +44,6 @@ class BeerList:
             elif(getattr(self.list[i], quant) > getattr(beerData, quant)):
                 self.list.insert(i, beerData)
                 return
+    def prntSng(self, ind):
+        return Beer.prntAsString(self.list[ind])
+

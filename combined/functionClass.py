@@ -12,7 +12,7 @@ class collection:
         partial_url = "http://www.thebeerstore.ca/beers/search/beer_type--"
         suffix = ('Ale', 'Lager', 'Malt', 'Stout')
 
-        for i in range(0, 3):
+        for i in range(0, len(suffix)):
             url = partial_url + suffix[i]
             content = collection.readURL(collection, url)
             start = 0
@@ -61,9 +61,13 @@ class collection:
                 #Extract Quantity
                 quantity_location += len('<td class="size">')
                 quantity = int(content[quantity_location:content.find('&', quantity_location)-1])
+
                 #Extract Size
-                size_location = content.find(type, quantity_location) + len(type) + 1
+                size_location = content.find('&', quantity_location + 5) - 7
+                size_location = content.find(' ', size_location)
+                #size_location = content.find(';', quantity_location + 15) + 3 #content.find(type, quantity_location) + len(type) + 1
                 size = int(content[size_location:content.find('&', size_location)])
+
                 #Extract price
                 price_location = content.find('price', size_location) + len('price') + 3
                 if(content.find('sale-price', price_location, price_location + 50) != -1):

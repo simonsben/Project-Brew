@@ -15,10 +15,10 @@ class Beer:
         print(str(self.quantity) + ' x ' + str(self.size) + 'mL ' + str(self.brand) + ' ' + str(self.name))
 
 #Example beer information
-KIPA = Beer("Keiths", "India Pale Ale", 500, 24, 5.0)
+KIPA = Beer("Keiths", "India Pale Ale", 500, 24, 5.0, 35.49)
 
 #Calling print function
-Beer.prnt(KIPA)
+#Beer.prnt(KIPA)
 
 #List of all beers class
 class BeerList:
@@ -53,16 +53,16 @@ listOfBeer = BeerList()
 #Generation of example beer list
 print("List of beer: ")
 for i in range(20, 25):
-    KIPA = Beer("Keiths", "India Pale Ale", i*15, 24, 5.0)
+    KIPA = Beer("Keiths", "India Pale Ale", i*15, 24, 5.0, i*12.35)
     listOfBeer.append(KIPA)
 
-KIPA = Beer("Aeiths", "India Pale Ale", 150, 24, 5.0)
+KIPA = Beer("Aeiths", "India Pale Ale", 150, 24, 5.0, 12.23)
 listOfBeer.append(KIPA)
-KIPA = Beer("Deiths", "India Pale Ale", 150, 24, 5.0)
+KIPA = Beer("Deiths", "India Pale Ale", 150, 24, 5.0, 12.45)
 listOfBeer.append(KIPA)
-KIPA = Beer("Peiths", "India Pale Ale", 150, 24, 5.0)
+KIPA = Beer("Peiths", "India Pale Ale", 150, 24, 5.0, 13.42)
 listOfBeer.append(KIPA)
-KIPA = Beer("Qeiths", "India Pale Ale", 1500, 24, 5.0)
+KIPA = Beer("Qeiths", "India Pale Ale", 1500, 24, 5.0, 41.32)
 listOfBeer.append(KIPA)
 
 #Printing of example beer list
@@ -78,6 +78,6 @@ listOfBeer.prnt()
 print(' ')
 print(' ')
 print(' Sorted: ')
-KIPA = Beer("Meiths", "India Pale Ale", 1500, 24, 5.0)
+KIPA = Beer("Meiths", "India Pale Ale", 1500, 24, 5.0, 43.51)
 listOfBeer.insertName(KIPA, "brand")
 listOfBeer.prnt()

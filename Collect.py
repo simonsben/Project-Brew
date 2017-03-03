@@ -1,11 +1,16 @@
-import csv
-data = open("temp.dat")
-page = data.read()
+#import csv
+from urllib.request import urlopen
+raw = urlopen("http://www.thebeerstore.ca/beers/1857-kolsch-style-ale")
+page = raw.read()
+page = page.decode("utf-8")
+
+#data = open("temp.dat")
+#page = data.read()
 
 #Beer name
 begin = page.find('only-desktop')
-beer_name_location = page.find('class="filter"', begin)
-beer_name_location = page.find('class="filter"', beer_name_location + 1) + len('class="filter"') + 1
+beer_name_location = page.find('class="page-title"', begin) + len('class="page-title"') + 1
+#beer_name_location = page.find('class="filter"', beer_name_location + 1) + len('class="filter"') + 1
 beer_name = page[beer_name_location:page.find('<', beer_name_location + 1)]
 
 #Brewer
@@ -46,13 +51,15 @@ while(page.find('<th class="large">', type_location) != -1):
         price.append(float(page[price_location:page.find('<', price_location)]))
         #Calculate next quantity location (and whether it exists)
         quantity_location = page.find('<td class="size">', quantity_location + 1, type_end)
+
+        print(beer_name)
     #Add break between types
     quantity.append(' ')
     size.append(' ')
     price.append(' ')
     i += 1 #Increment type
 
-
+'''
 with open('Site.csv', 'wb') as site_file:
     writer = csv.writer(site_file)
     writer.writerow(beer_name)
@@ -63,3 +70,4 @@ with open('Site.csv', 'wb') as site_file:
     writer.writerow(price)
 
 data.close()
+'''

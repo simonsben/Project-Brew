@@ -1,6 +1,6 @@
 #import csv
 from urllib.request import urlopen
-raw = urlopen("http://www.thebeerstore.ca/beers/1857-kolsch-style-ale")
+raw = urlopen("http://www.thebeerstore.ca/beers/big-rig-canadian-amber")
 page = raw.read()
 page = page.decode("utf-8")
 
@@ -48,11 +48,14 @@ while(page.find('<th class="large">', type_location) != -1):
         size.append(int(page[size_location:page.find('&', size_location)]))
         #Extract price
         price_location = page.find('price', size_location) + len('price') + 3
+        if(page.find('sale-price', price_location, price_location + 50) != -1):
+            price_location = page.find('sale-price', price_location)
+            price_location = page.find('$', price_location + 1) + 1
         price.append(float(page[price_location:page.find('<', price_location)]))
         #Calculate next quantity location (and whether it exists)
         quantity_location = page.find('<td class="size">', quantity_location + 1, type_end)
 
-        print(beer_name)
+        print(price)
     #Add break between types
     quantity.append(' ')
     size.append(' ')

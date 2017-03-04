@@ -34,7 +34,7 @@ class BeerList:
     def sort(self, quant):
         for i in range(0, self.length):
             for j in range(i, self.length):
-                if(getattr(self.list[i], quant) > getattr(self.list[j], quant)):
+                if(getattr(self.list[i], quant) < getattr(self.list[j], quant)):
                     swap =  self.list[i]
                     self.list[i] = self.list[j]
                     self.list[j] = swap
@@ -62,7 +62,7 @@ KIPA = Beer("Deiths", "India Pale Ale", 150, 24, 5.0, 12.45)
 listOfBeer.append(KIPA)
 KIPA = Beer("Peiths", "India Pale Ale", 150, 24, 5.0, 13.42)
 listOfBeer.append(KIPA)
-KIPA = Beer("Qeiths", "India Pale Ale", 1500, 24, 5.0, 41.32)
+KIPA = Beer("Qeiths", "India Pale Ale", 1500, 24, 5.0, 5.32)
 listOfBeer.append(KIPA)
 
 #Printing of example beer list
@@ -71,9 +71,10 @@ listOfBeer.prnt()
 print(' ')
 print(' ')
 print(' Sorted: ')
-listOfBeer.sort("brand")
+listOfBeer.sort("value")
 listOfBeer.prnt()
 
+'''
 #Example insert into sorted list
 print(' ')
 print(' ')
@@ -81,3 +82,4 @@ print(' Sorted: ')
 KIPA = Beer("Meiths", "India Pale Ale", 1500, 24, 5.0, 43.51)
 listOfBeer.insertName(KIPA, "brand")
 listOfBeer.prnt()
+'''

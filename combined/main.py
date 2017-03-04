@@ -19,7 +19,7 @@ print(link[281])
 listOfBeer = funcClass.ripList(funcClass, link)
 
 #Sort list of beers by mL / $
-listOfBeer.sort('value')
+listOfBeer.sort('valueAlcohol')
 
 with open('dataTaken.txt', 'w+') as f:
     for i in range(0, listOfBeer.length):

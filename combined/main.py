@@ -13,7 +13,6 @@ listOfBeer = listClass()
 
 #Strip links for all beer pages
 link = funcClass.stripURL(funcClass)
-print(link[281])
 
 #Pull information from each beer page
 listOfBeer = funcClass.ripList(funcClass, link)

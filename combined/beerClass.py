@@ -14,10 +14,10 @@ class Beer:
         self.value = round((qnt * sz) / prc, 5)
         self.valueAlcohol = round((qnt * sz * (alc / 100)) / prc, 5)
     def prnt(self):
-        print(str(self.quantity) + ' x ' + str(self.size) + 'mL ' + str(self.type) + ' ' + str(self.brand) + ' ' + str(self.name) + ' ' + str(self.price) + '$')
+        print(str(self.quantity) + ' x ' + str(self.size) + 'mL ' + str(self.type) + ' ' + str(self.brand) + ', ' + str(self.name) + ' ' + str(self.price) + '$')
     def prntAsString(self):
         #strng = str(self.quantity) + ' x ' + str(self.size) + 'mL ' + str(self.type) + ' ' + str(self.brand) + ' ' + str(self.name) + ' ' + str(self.price) + '$'
-        strng = str(self.quantity) + ' x ' + str(self.size) + 'mL ' + str(self.type) + ' ' + str(self.brand) + ' ' + str(self.name) + ' ' + str(self.valueAlcohol) + ' mL alcohol/$'
+        strng = str(self.quantity) + ' x ' + str(self.size) + 'mL ' + str(self.type) + ' ' + str(self.brand) + ', ' + str(self.name) + ' ' + str(self.valueAlcohol) + ' mL alcohol/$'
         return strng
 
 #List of all beers class

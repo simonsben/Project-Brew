@@ -337,7 +337,6 @@
 1 x 58600mL Keg Molson, Old Style Pilsner 11.01711 mL alcohol/$
 1 x 473mL Can Sleeman Brewing, Pabst Blue Ribbon 5.9 11.0 mL alcohol/$
 1 x 440mL Can Bavaria, Bavaria Premium Beer 11.0 mL alcohol/$
-1 x 473mL Can Moosehead Breweries Limited, Alpine Lager 11.0 mL alcohol/$
 1 x 473mL Can James Ready Brewing Company, James Ready 5.5 11.0 mL alcohol/$
 1 x 473mL Can Wellington County, Wellington Imperial Stout 10.96812 mL alcohol/$
 1 x 473mL Can Muskoka Brewery, Muskoka Twice Mad Tom IPA  10.96812 mL alcohol/$
@@ -449,7 +448,6 @@
 12 x 355mL Can Miller Coors, Fosters Import 10.31477 mL alcohol/$
 24 x 710mL Can Strohs Brewery, Old Milwaukee 10.2883 mL alcohol/$
 24 x 710mL Can Strohs Brewery, Pabst Blue Ribbon 10.2883 mL alcohol/$
-24 x 473mL Can Moosehead Breweries Limited, Alpine Lager 10.28261 mL alcohol/$
 6 x 341mL Bottle Brick, Laker Lager 10.28141 mL alcohol/$
 6 x 341mL Bottle Brick, Laker Ice 10.28141 mL alcohol/$
 12 x 710mL Can Strohs Brewery, Old Milwaukee 10.28054 mL alcohol/$
@@ -601,11 +599,11 @@
 12 x 341mL Bottle Molson, Rickards Fall Taster 9.92 mL alcohol/$
 24 x 341mL Bottle Mcauslan Brewing, St Ambroise IPA  9.92 mL alcohol/$
 24 x 341mL Bottle Mill Street Brewery, Mill St West Coast IPA  9.92 mL alcohol/$
-1 x 50000mL Keg Central City Brewing, Red Racer India Pale Ale 9.91899 mL alcohol/$
-24 x 355mL Can Molson, Export 9.91851 mL alcohol/$
 12 x 710mL Bottle Molson, Molson Canadian 9.91851 mL alcohol/$
+24 x 355mL Can Molson, Export 9.91851 mL alcohol/$
 4 x 473mL Can Double Trouble Brewing, Fire In The Rye Roasted 9.91441 mL alcohol/$
 18 x 355mL Can Brick, Seagram Wildberry 9.90698 mL alcohol/$
+12 x 355mL Can White Water Brewery, PC IPA  9.90698 mL alcohol/$
 12 x 355mL Can Brick, Laker Ice 9.90698 mL alcohol/$
 12 x 355mL Can Sleeman Brewing, Maclays 9.90698 mL alcohol/$
 12 x 355mL Can White Water Brewery, PC Pilsener 9.90698 mL alcohol/$
@@ -616,30 +614,29 @@
 12 x 355mL Can White Water Brewery, PC Down Under Amber 9.90698 mL alcohol/$
 12 x 355mL Can Brava Brewing Company, Brava 5.5 9.90698 mL alcohol/$
 12 x 355mL Can Lakeport Brewing Corp, Lakeport Pilsener 9.90698 mL alcohol/$
-12 x 355mL Can White Water Brewery, PC IPA  9.90698 mL alcohol/$
 12 x 473mL Can Mill Street Brewery, Mill St West Coast IPA  9.88563 mL alcohol/$
 24 x 473mL Can Smuttynose Brewing Company, Smuttynose Finestkind IPA  9.87846 mL alcohol/$
 4 x 473mL Can Double Trouble Brewing, Revenge Ginger Red IPA  9.8713 mL alcohol/$
+6 x 473mL Can Goose Island Beer Company, Goose Island Rambler 9.8713 mL alcohol/$
 4 x 473mL Can Railway City Brewing, Dead Elephant IPA  9.8713 mL alcohol/$
 4 x 473mL Can Arch Brewing Company, Dinner Jacket O Red IPA  9.8713 mL alcohol/$
-6 x 473mL Can Goose Island Beer Company, Goose Island Rambler 9.8713 mL alcohol/$
 1 x 740mL Can Labatt, Budweiser 9.86667 mL alcohol/$
 1 x 710mL Can Molson, Molson Canadian 9.86111 mL alcohol/$
 24 x 341mL Bottle Moosehead Breweries Limited, Moosehead Pale Ale 9.86024 mL alcohol/$
 15 x 341mL Bottle Sleeman Brewing, Sleeman Orig. Draught 9.85549 mL alcohol/$
-12 x 473mL Can Hockley Valley Brewing Company, Hockley Dark Ale 9.85417 mL alcohol/$
 6 x 473mL Can Hockley Valley Brewing Company, Hockley Amber Ale 9.85417 mL alcohol/$
+12 x 473mL Can Hockley Valley Brewing Company, Hockley Dark Ale 9.85417 mL alcohol/$
 24 x 500mL Can Heineken Brouwerijen BV, Heineken 9.84413 mL alcohol/$
 24 x 500mL Can Ab Inbev, Stella Artois 9.84413 mL alcohol/$
-1 x 500mL Can Abro Bryggeri, Brygg Mastarens Organic 9.80392 mL alcohol/$
 1 x 500mL Can Budejovicky Budvar Np, Czechvar 9.80392 mL alcohol/$
-12 x 473mL Can Molson, Mad Jack Ginger Lager 9.80311 mL alcohol/$
+1 x 500mL Can Abro Bryggeri, Brygg Mastarens Organic 9.80392 mL alcohol/$
 12 x 473mL Can Molson, Mad Jack 9.80311 mL alcohol/$
+12 x 473mL Can Molson, Mad Jack Ginger Lager 9.80311 mL alcohol/$
+24 x 473mL Can Molson, Mad Jack Ginger Lager 9.79465 mL alcohol/$
 24 x 473mL Can Molson, Mad Jack Hard Root Beer 9.79465 mL alcohol/$
 24 x 473mL Can Diageo, Guinness Blonde Lager 9.79465 mL alcohol/$
 24 x 473mL Can Molson, Mad Jack 9.79465 mL alcohol/$
 24 x 473mL Can Coors Brewery, Coors Banquet 9.79465 mL alcohol/$
-24 x 473mL Can Molson, Mad Jack Ginger Lager 9.79465 mL alcohol/$
 24 x 473mL Can Barnstormer Brewing Company, Barnstormer Flight Delay 9.79324 mL alcohol/$
 12 x 341mL Bottle Brew Alliance, Poppers Party Pack 9.79282 mL alcohol/$
 6 x 473mL Can Sleeman Brewing, Sleeman Honey Brown Lager 9.78621 mL alcohol/$
@@ -647,15 +644,15 @@
 24 x 473mL Can Sawdust City Brewing, Sawdust City Gateway Kols 9.78621 mL alcohol/$
 24 x 473mL Can Sawdust City Brewing, Sawdust City Ol Woody Alt 9.78621 mL alcohol/$
 12 x 341mL Bottle Molson, Export 9.76611 mL alcohol/$
+12 x 473mL Can Sleeman Brewing, Old Milwaukee 9.76516 mL alcohol/$
 12 x 473mL Can Sleeman Brewing, Pabst Blue Ribbon 9.76516 mL alcohol/$
 12 x 473mL Can Sleeman Brewing, Old Milwaukee Light 9.76516 mL alcohol/$
-12 x 473mL Can Sleeman Brewing, Old Milwaukee 9.76516 mL alcohol/$
 1 x 58600mL Keg Lagunitas Brewing Company, Lagunitas IPA  9.75989 mL alcohol/$
 6 x 473mL Can Lake Of Bays Brewing, Lake Of Bays 10 Point IPA  9.75817 mL alcohol/$
 4 x 500mL Can Sleeman Brewing, Sapporo 9.7561 mL alcohol/$
 1 x 500mL Can Bitburger Braugruppe GMBh, Wernesgruner Pils 9.7561 mL alcohol/$
-1 x 500mL Can Dortmunder Actien Brewery, Jever Pilsener 9.7561 mL alcohol/$
 1 x 500mL Can Dortmunder Actien Brewery, Radeberger Pilsner 9.7561 mL alcohol/$
+1 x 500mL Can Dortmunder Actien Brewery, Jever Pilsener 9.7561 mL alcohol/$
 24 x 341mL Bottle Sleeman Brewing, Sleeman Silver Creek 9.75447 mL alcohol/$
 24 x 341mL Bottle Sleeman Brewing, Sleeman India Pale Ale 9.75447 mL alcohol/$
 24 x 341mL Bottle Sleeman Brewing, Sleeman Fine Porter 9.75447 mL alcohol/$
@@ -668,32 +665,33 @@
 24 x 341mL Bottle James Ready Brewing Company, James Ready Light 9.72838 mL alcohol/$
 6 x 355mL Can Brick, Seagram Wildberry 9.72603 mL alcohol/$
 24 x 355mL Bottle Pivovar Nova Paka A. S., Brouczech Premium Lager 9.70387 mL alcohol/$
-1 x 473mL Can Sleeman Brewing, Pabst Blue Ribbon 9.70256 mL alcohol/$
+12 x 473mL Can Keiths Brewery, Keiths 9.70256 mL alcohol/$
 12 x 473mL Can Molson, Rickards Original White 9.70256 mL alcohol/$
 12 x 473mL Can Brick, Waterloo IPA  9.70256 mL alcohol/$
-1 x 473mL Can Brick, Laker IPA  9.70256 mL alcohol/$
+1 x 473mL Can Sleeman Brewing, Pabst Blue Ribbon 9.70256 mL alcohol/$
 12 x 473mL Can Molson, Rickards Red 9.70256 mL alcohol/$
 12 x 473mL Can Brick, Waterloo Pilsner 9.70256 mL alcohol/$
 12 x 473mL Can Brick, Waterloo Dark 9.70256 mL alcohol/$
+1 x 473mL Can Brick, Laker IPA  9.70256 mL alcohol/$
 12 x 473mL Can Moosehead Breweries Limited, Moosehead Lager 9.70256 mL alcohol/$
-12 x 473mL Can Keiths Brewery, Keiths 9.70256 mL alcohol/$
 12 x 473mL Can Molson, Rickards IPA  9.70256 mL alcohol/$
 12 x 355mL Can Central City Brewing, Red Racer Reign Of Hops 9.70019 mL alcohol/$
+24 x 473mL Can Sleeman Brewing, Old Milwaukee 9.67157 mL alcohol/$
 24 x 473mL Can Sleeman Brewing, Pabst Blue Ribbon 9.67157 mL alcohol/$
 24 x 473mL Can Sleeman Brewing, Old Milwaukee Light 9.67157 mL alcohol/$
-24 x 473mL Can Sleeman Brewing, Old Milwaukee 9.67157 mL alcohol/$
 24 x 473mL Can Cerv Cuauhtemoc Moctezuma, Tecate 9.67157 mL alcohol/$
-6 x 473mL Can Sleeman Brewing, Old Milwaukee 9.66128 mL alcohol/$
-6 x 473mL Can Brick, Laker IPA  9.66128 mL alcohol/$
-6 x 473mL Can Sleeman Brewing, Old Milwaukee Light 9.66128 mL alcohol/$
 6 x 473mL Can Sleeman Brewing, Pabst Blue Ribbon 9.66128 mL alcohol/$
+6 x 473mL Can Brick, Laker IPA  9.66128 mL alcohol/$
+6 x 473mL Can Sleeman Brewing, Old Milwaukee 9.66128 mL alcohol/$
+6 x 473mL Can Sleeman Brewing, Old Milwaukee Light 9.66128 mL alcohol/$
 4 x 500mL Bottle Breuvages Octane, Hickson Imperiale IPA  9.65517 mL alcohol/$
 24 x 355mL Bottle Smuttynose Brewing Company, Smuttynose Robust Porter 9.65439 mL alcohol/$
-1 x 473mL Can Molson, Export 9.65306 mL alcohol/$
 24 x 473mL Can Lake Wilcox Brewing, Lake Wilcox Lakehouse 9.65306 mL alcohol/$
+1 x 473mL Can Molson, Export 9.65306 mL alcohol/$
 24 x 341mL Bottle Labatt, Labatt 50 Ale 9.65094 mL alcohol/$
-12 x 355mL Bottle Flying Monkeys Craft Brewery, Flying Monkeys Smashbomb 9.64528 mL alcohol/$
 12 x 355mL Bottle Flying Monkeys Craft Brewery, Flying Monkeys Netherwrld 9.64528 mL alcohol/$
+12 x 355mL Bottle Flying Monkeys Craft Brewery, Flying Monkeys Smashbomb 9.64528 mL alcohol/$
+24 x 341mL Bottle Molson, Carling Light 9.64242 mL alcohol/$
 24 x 341mL Bottle Brick, Red Baron 9.64242 mL alcohol/$
 24 x 341mL Bottle Brick, Red Baron Lime 9.64242 mL alcohol/$
 24 x 341mL Bottle Labatt, Blue Light 9.64242 mL alcohol/$
@@ -703,65 +701,64 @@
 24 x 341mL Bottle Brava Brewing Company, Brava Light 9.64242 mL alcohol/$
 24 x 341mL Bottle Lakeport Brewing Corp, Lakeport Light 9.64242 mL alcohol/$
 24 x 341mL Bottle Labatt, Lucky Lager 9.64242 mL alcohol/$
+24 x 341mL Bottle Sleeman Brewing, Old Milwaukee 9.64242 mL alcohol/$
 24 x 341mL Bottle Brava Brewing Company, Brava 9.64242 mL alcohol/$
-24 x 341mL Bottle Labatt, Busch Lager 9.64242 mL alcohol/$
 24 x 341mL Bottle Sleeman Brewing, Pabst Blue Ribbon 9.64242 mL alcohol/$
 24 x 341mL Bottle White Water Brewery, PC Cerveza 9.64242 mL alcohol/$
+24 x 341mL Bottle Labatt, Busch Lager 9.64242 mL alcohol/$
 24 x 341mL Bottle Labatt, Busch Light 9.64242 mL alcohol/$
-24 x 341mL Bottle Sleeman Brewing, Old Milwaukee 9.64242 mL alcohol/$
 24 x 341mL Bottle White Water Brewery, PC Light 9.64242 mL alcohol/$
 24 x 341mL Bottle White Water Brewery, PC Low Carb 9.64242 mL alcohol/$
 24 x 341mL Bottle Molson, Carling Lager 9.64242 mL alcohol/$
-24 x 341mL Bottle Molson, Carling Light 9.64242 mL alcohol/$
+1 x 58600mL Keg Camerons Brewing Company, Camerons Captains Log 9.63024 mL alcohol/$
 1 x 58600mL Keg Camerons Brewing Company, Camerons Cosmic Cream Ale 9.63024 mL alcohol/$
 1 x 58600mL Keg Camerons Brewing Company, Camerons Ambear Red Ale 9.63024 mL alcohol/$
-1 x 58600mL Keg Camerons Brewing Company, Camerons Captains Log 9.63024 mL alcohol/$
 24 x 473mL Can Labatt, Shock Top Crisp Apple 9.6285 mL alcohol/$
 24 x 473mL Can Molson, Belgian Moon 9.6285 mL alcohol/$
 24 x 473mL Can Labatt, Shock Top Belgian White 9.6285 mL alcohol/$
 1 x 710mL Can Strohs Brewery, Old Milwaukee 9.62712 mL alcohol/$
 12 x 710mL Can Labatt, Budweiser 9.62712 mL alcohol/$
 2 x 740mL Can Labatt, Busch Lager 9.62602 mL alcohol/$
+1 x 473mL Can Big Rig Brewery, Big Rig Alpha Bomb IPA  9.62034 mL alcohol/$
 1 x 473mL Can Big Rig Brewery, Big Rig Release Hounds 9.62034 mL alcohol/$
 1 x 473mL Can Walkerville Brewing Co, Geronimo IPA  9.62034 mL alcohol/$
 1 x 473mL Can Double Trouble Brewing, Fire In The Rye Roasted 9.62034 mL alcohol/$
-1 x 473mL Can Big Rig Brewery, Big Rig Alpha Bomb IPA  9.62034 mL alcohol/$
-24 x 500mL Can Ottakringer Brauerei, Ottakringer 9.61538 mL alcohol/$
 24 x 500mL Can S.P.A. Birra Peroni A.S., Peroni Nastro Azzurro 9.61538 mL alcohol/$
+24 x 500mL Can Ottakringer Brauerei, Ottakringer 9.61538 mL alcohol/$
 1 x 500mL Can Dortmunder Actien Brewery, Schofferhofer Hefeweizen 9.61538 mL alcohol/$
-18 x 341mL Bottle Molson, Molson Canadian 9.60563 mL alcohol/$
 18 x 341mL Bottle Labatt, Budweiser 9.60563 mL alcohol/$
+18 x 341mL Bottle Molson, Molson Canadian 9.60563 mL alcohol/$
 12 x 473mL Can Labatt, Labatt 50 Ale 9.60406 mL alcohol/$
-12 x 340mL Can Labatt, Bl Platinum 9.6 mL alcohol/$
 24 x 500mL Can Dortmunder Actien Brewery, Radeberger Pilsner 9.6 mL alcohol/$
+12 x 340mL Can Labatt, Bl Platinum 9.6 mL alcohol/$
+24 x 473mL Can Muskoka Brewery, Muskoka Legendary Oddity 9.5971 mL alcohol/$
 1 x 473mL Can Lake Of The Woods Brewing, Forgotten Blueberry Ale 9.5971 mL alcohol/$
 1 x 473mL Can Muskoka Brewery, Muskoka Legendary Oddity 9.5971 mL alcohol/$
-24 x 473mL Can Muskoka Brewery, Muskoka Legendary Oddity 9.5971 mL alcohol/$
-4 x 710mL Can Strohs Brewery, Pabst Blue Ribbon 9.5865 mL alcohol/$
 4 x 710mL Can Strohs Brewery, Old Milwaukee 9.5865 mL alcohol/$
+4 x 710mL Can Strohs Brewery, Pabst Blue Ribbon 9.5865 mL alcohol/$
 28 x 341mL Bottle Brava Brewing Company, Brava 9.55995 mL alcohol/$
 2 x 473mL Can Sleeman Brewing, Sleeman Orig. Draught 9.55556 mL alcohol/$
 2 x 473mL Can Sleeman Brewing, Okanagan Springs 1516 9.55556 mL alcohol/$
+1 x 341mL Bottle Brew Alliance, Poppers Wild Ice 9.548 mL alcohol/$
 1 x 341mL Bottle Brew Alliance, Poppers Cran Ice 9.548 mL alcohol/$
 1 x 341mL Bottle Brew Alliance, Poppers Orange Smoothie 9.548 mL alcohol/$
 1 x 341mL Bottle Brew Alliance, Poppers Ricco Sangria 9.548 mL alcohol/$
 1 x 341mL Bottle Brew Alliance, Poppers Hard Ice 9.548 mL alcohol/$
 1 x 341mL Bottle Brew Alliance, Poppers Pink 9.548 mL alcohol/$
-1 x 341mL Bottle Brew Alliance, Poppers Wild Ice 9.548 mL alcohol/$
-2 x 710mL Can Strohs Brewery, Pabst Blue Ribbon 9.54622 mL alcohol/$
 2 x 710mL Can Strohs Brewery, Old Milwaukee 9.54622 mL alcohol/$
+2 x 710mL Can Strohs Brewery, Pabst Blue Ribbon 9.54622 mL alcohol/$
 6 x 473mL Can Barnstormer Brewing Company, Barnstormer Flight Delay 9.5395 mL alcohol/$
 24 x 500mL Can Brauerei Beck & Company, Becks 9.53137 mL alcohol/$
 24 x 341mL Bottle Keiths Brewery, Keiths Red 9.52736 mL alcohol/$
 15 x 355mL Can Sleeman Brewing, Sleeman Orig. Draught 9.52594 mL alcohol/$
-15 x 355mL Can Labatt, Budweiser 9.52594 mL alcohol/$
 15 x 355mL Can Molson, Molson Canadian 9.52594 mL alcohol/$
-1 x 500mL Can Dortmunder Actien Brewery, Dab Dark Lager 9.52381 mL alcohol/$
+15 x 355mL Can Labatt, Budweiser 9.52594 mL alcohol/$
 12 x 500mL Can Heineken Brouwerijen BV, Heineken 9.52381 mL alcohol/$
+1 x 500mL Can Dortmunder Actien Brewery, Dab Dark Lager 9.52381 mL alcohol/$
 6 x 473mL Can Hockley Valley Brewing Company, Hockley Dark Ale 9.52349 mL alcohol/$
 12 x 500mL Can Ab Inbev, Stella Artois 9.50872 mL alcohol/$
-4 x 473mL Can Molson, Molson Canadian 9.50754 mL alcohol/$
 4 x 473mL Can Labatt, Budweiser 9.50754 mL alcohol/$
+4 x 473mL Can Molson, Molson Canadian 9.50754 mL alcohol/$
 6 x 473mL Can Molson, Rickards IPA  9.49164 mL alcohol/$
 6 x 473mL Can Brick, Waterloo IPA  9.49164 mL alcohol/$
 6 x 473mL Can Labatt, Labatt 50 Ale 9.49164 mL alcohol/$
@@ -770,26 +767,27 @@
 6 x 473mL Can Brick, Waterloo Pilsner 9.49164 mL alcohol/$
 6 x 473mL Can Brick, Waterloo Dark 9.49164 mL alcohol/$
 8 x 473mL Can Sleeman Brewing, Old Milwaukee Light 9.48966 mL alcohol/$
-12 x 473mL Can Brick, Laker IPA  9.47975 mL alcohol/$
 8 x 473mL Can Creemore Springs Brewery, Creemore Urbock 9.47975 mL alcohol/$
+12 x 473mL Can Brick, Laker IPA  9.47975 mL alcohol/$
 6 x 341mL Bottle Molson, Rickards Fall Taster 9.47954 mL alcohol/$
-30 x 355mL Can Brick, Laker Light 9.4772 mL alcohol/$
+24 x 355mL Can Sleeman Brewing, Okanagan Springs 1516 9.4772 mL alcohol/$
 24 x 355mL Can Sleeman Brewing, Sleeman Selections 9.4772 mL alcohol/$
 24 x 355mL Can Sleeman Brewing, Sleeman Silver Creek 9.4772 mL alcohol/$
 24 x 355mL Can Sleeman Brewing, Sleeman Honey Brown Lager 9.4772 mL alcohol/$
 24 x 355mL Can Sleeman Brewing, Sleeman Cream Ale 9.4772 mL alcohol/$
-24 x 355mL Can Sleeman Brewing, Okanagan Springs 1516 9.4772 mL alcohol/$
+30 x 355mL Can Brick, Laker Light 9.4772 mL alcohol/$
 12 x 473mL Can Side Launch Brewing Company, Side Launch Pale Ale 9.47579 mL alcohol/$
 12 x 473mL Can Side Launch Brewing Company, Side Launch Wheat 9.47579 mL alcohol/$
 12 x 473mL Can Molson, Belgian Moon 9.47579 mL alcohol/$
 12 x 473mL Can Labatt, Shock Top Belgian White 9.47579 mL alcohol/$
 12 x 473mL Can Side Launch Brewing Company, Side Launch Dark Lager 9.47579 mL alcohol/$
 12 x 473mL Can Wellington County, Wellington County Ale 9.47579 mL alcohol/$
-60 x 355mL Can Sleeman Brewing, Old Milwaukee Light 9.47193 mL alcohol/$
 48 x 355mL Can Keiths Brewery, Keiths 9.47193 mL alcohol/$
+60 x 355mL Can Sleeman Brewing, Old Milwaukee Light 9.47193 mL alcohol/$
 18 x 473mL Can Brick, Waterloo Dark 9.47052 mL alcohol/$
 18 x 473mL Can Brick, Waterloo IPA  9.47052 mL alcohol/$
 18 x 473mL Can Brick, Waterloo Pilsner 9.47052 mL alcohol/$
+24 x 473mL Can Lakeport Brewing Corp, Lakeport Light 9.46986 mL alcohol/$
 24 x 473mL Can Molson, Black Label 9.46986 mL alcohol/$
 24 x 473mL Can Labatt, Busch Light 9.46986 mL alcohol/$
 24 x 473mL Can Molson, Carling Lager 9.46986 mL alcohol/$
@@ -798,24 +796,23 @@
 24 x 473mL Can Molson, Carling Light 9.46986 mL alcohol/$
 24 x 473mL Can Labatt, Busch Lager 9.46986 mL alcohol/$
 24 x 473mL Can Brick, Laker IPA  9.46986 mL alcohol/$
-24 x 473mL Can Lakeport Brewing Corp, Lakeport Light 9.46986 mL alcohol/$
 24 x 473mL Can Taps Brewing Company, Taps Rye Knot Pale Ale 9.46789 mL alcohol/$
+24 x 473mL Can Camerons Brewing Company, Camerons Captains Log 9.46789 mL alcohol/$
 24 x 473mL Can Molson, Molson Canadian 9.46789 mL alcohol/$
 24 x 473mL Can Labatt, Budweiser 9.46789 mL alcohol/$
 24 x 473mL Can Labatt, Labatt 50 Ale 9.46789 mL alcohol/$
-24 x 473mL Can Camerons Brewing Company, Camerons Captains Log 9.46789 mL alcohol/$
 1 x 710mL Can Strohs Brewery, Pabst Blue Ribbon 9.46667 mL alcohol/$
 12 x 341mL Bottle Mcauslan Brewing, St Ambroise IPA  9.46127 mL alcohol/$
-24 x 473mL Can Hogsback Brewing Co., Hogsback Vintage Lager 9.46 mL alcohol/$
+1 x 473mL Can Niagara Brewing Company, Beer Devil IPA  9.46 mL alcohol/$
 1 x 473mL Can Brick, Waterloo Pilsner 9.46 mL alcohol/$
-24 x 473mL Can Great Lakes, Great Lakes Pompous Ass 9.46 mL alcohol/$
+24 x 473mL Can Hogsback Brewing Co., Hogsback Vintage Lager 9.46 mL alcohol/$
 6 x 473mL Can Stack Brewing, Stack Lacloche Belgian 9.46 mL alcohol/$
 24 x 473mL Can Walkerville Brewing Co, Walkerville Honest Lager 9.46 mL alcohol/$
 1 x 473mL Can Brick, Waterloo IPA  9.46 mL alcohol/$
 24 x 473mL Can Stack Brewing, Stack Lacloche Belgian 9.46 mL alcohol/$
 2 x 473mL Can Sleeman Brewing, Sleeman Honey Brown Lager 9.46 mL alcohol/$
 1 x 473mL Can Double Trouble Brewing, Revenge Ginger Red IPA  9.46 mL alcohol/$
-1 x 473mL Can Niagara Brewing Company, Beer Devil IPA  9.46 mL alcohol/$
+24 x 473mL Can Great Lakes, Great Lakes Pompous Ass 9.46 mL alcohol/$
 24 x 341mL Bottle Muskoka Brewery, Muskoka Mad Tom IPA  9.45217 mL alcohol/$
 1 x 500mL Can Ottakringer Brauerei, Ottakringer 9.43396 mL alcohol/$
 12 x 650mL Bottle Heineken Brouwerijen BV, Heineken 9.39759 mL alcohol/$
@@ -830,49 +827,50 @@
 12 x 341mL Bottle Niagaras Best Beer Ltd., Niagaras Best Blonde Prem 9.32118 mL alcohol/$
 4 x 473mL Can Labatt, Budweiser 9.3202 mL alcohol/$
 40 x 355mL Can Sleeman Brewing, Pabst Blue Ribbon 9.31911 mL alcohol/$
+8 x 473mL Can Molson, Keystone Light 9.31446 mL alcohol/$
 8 x 473mL Can Molson, Black Label 9.31446 mL alcohol/$
 8 x 473mL Can Molson, Carling Lager 9.31446 mL alcohol/$
-8 x 473mL Can Molson, Keystone Light 9.31446 mL alcohol/$
 12 x 355mL Can Labatt, Straw Ber Rita Bud Lime 9.31148 mL alcohol/$
 12 x 355mL Can Labatt, Lime A Rita By Bud Lime 9.31148 mL alcohol/$
 24 x 341mL Bottle Molson, Rickards Red 9.31058 mL alcohol/$
 24 x 341mL Bottle Labatt, Labatt Extra Dry 9.31058 mL alcohol/$
 24 x 341mL Bottle Molson, Rickards Original White 9.31058 mL alcohol/$
-6 x 473mL Can Molson, Mad Jack Hard Root Beer 9.30492 mL alcohol/$
+6 x 473mL Can Molson, Belgian Moon 9.30492 mL alcohol/$
 6 x 473mL Can Labatt, Shock Top Belgian White 9.30492 mL alcohol/$
+6 x 473mL Can Molson, Mad Jack Hard Root Beer 9.30492 mL alcohol/$
 6 x 473mL Can Molson, Mad Jack Ginger Lager 9.30492 mL alcohol/$
 1 x 473mL Can Barnstormer Brewing Company, Barnstormer Flight Delay 9.30492 mL alcohol/$
 6 x 473mL Can Coors Brewery, Coors Banquet 9.30492 mL alcohol/$
 24 x 473mL Can Macleans Ales Inc, Macleans Pale Ale 9.30492 mL alcohol/$
-6 x 473mL Can Molson, Mad Jack 9.30492 mL alcohol/$
 1 x 473mL Can Lake Of Bays Brewing, Wild North Pumpkin Ale 9.30492 mL alcohol/$
+6 x 473mL Can Molson, Mad Jack 9.30492 mL alcohol/$
 1 x 473mL Can Lake Of Bays Brewing, Lake Of Bays 10 Point IPA  9.30492 mL alcohol/$
-6 x 473mL Can Molson, Belgian Moon 9.30492 mL alcohol/$
-8 x 500mL Can Heineken Brouwerijen BV, Heineken 9.30233 mL alcohol/$
 1 x 500mL Can Carlsberg International A/S, Carlsberg Lite 9.30233 mL alcohol/$
+8 x 500mL Can Heineken Brouwerijen BV, Heineken 9.30233 mL alcohol/$
 24 x 500mL Can Carlsberg International A/S, Tuborg Pilsner 9.30233 mL alcohol/$
 8 x 500mL Can Ab Inbev, Stella Artois 9.30233 mL alcohol/$
-15 x 341mL Bottle Labatt, Budweiser 9.3 mL alcohol/$
 15 x 341mL Bottle Molson, Molson Canadian 9.3 mL alcohol/$
+15 x 341mL Bottle Labatt, Budweiser 9.3 mL alcohol/$
+4 x 330mL Bottle Breuvages Octane, Mojo Strawberry & Kiwi 9.28643 mL alcohol/$
 24 x 330mL Bottle Breuvages Octane, Mojo Strawberry & Kiwi 9.28643 mL alcohol/$
 4 x 330mL Bottle Breuvages Octane, Mojo Fruit Punch 9.28643 mL alcohol/$
 24 x 330mL Bottle Breuvages Octane, Mojo Fruit Punch 9.28643 mL alcohol/$
-4 x 330mL Bottle Breuvages Octane, Mojo Strawberry & Kiwi 9.28643 mL alcohol/$
+4 x 473mL Can Labatt, Busch Light 9.28589 mL alcohol/$
 4 x 473mL Can Brava Brewing Company, Brava 9.28589 mL alcohol/$
 4 x 473mL Can Labatt, Busch Lager 9.28589 mL alcohol/$
-4 x 473mL Can Labatt, Busch Light 9.28589 mL alcohol/$
 15 x 355mL Can Brick, Laker Light 9.28105 mL alcohol/$
+1 x 473mL Can Hockley Valley Brewing Company, Hockley Classic Lager 9.27451 mL alcohol/$
 1 x 473mL Can Sleeman Brewing, Okanagan Springs 1516 9.27451 mL alcohol/$
 12 x 473mL Can Lake Wilcox Brewing, Lake Wilcox Lakehouse 9.27451 mL alcohol/$
-1 x 473mL Can Sleeman Brewing, Okanagan Spring Pale Ale 9.27451 mL alcohol/$
 1 x 473mL Can Sleeman Brewing, Sleeman Orig. Draught 9.27451 mL alcohol/$
+1 x 473mL Can Sleeman Brewing, Okanagan Spring Pale Ale 9.27451 mL alcohol/$
 1 x 473mL Can Labatt, Budweiser 9.27451 mL alcohol/$
 1 x 473mL Can Molson, Molson Canadian 9.27451 mL alcohol/$
-1 x 473mL Can Hockley Valley Brewing Company, Hockley Classic Lager 9.27451 mL alcohol/$
-24 x 355mL Bottle Amsterdam Brewing Company, Amsterdam Natural Blonde 9.27095 mL alcohol/$
-24 x 355mL Can Molson, Mad Jack 9.27095 mL alcohol/$
-24 x 355mL Can Sleeman Brewing, Sapporo 9.27095 mL alcohol/$
 24 x 355mL Bottle Amsterdam Brewing Company, Amsterdam Big Wheel 9.27095 mL alcohol/$
+24 x 355mL Bottle Amsterdam Brewing Company, Amsterdam Natural Blonde 9.27095 mL alcohol/$
+24 x 355mL Can Sleeman Brewing, Sapporo 9.27095 mL alcohol/$
+24 x 355mL Can Molson, Mad Jack 9.27095 mL alcohol/$
+12 x 473mL Can Labatt, Busch Light 9.26694 mL alcohol/$
 12 x 473mL Can Molson, Keystone Light 9.26694 mL alcohol/$
 12 x 473mL Can Molson, Black Label 9.26694 mL alcohol/$
 6 x 473mL Can Labatt, Busch Lager 9.26694 mL alcohol/$
@@ -882,110 +880,110 @@
 6 x 473mL Can Molson, Black Label 9.26694 mL alcohol/$
 6 x 473mL Can Brava Brewing Company, Brava 9.26694 mL alcohol/$
 6 x 473mL Can Molson, Carling Light 9.26694 mL alcohol/$
-12 x 473mL Can Lakeport Brewing Corp, Lakeport Light 9.26694 mL alcohol/$
 12 x 473mL Can Cerv Cuauhtemoc Moctezuma, Tecate 9.26694 mL alcohol/$
+12 x 473mL Can Lakeport Brewing Corp, Lakeport Light 9.26694 mL alcohol/$
 12 x 473mL Can Molson, Carling Light 9.26694 mL alcohol/$
 12 x 473mL Can Brava Brewing Company, Brava 9.26694 mL alcohol/$
 6 x 473mL Can Labatt, Busch Light 9.26694 mL alcohol/$
 6 x 473mL Can Molson, Keystone Light 9.26694 mL alcohol/$
-12 x 473mL Can Labatt, Busch Light 9.26694 mL alcohol/$
 6 x 500mL Can Dortmunder Actien Brewery, Radeberger Pilsner 9.26641 mL alcohol/$
-60 x 355mL Can Sleeman Brewing, Rainier Lager 9.26591 mL alcohol/$
 60 x 355mL Can Sleeman Brewing, Old Milwaukee 9.26591 mL alcohol/$
+60 x 355mL Can Sleeman Brewing, Rainier Lager 9.26591 mL alcohol/$
 1 x 500mL Can Tsingtao Brewery, Tsingtao Beer 9.25926 mL alcohol/$
 1 x 500mL Can Pivovary Staropramen A.S., Staropramen 9.25926 mL alcohol/$
-12 x 750mL Bottle Brew Alliance, Lolita Sex On The... 9.24658 mL alcohol/$
 12 x 750mL Bottle Brew Alliance, Lolita Flirty Daiquiri 9.24658 mL alcohol/$
+12 x 750mL Bottle Brew Alliance, Lolita Sex On The... 9.24658 mL alcohol/$
+2 x 473mL Can Sleeman Brewing, Old Milwaukee Light 9.22927 mL alcohol/$
 4 x 473mL Can Moosehead Breweries Limited, Moosehead Lager 9.22927 mL alcohol/$
 2 x 473mL Can Sleeman Brewing, Pabst Blue Ribbon 9.22927 mL alcohol/$
 2 x 473mL Can Sleeman Brewing, Old Milwaukee 9.22927 mL alcohol/$
 8 x 473mL Can Hogsback Brewing Co., Hogsback Vintage Lager 9.22927 mL alcohol/$
-2 x 473mL Can Sleeman Brewing, Old Milwaukee Light 9.22927 mL alcohol/$
 15 x 341mL Bottle Keiths Brewery, Keiths 9.21622 mL alcohol/$
+30 x 341mL Bottle Labatt, Blue Light 9.19551 mL alcohol/$
 30 x 341mL Bottle Lakeport Brewing Corp, Lakeport Light 9.19551 mL alcohol/$
 30 x 341mL Bottle Labatt, Busch Lager 9.19551 mL alcohol/$
 24 x 341mL Bottle Labatt, Labatt Ice 9.19551 mL alcohol/$
 30 x 341mL Bottle Molson, Carling Lager 9.19551 mL alcohol/$
-30 x 341mL Bottle Labatt, Blue Light 9.19551 mL alcohol/$
+36 x 341mL Bottle Labatt, Bud Light 9.17832 mL alcohol/$
 36 x 341mL Bottle Molson, Coors Light 9.17832 mL alcohol/$
 12 x 341mL Bottle Mill Street Brewery, Mill St West Coast IPA  9.17832 mL alcohol/$
-36 x 341mL Bottle Labatt, Bud Light 9.17832 mL alcohol/$
 24 x 473mL Can Les Brasseurs Sans Gluten, Glutenberg American Pale 9.17704 mL alcohol/$
 20 x 355mL Can Sleeman Brewing, Pabst Blue Ribbon 9.17609 mL alcohol/$
+4 x 473mL Can Molson, Carling Lager 9.17333 mL alcohol/$
 4 x 473mL Can Molson, Keystone Light 9.17333 mL alcohol/$
 4 x 473mL Can Molson, Black Label 9.17333 mL alcohol/$
-4 x 473mL Can Molson, Carling Lager 9.17333 mL alcohol/$
-6 x 355mL Bottle Flying Monkeys Craft Brewery, Flying Monkeys Netherwrld 9.16129 mL alcohol/$
 6 x 355mL Bottle Flying Monkeys Craft Brewery, Flying Monkeys Smashbomb 9.16129 mL alcohol/$
-1 x 473mL Can Arch Brewing Company, Dinner Jacket O Red IPA  9.15484 mL alcohol/$
-6 x 473mL Can Wellington County, Wellington County Ale 9.15484 mL alcohol/$
-1 x 473mL Can Creemore Springs Brewery, Creemore Urbock 9.15484 mL alcohol/$
+6 x 355mL Bottle Flying Monkeys Craft Brewery, Flying Monkeys Netherwrld 9.16129 mL alcohol/$
 1 x 473mL Can Goose Island Beer Company, Goose Island Rambler 9.15484 mL alcohol/$
+6 x 473mL Can Wellington County, Wellington County Ale 9.15484 mL alcohol/$
+1 x 473mL Can Arch Brewing Company, Dinner Jacket O Red IPA  9.15484 mL alcohol/$
+1 x 473mL Can Creemore Springs Brewery, Creemore Urbock 9.15484 mL alcohol/$
 12 x 355mL Bottle Collective Arts, Collective Arts Ransack 9.1449 mL alcohol/$
-18 x 355mL Can Labatt, Budweiser 9.14163 mL alcohol/$
 18 x 355mL Can Molson, Molson Canadian 9.14163 mL alcohol/$
+18 x 355mL Can Labatt, Budweiser 9.14163 mL alcohol/$
 24 x 355mL Bottle Lagunitas Brewing Company, Lagunitas IPA  9.13673 mL alcohol/$
-1 x 58600mL Keg Big Rock Brewery, Big Rock Grasshopper 9.13342 mL alcohol/$
 1 x 58600mL Keg Big Rock Brewery, Big Rock Traditional 9.13342 mL alcohol/$
+1 x 58600mL Keg Big Rock Brewery, Big Rock Grasshopper 9.13342 mL alcohol/$
 4 x 500mL Can Greene King Plc, Old Speckled Hen 9.13242 mL alcohol/$
 4 x 473mL Can Railway City Brewing, The Big Four Pack 9.11807 mL alcohol/$
-28 x 341mL Bottle Labatt, Bud Light 9.10417 mL alcohol/$
 28 x 341mL Bottle Molson, Coors Light 9.10417 mL alcohol/$
+28 x 341mL Bottle Labatt, Bud Light 9.10417 mL alcohol/$
 30 x 341mL Bottle Sleeman Brewing, Sleeman Clear 2.0 9.10345 mL alcohol/$
-24 x 341mL Bottle Molson, Belgian Moon 9.10345 mL alcohol/$
-24 x 341mL Bottle Labatt, Shock Top Belgian White 9.10345 mL alcohol/$
 24 x 341mL Bottle Molson, Mad Jack 9.10345 mL alcohol/$
+24 x 341mL Bottle Labatt, Shock Top Belgian White 9.10345 mL alcohol/$
+24 x 341mL Bottle Molson, Belgian Moon 9.10345 mL alcohol/$
 8 x 473mL Can Muskoka Brewery, Muskoka Mad Tom IPA  9.0998 mL alcohol/$
 12 x 473mL Can Wellington County, Trailhead Premium Lager 9.0998 mL alcohol/$
-24 x 473mL Can Big Rock Brewery, Big Rock Grasshopper 9.09615 mL alcohol/$
-1 x 473mL Can Sleeman Brewing, Sleeman Honey Brown Lager 9.09615 mL alcohol/$
 1 x 473mL Can Moosehead Breweries Limited, Moosehead Lager 9.09615 mL alcohol/$
+1 x 473mL Can Sleeman Brewing, Sleeman Honey Brown Lager 9.09615 mL alcohol/$
+24 x 473mL Can Big Rock Brewery, Big Rock Grasshopper 9.09615 mL alcohol/$
+6 x 341mL Bottle Highlander Brew Co, Centurion Ale 9.09333 mL alcohol/$
 15 x 341mL Bottle Sleeman Brewing, Pabst Blue Ribbon 9.09333 mL alcohol/$
 12 x 341mL Bottle Molson, Molson Canadian 9.09333 mL alcohol/$
 24 x 341mL Bottle Highlander Brew Co, Centurion Ale 9.09333 mL alcohol/$
 12 x 341mL Bottle Labatt, Budweiser 9.09333 mL alcohol/$
-6 x 341mL Bottle Highlander Brew Co, Centurion Ale 9.09333 mL alcohol/$
 1 x 1000mL Bottle Brew Alliance, Pepito Sangria 9.09091 mL alcohol/$
 1 x 500mL Can Tennent Caledonian Breweries, Tennents Export Lager 9.09091 mL alcohol/$
 24 x 473mL Can Sleeman Brewing, Sleeman Clear 2.0 9.09069 mL alcohol/$
-24 x 473mL Can Lake Wilcox Brewing, Lake Wilcox Mad Quacker 9.0816 mL alcohol/$
 24 x 473mL Can Lake Wilcox Brewing, Lake Wilcox Bandit Apa 9.0816 mL alcohol/$
+24 x 473mL Can Lake Wilcox Brewing, Lake Wilcox Mad Quacker 9.0816 mL alcohol/$
 12 x 473mL Can Sleeman Brewing, Sleeman Clear 2.0 9.0816 mL alcohol/$
 12 x 750mL Bottle Brasserie Belgh Brass, Mons Abbey Blonde 9.07781 mL alcohol/$
 24 x 355mL Bottle Boston Beer Company, Twisted Tea 9.07348 mL alcohol/$
 24 x 355mL Can Boston Beer Company, Twisted Tea Half & Half 9.07348 mL alcohol/$
 24 x 355mL Bottle Boston Beer Company, Twisted Tea Half & Half 9.07348 mL alcohol/$
 24 x 355mL Bottle Wellington County, Wellington County Ale 9.07348 mL alcohol/$
+24 x 355mL Can Coors Brewery, Coors Banquet 9.07348 mL alcohol/$
 24 x 355mL Can Molson, Mad Jack Mixer 9.07348 mL alcohol/$
 24 x 355mL Can Labatt, Labatt Genuine Lager 9.07348 mL alcohol/$
-24 x 355mL Can Coors Brewery, Coors Banquet 9.07348 mL alcohol/$
 24 x 355mL Can Boston Beer Company, Twisted Tea 9.07348 mL alcohol/$
-12 x 355mL Can Molson, Export 9.06383 mL alcohol/$
 12 x 355mL Bottle G A Miller, Mickeys 9.06383 mL alcohol/$
+12 x 355mL Can Molson, Export 9.06383 mL alcohol/$
+24 x 473mL Can Big Rig Brewery, Big Rig Gold 9.05263 mL alcohol/$
 4 x 473mL Can Keiths Brewery, Keiths 9.05263 mL alcohol/$
 24 x 473mL Can Big Rig Brewery, Big Rig Canadian Amber 9.05263 mL alcohol/$
-24 x 473mL Can Big Rig Brewery, Big Rig Gold 9.05263 mL alcohol/$
 48 x 355mL Bottle G A Miller, Miller Lite 9.03979 mL alcohol/$
-24 x 473mL Can Double Trouble Brewing, Prison Break Pilsner 9.01668 mL alcohol/$
-24 x 473mL Can Mcauslan Brewing, St Ambroise Pale Ale 9.01668 mL alcohol/$
-24 x 473mL Can Gananoque Brewing Company, Gananoque Naughty Otter 9.01668 mL alcohol/$
 24 x 473mL Can Cowbell Brewing Company, Cowbell Absent Landlord 9.01668 mL alcohol/$
+24 x 473mL Can Mcauslan Brewing, St Ambroise Pale Ale 9.01668 mL alcohol/$
+24 x 473mL Can Double Trouble Brewing, Prison Break Pilsner 9.01668 mL alcohol/$
+24 x 473mL Can Gananoque Brewing Company, Gananoque Naughty Otter 9.01668 mL alcohol/$
 8 x 355mL Can Brick, Seagram Wildberry 9.01587 mL alcohol/$
+1 x 473mL Can Labatt, Busch Lager 9.00952 mL alcohol/$
+1 x 473mL Can Sleeman Brewing, Old Milwaukee 9.00952 mL alcohol/$
 4 x 473mL Can Molson, Molson Canadian 9.00952 mL alcohol/$
+4 x 473mL Can Molson, Rickards Original White 9.00952 mL alcohol/$
 1 x 473mL Can Molson, Carling Lager 9.00952 mL alcohol/$
 1 x 473mL Can Brava Brewing Company, Brava 9.00952 mL alcohol/$
-4 x 473mL Can Molson, Rickards Original White 9.00952 mL alcohol/$
-1 x 473mL Can Molson, Black Label 9.00952 mL alcohol/$
-1 x 473mL Can Molson, Keystone Light 9.00952 mL alcohol/$
 4 x 473mL Can Molson, Rickards IPA  9.00952 mL alcohol/$
 1 x 473mL Can Smuttynose Brewing Company, Smuttynose Finestkind IPA  9.00952 mL alcohol/$
-1 x 473mL Can Railway City Brewing, Dead Elephant IPA  9.00952 mL alcohol/$
+1 x 473mL Can Molson, Black Label 9.00952 mL alcohol/$
 4 x 473mL Can Molson, Rickards Red 9.00952 mL alcohol/$
+1 x 473mL Can Molson, Keystone Light 9.00952 mL alcohol/$
 1 x 473mL Can Sleeman Brewing, Old Milwaukee Light 9.00952 mL alcohol/$
-1 x 473mL Can Sleeman Brewing, Old Milwaukee 9.00952 mL alcohol/$
+1 x 473mL Can Railway City Brewing, Dead Elephant IPA  9.00952 mL alcohol/$
 1 x 473mL Can Labatt, Busch Light 9.00952 mL alcohol/$
-1 x 473mL Can Labatt, Busch Lager 9.00952 mL alcohol/$
 4 x 473mL Can Walkerville Brewing Co, Walkerville Honest Lager 9.00952 mL alcohol/$
+1 x 30000mL Keg Central City Brewing, Red Racer India Pale Ale 9.0 mL alcohol/$
 24 x 355mL Bottle G A Miller, Miller Lite 8.98024 mL alcohol/$
 24 x 330mL Can Grolsch Export B.V., Grolsch Premium Lager 8.96942 mL alcohol/$
 6 x 355mL Can Labatt, Straw Ber Rita Bud Lime 8.96842 mL alcohol/$
@@ -1326,24 +1324,26 @@
 18 x 355mL Can Brick, Laker Light 8.3122 mL alcohol/$
 6 x 355mL Can White Water Brewery, PC Cerveza 8.3122 mL alcohol/$
 6 x 355mL Can White Water Brewery, PC Low Carb 8.3122 mL alcohol/$
-12 x 473mL Can Redline Brewhouse, Redline Check Engine 8.29825 mL alcohol/$
-4 x 473mL Can Manitoulin Brewing Company, Swing Bridge Blonde Ale 8.29825 mL alcohol/$
 1 x 473mL Can Big Rig Brewery, Big Rig Gold 8.29825 mL alcohol/$
-1 x 473mL Can Junction Craft Brewing, Junction Conductors Ale 8.29825 mL alcohol/$
+1 x 473mL Can Radical Road Brewing Company, Radical Road Slingshot 8.29825 mL alcohol/$
 1 x 473mL Can Falcon Brewing Company, Red Falcon Ale 8.29825 mL alcohol/$
+24 x 473mL Can Radical Road Brewing Company, Radical Road Slingshot 8.29825 mL alcohol/$
+6 x 473mL Can Nita Beer Company, Ten12 Blonde Ale 8.29825 mL alcohol/$
+24 x 473mL Can Nita Beer Company, Ten12 Blonde Ale 8.29825 mL alcohol/$
+1 x 473mL Can Junction Craft Brewing, Junction Conductors Ale 8.29825 mL alcohol/$
 1 x 473mL Can Perth Brewery, Perth Euro Pilsner 8.29825 mL alcohol/$
 24 x 473mL Can Perth Brewery, Perth Euro Pilsner 8.29825 mL alcohol/$
 1 x 473mL Can Falcon Brewing Company, Laggar Falcon Craft Lager 8.29825 mL alcohol/$
-6 x 473mL Can Nita Beer Company, Ten12 Blonde Ale 8.29825 mL alcohol/$
-24 x 473mL Can Nita Beer Company, Ten12 Blonde Ale 8.29825 mL alcohol/$
-12 x 473mL Can Whiprsnapr Brewing Company, Whiprsnapr Inukshuk IPA  8.29825 mL alcohol/$
 6 x 473mL Can Publican House Brewery, Publican Square Nail Pale 8.29825 mL alcohol/$
-1 x 473mL Can Whitewater Brewing Company, Whitewater Farmers Dau 8.29825 mL alcohol/$
-1 x 473mL Can Wellington County, Wellington County Ale 8.29825 mL alcohol/$
 1 x 473mL Can Hop City Brewing Company, Barking Squirrel Lager 8.29825 mL alcohol/$
-1 x 473mL Can Camerons Brewing Company, Camerons Captains Log 8.29825 mL alcohol/$
-1 x 473mL Can Big Rock Brewery, Big Rock Grasshopper 8.29825 mL alcohol/$
+12 x 473mL Can Whiprsnapr Brewing Company, Whiprsnapr Inukshuk IPA  8.29825 mL alcohol/$
 1 x 473mL Can Lake Of The Woods Brewing, Sultana Gold Blonde Ale 8.29825 mL alcohol/$
+1 x 473mL Can Whitewater Brewing Company, Whitewater Farmers Dau 8.29825 mL alcohol/$
+1 x 473mL Can Camerons Brewing Company, Camerons Captains Log 8.29825 mL alcohol/$
+12 x 473mL Can Redline Brewhouse, Redline Check Engine 8.29825 mL alcohol/$
+1 x 473mL Can Wellington County, Wellington County Ale 8.29825 mL alcohol/$
+4 x 473mL Can Manitoulin Brewing Company, Swing Bridge Blonde Ale 8.29825 mL alcohol/$
+1 x 473mL Can Big Rock Brewery, Big Rock Grasshopper 8.29825 mL alcohol/$
 1 x 473mL Can Phillips Brewing Co, Phillips Short Wave Ale 8.29825 mL alcohol/$
 2 x 740mL Can Labatt, Bud Light 8.27972 mL alcohol/$
 12 x 330mL Can Grolsch Export B.V., Grolsch Premium Lager 8.26722 mL alcohol/$
@@ -1359,92 +1359,93 @@
 4 x 473mL Can Double Trouble Brewing, Prison Break Pilsner 8.26201 mL alcohol/$
 24 x 330mL Can Ab Inbev, Stella Artois 8.2586 mL alcohol/$
 24 x 330mL Can Heineken Brouwerijen BV, Heineken 8.2586 mL alcohol/$
+12 x 473mL Can Labatt, Michelob Ultra 8.256 mL alcohol/$
 12 x 473mL Can Molson, Coors Light 8.256 mL alcohol/$
 12 x 473mL Can Labatt, Bud Light 8.256 mL alcohol/$
-12 x 473mL Can Labatt, Michelob Ultra 8.256 mL alcohol/$
 1 x 330mL Can Carib Brewery, Carib Lager 8.25 mL alcohol/$
 8 x 473mL Can Creemore Springs Brewery, Hops Bolts India Pale Lager  8.24401 mL alcohol/$
 8 x 473mL Can Creemore Springs Brewery, Creemore Lager 8.24401 mL alcohol/$
-6 x 473mL Can Goose Island Beer Company, Goose Island IPA  8.22609 mL alcohol/$
-1 x 473mL Can Molson, Coors Light 8.22609 mL alcohol/$
 12 x 473mL Can Amsterdam Brewing Company, Amsterdam Downtown Brown 8.22609 mL alcohol/$
 1 x 473mL Can G A Miller, Miller Lite 8.22609 mL alcohol/$
+6 x 473mL Can Goose Island Beer Company, Goose Island IPA  8.22609 mL alcohol/$
+1 x 473mL Can Molson, Coors Light 8.22609 mL alcohol/$
 6 x 341mL Bottle Brick, Laker Light 8.22513 mL alcohol/$
-6 x 355mL Can Columbia Brewing Company, Kokanee 8.22394 mL alcohol/$
-6 x 355mL Can Labatt, Budweiser 8.22394 mL alcohol/$
 6 x 355mL Can Molson, Molson Canadian 8.22394 mL alcohol/$
 6 x 355mL Can Diageo, Jeremiah Weed Lemon Ice T 8.22394 mL alcohol/$
 6 x 355mL Can Diageo, Jeremiah Weed Peach Ice T 8.22394 mL alcohol/$
 6 x 355mL Can Diageo, Jeremiah Weed Rasp Ice T 8.22394 mL alcohol/$
 12 x 355mL Bottle Greene King Plc, Old Speckled Hen 8.22394 mL alcohol/$
 24 x 355mL Bottle Greene King Plc, Old Speckled Hen 8.22394 mL alcohol/$
+6 x 355mL Can Columbia Brewing Company, Kokanee 8.22394 mL alcohol/$
+6 x 355mL Can Labatt, Budweiser 8.22394 mL alcohol/$
 1 x 20000mL Keg Goose Island Beer Company, Goose Island Rambler 8.22199 mL alcohol/$
 6 x 355mL Bottle Lagunitas Brewing Company, Lagunitas IPA  8.21865 mL alcohol/$
 12 x 355mL Can Sleeman Brewing, Sapporo 8.20809 mL alcohol/$
-12 x 355mL Can Molson, Mad Jack 8.20809 mL alcohol/$
-15 x 355mL Can Sleeman Brewing, Rainier Lager 8.20809 mL alcohol/$
-12 x 355mL Bottle Coors Brewery, Coors Banquet 8.20809 mL alcohol/$
 15 x 355mL Can Sleeman Brewing, Old Milwaukee 8.20809 mL alcohol/$
+15 x 355mL Can Sleeman Brewing, Rainier Lager 8.20809 mL alcohol/$
+12 x 355mL Can Molson, Mad Jack 8.20809 mL alcohol/$
+12 x 355mL Bottle Coors Brewery, Coors Banquet 8.20809 mL alcohol/$
 4 x 330mL Can Innis & Gunn Brewing Company, Innis & Gunn Original 8.20725 mL alcohol/$
-12 x 341mL Bottle Molson, Carling Light 8.20451 mL alcohol/$
-12 x 341mL Bottle White Water Brewery, PC Light 8.20451 mL alcohol/$
-12 x 341mL Bottle Wellington County, Trailhead Premium Lager 8.20451 mL alcohol/$
 12 x 341mL Bottle Molson, Keystone Light 8.20451 mL alcohol/$
 12 x 341mL Bottle Brick, Laker Light 8.20451 mL alcohol/$
-12 x 341mL Bottle Brick, Red Baron 8.20451 mL alcohol/$
+12 x 341mL Bottle Wellington County, Trailhead Premium Lager 8.20451 mL alcohol/$
 12 x 341mL Bottle Molson, Carling Lager 8.20451 mL alcohol/$
-12 x 341mL Bottle Brick, Red Baron Lime 8.20451 mL alcohol/$
 12 x 341mL Bottle White Water Brewery, PC Low Carb 8.20451 mL alcohol/$
+12 x 341mL Bottle Brick, Red Baron 8.20451 mL alcohol/$
 12 x 341mL Bottle White Water Brewery, PC Cerveza 8.20451 mL alcohol/$
+12 x 341mL Bottle Brick, Red Baron Lime 8.20451 mL alcohol/$
+12 x 341mL Bottle Molson, Carling Light 8.20451 mL alcohol/$
+12 x 341mL Bottle White Water Brewery, PC Light 8.20451 mL alcohol/$
 12 x 341mL Bottle Sleeman Brewing, Sleeman Honey Brown Lager 8.2004 mL alcohol/$
 12 x 341mL Bottle Sleeman Brewing, Sleeman Seasonal Pack 8.2004 mL alcohol/$
 12 x 341mL Bottle Labatt, Shock Top Belgian White 8.2004 mL alcohol/$
-12 x 341mL Bottle Molson, Mad Jack 8.2004 mL alcohol/$
+12 x 341mL Bottle Molson, Belgian Moon 8.2004 mL alcohol/$
 12 x 341mL Bottle Sleeman Brewing, Sleeman Cream Ale 8.2004 mL alcohol/$
 12 x 341mL Bottle Sleeman Brewing, Sleeman Silver Creek 8.2004 mL alcohol/$
 12 x 341mL Bottle Sleeman Brewing, Sleeman India Pale Ale 8.2004 mL alcohol/$
-12 x 341mL Bottle Sleeman Brewing, Okanagan Craft Pack 8.2004 mL alcohol/$
+12 x 341mL Bottle Molson, Mad Jack 8.2004 mL alcohol/$
 12 x 341mL Bottle Sleeman Brewing, Sleeman Dark 8.2004 mL alcohol/$
-12 x 341mL Bottle Molson, Belgian Moon 8.2004 mL alcohol/$
+12 x 341mL Bottle Sleeman Brewing, Okanagan Craft Pack 8.2004 mL alcohol/$
 12 x 341mL Bottle Sleeman Brewing, Sleeman Fine Porter 8.2004 mL alcohol/$
 30 x 355mL Can Labatt, Bud Light 8.20019 mL alcohol/$
 30 x 355mL Can Sleeman Brewing, Sleeman Clear 2.0 8.20019 mL alcohol/$
 18 x 341mL Bottle Brick, Laker Light 8.19766 mL alcohol/$
 1 x 500mL Can Steam Whistle Brewing, Steam Whistle 8.19672 mL alcohol/$
 24 x 341mL Bottle Moosehead Breweries Limited, Moosehead Light 8.19424 mL alcohol/$
-24 x 341mL Bottle Creemore Springs Brewery, Creemore Lager 8.19219 mL alcohol/$
-24 x 341mL Bottle Granville Island Brewing, Granville English Bay 8.19219 mL alcohol/$
 24 x 341mL Bottle Granville Island Brewing, Granville Lions Winter 8.19219 mL alcohol/$
 24 x 341mL Bottle Muskoka Brewery, Muskoka Cream Ale 8.19219 mL alcohol/$
 24 x 341mL Bottle Granville Island Brewing, Granville Summer Mingler 8.19219 mL alcohol/$
 24 x 341mL Bottle Granville Island Brewing, Granville Hey Day Hefe 8.19219 mL alcohol/$
+24 x 341mL Bottle Creemore Springs Brewery, Creemore Lager 8.19219 mL alcohol/$
+24 x 341mL Bottle Granville Island Brewing, Granville English Bay 8.19219 mL alcohol/$
 4 x 473mL Can Double Trouble Brewing, Hops & Robbers IPA  8.19048 mL alcohol/$
-24 x 236mL Can Labatt, Mango Rita By Bud Lime 8.18892 mL alcohol/$
-24 x 236mL Can Labatt, Lime A Rita By Bud Lime 8.18892 mL alcohol/$
 24 x 236mL Can Labatt, Mix A Rita By Bud Lime 8.18892 mL alcohol/$
+24 x 236mL Can Labatt, Lime A Rita By Bud Lime 8.18892 mL alcohol/$
+24 x 236mL Can Labatt, Cherry Rita By Bud Lime 8.18892 mL alcohol/$
+24 x 236mL Can Labatt, Mango Rita By Bud Lime 8.18892 mL alcohol/$
 6 x 330mL Bottle Carib Brewery, Carib Lager 8.18182 mL alcohol/$
 24 x 473mL Can Moosehead Breweries Limited, Moosehead Radler 8.18162 mL alcohol/$
 2 x 710mL Can Molson, Coors Light 8.17266 mL alcohol/$
 48 x 355mL Can Labatt, Bud Light 8.16287 mL alcohol/$
 48 x 355mL Can Molson, Coors Light 8.16287 mL alcohol/$
-1 x 473mL Can Lake Wilcox Brewing, Lake Wilcox Bandit Apa 8.15517 mL alcohol/$
-1 x 473mL Can Mcauslan Brewing, St Ambroise Pale Ale 8.15517 mL alcohol/$
-1 x 473mL Can Gananoque Brewing Company, Gananoque Naughty Otter 8.15517 mL alcohol/$
 1 x 473mL Can Macleans Ales Inc, Macleans Pale Ale 8.15517 mL alcohol/$
-6 x 473mL Can Redline Brewhouse, Redline Check Engine 8.15517 mL alcohol/$
-1 x 473mL Can Stack Brewing, Stack Impact Altbier 8.15517 mL alcohol/$
+1 x 473mL Can Mcauslan Brewing, St Ambroise Pale Ale 8.15517 mL alcohol/$
 1 x 473mL Can Publican House Brewery, Publican Square Nail Pale 8.15517 mL alcohol/$
 1 x 473mL Can Lake Wilcox Brewing, Lake Wilcox Mad Quacker 8.15517 mL alcohol/$
+6 x 473mL Can Redline Brewhouse, Redline Check Engine 8.15517 mL alcohol/$
+1 x 473mL Can Stack Brewing, Stack Impact Altbier 8.15517 mL alcohol/$
+1 x 473mL Can Lake Wilcox Brewing, Lake Wilcox Bandit Apa 8.15517 mL alcohol/$
+1 x 473mL Can Gananoque Brewing Company, Gananoque Naughty Otter 8.15517 mL alcohol/$
 1 x 473mL Can Manitoulin Brewing Company, Swing Bridge Blonde Ale 8.15517 mL alcohol/$
 24 x 275mL Bottle Cool Brewing Co., Stonewall Light 8.14815 mL alcohol/$
 1 x 275mL Bottle Cool Brewing Co., Stonewall Light 8.14815 mL alcohol/$
 24 x 500mL Can Innis & Gunn Brewing Company, Innis & Gunn Lager 8.14249 mL alcohol/$
 6 x 473mL Can Sleeman Brewing, Sleeman Clear 2.0 8.13763 mL alcohol/$
 6 x 473mL Can Brick, Landshark Lager 8.13763 mL alcohol/$
-12 x 355mL Can Brava Brewing Company, Brava 8.13365 mL alcohol/$
-12 x 355mL Can Molson, Keystone Light 8.13365 mL alcohol/$
-12 x 355mL Can Molson, Carling Light 8.13365 mL alcohol/$
 12 x 355mL Can Molson, Carling Lager 8.13365 mL alcohol/$
+12 x 355mL Can Brava Brewing Company, Brava 8.13365 mL alcohol/$
+12 x 355mL Can Molson, Carling Light 8.13365 mL alcohol/$
+12 x 355mL Can Molson, Keystone Light 8.13365 mL alcohol/$
 6 x 473mL Can Lake Of Bays Brewing, Lake Of Bays Topshelf 8.13181 mL alcohol/$
 6 x 473mL Can Lake Of Bays Brewing, Lake Of Bays Vienna Lager 8.13181 mL alcohol/$
 6 x 473mL Can Lake Of Bays Brewing, Wild North Midnight Bock 8.13181 mL alcohol/$
@@ -1456,25 +1457,25 @@
 12 x 473mL Can Brick, Landshark Lager 8.12308 mL alcohol/$
 24 x 473mL Can Henderson Brewing Co, Henderson Best Amber Ale 8.12017 mL alcohol/$
 24 x 473mL Can Sleeman Brewing, Sleeman Railside Ale 8.11582 mL alcohol/$
-6 x 355mL Can Labatt, Lucky Lager 8.11429 mL alcohol/$
-6 x 355mL Can Molson, Carling Lager 8.11429 mL alcohol/$
-6 x 355mL Can Molson, Keystone Light 8.11429 mL alcohol/$
 6 x 355mL Can Labatt, Blue Light 8.11429 mL alcohol/$
+6 x 355mL Can Molson, Keystone Light 8.11429 mL alcohol/$
 6 x 355mL Can Sleeman Brewing, Old Milwaukee Light 8.11429 mL alcohol/$
-6 x 355mL Can Sleeman Brewing, Old Milwaukee 8.11429 mL alcohol/$
 6 x 355mL Can Molson, Carling Light 8.11429 mL alcohol/$
 6 x 355mL Can Labatt, Busch Lager 8.11429 mL alcohol/$
+6 x 355mL Can Sleeman Brewing, Old Milwaukee 8.11429 mL alcohol/$
 6 x 355mL Can Labatt, Busch Light 8.11429 mL alcohol/$
-6 x 473mL Can Granville Island Brewing, Granville Lions Winter 8.10857 mL alcohol/$
-6 x 473mL Can Amsterdam Brewing Company, Amsterdam Big Wheel 8.10857 mL alcohol/$
+6 x 355mL Can Molson, Carling Lager 8.11429 mL alcohol/$
+6 x 355mL Can Labatt, Lucky Lager 8.11429 mL alcohol/$
 6 x 473mL Can Granville Island Brewing, Granville Hey Day Hefe 8.10857 mL alcohol/$
 24 x 473mL Can Macleans Ales Inc, Macleans Farmhouse Blonde 8.10857 mL alcohol/$
 24 x 473mL Can Four Fathers Brewing Co Ltd, Four Fathers Shevchenko 9 8.10857 mL alcohol/$
 6 x 473mL Can Granville Island Brewing, Granville English Bay 8.10857 mL alcohol/$
+6 x 473mL Can Amsterdam Brewing Company, Amsterdam Big Wheel 8.10857 mL alcohol/$
+6 x 473mL Can Granville Island Brewing, Granville Lions Winter 8.10857 mL alcohol/$
 6 x 473mL Can Amsterdam Brewing Company, Amsterdam Natural Blonde 8.10857 mL alcohol/$
+24 x 341mL Bottle Sleeman Brewing, Blanche De Chambly 8.10297 mL alcohol/$
 12 x 341mL Bottle Keiths Brewery, Keiths Red 8.10297 mL alcohol/$
 12 x 341mL Bottle Labatt, Labatt 50 Ale 8.10297 mL alcohol/$
-24 x 341mL Bottle Sleeman Brewing, Blanche De Chambly 8.10297 mL alcohol/$
 1 x 330mL Can Innis & Gunn Brewing Company, Innis & Gunn Original 8.08163 mL alcohol/$
 12 x 330mL Bottle Palm Breweries Nv, Palm Amber Ale 8.08163 mL alcohol/$
 12 x 341mL Bottle Moosehead Breweries Limited, Moosehead Pale Ale 8.07101 mL alcohol/$
@@ -1482,58 +1483,58 @@
 1 x 473mL Can Labatt, Rolling Rock Pale Lager 8.05106 mL alcohol/$
 1 x 473mL Can Cerv Cuauhtemoc Moctezuma, Tecate 8.05106 mL alcohol/$
 30 x 355mL Can Molson, Coors Light 8.04533 mL alcohol/$
-12 x 341mL Bottle Black Oak Brewing Company Ltd., Black Oak Nut Brown Ale 8.03929 mL alcohol/$
 12 x 341mL Bottle Black Oak Brewing Company Ltd., Black Oak Pale Ale 8.03929 mL alcohol/$
-15 x 355mL Can Labatt, Busch Light 8.03774 mL alcohol/$
-15 x 355mL Can Molson, Carling Light 8.03774 mL alcohol/$
-15 x 355mL Can Labatt, Busch Lager 8.03774 mL alcohol/$
+12 x 341mL Bottle Black Oak Brewing Company Ltd., Black Oak Nut Brown Ale 8.03929 mL alcohol/$
 15 x 355mL Can Brava Brewing Company, Brava 8.03774 mL alcohol/$
-15 x 355mL Can Molson, Keystone Light 8.03774 mL alcohol/$
 12 x 355mL Can Labatt, Budweiser 8.03774 mL alcohol/$
-12 x 355mL Bottle Flying Monkeys Craft Brewery, Flying Monkeys Amber Ale 8.03774 mL alcohol/$
+15 x 355mL Can Molson, Keystone Light 8.03774 mL alcohol/$
 15 x 355mL Can Molson, Black Label 8.03774 mL alcohol/$
+12 x 355mL Bottle Flying Monkeys Craft Brewery, Flying Monkeys Amber Ale 8.03774 mL alcohol/$
+15 x 355mL Can Molson, Carling Lager 8.03774 mL alcohol/$
 12 x 355mL Can Molson, Mad Jack Mixer 8.03774 mL alcohol/$
 12 x 355mL Can Molson, Molson Canadian 8.03774 mL alcohol/$
 12 x 355mL Bottle Flying Monkeys Craft Brewery, Flying Monkeys Hoptical 8.03774 mL alcohol/$
-15 x 355mL Can Molson, Carling Lager 8.03774 mL alcohol/$
+15 x 355mL Can Labatt, Busch Light 8.03774 mL alcohol/$
 12 x 355mL Bottle Flying Monkeys Craft Brewery, Flying Monkeys Mythology 8.03774 mL alcohol/$
+15 x 355mL Can Molson, Carling Light 8.03774 mL alcohol/$
+15 x 355mL Can Labatt, Busch Lager 8.03774 mL alcohol/$
 12 x 473mL Can Sleeman Brewing, Sleeman Railside Ale 8.03681 mL alcohol/$
 1 x 30000mL Keg De Koningshoeven Brewery, La Trappe Tripel 8.03674 mL alcohol/$
+15 x 341mL Bottle Lakeport Brewing Corp, Lakeport Light 8.02353 mL alcohol/$
 15 x 341mL Bottle Labatt, Blue Light 8.02353 mL alcohol/$
 15 x 341mL Bottle Labatt, Busch Lager 8.02353 mL alcohol/$
-15 x 341mL Bottle Lakeport Brewing Corp, Lakeport Light 8.02353 mL alcohol/$
 15 x 341mL Bottle Molson, Carling Lager 8.02353 mL alcohol/$
 1 x 58600mL Keg Goose Island Beer Company, Goose Island IPA  8.0219 mL alcohol/$
 1 x 473mL Can Nita Beer Company, Ten12 Blonde Ale 8.01695 mL alcohol/$
 24 x 473mL Can Union Jack Brewing Company, Rapid River Cream Ale 8.01695 mL alcohol/$
 1 x 473mL Can Sawdust City Brewing, Sawdust City Ol Woody Alt 8.01695 mL alcohol/$
-1 x 473mL Can Union Jack Brewing Company, Lock City Common 8.01695 mL alcohol/$
-24 x 473mL Can Union Jack Brewing Company, Lock City Common 8.01695 mL alcohol/$
 1 x 473mL Can Lake Of Bays Brewing, Lake Of Bays Crosswind 8.01695 mL alcohol/$
-1 x 473mL Can Broadhead Brewing Company, Broadhead Darkhorse Stout 8.01695 mL alcohol/$
 24 x 473mL Can Broadhead Brewing Company, Broadhead Darkhorse Stout 8.01695 mL alcohol/$
 1 x 473mL Can Bell City Brewing, Bell City Eureka Cream 8.01695 mL alcohol/$
+1 x 473mL Can Bobcaygeon Brewing Company, Bobcaygeon Dockside Ale 8.01695 mL alcohol/$
 1 x 473mL Can Lake Of Bays Brewing, Lake Of Bays Spark House 8.01695 mL alcohol/$
 1 x 473mL Can Double Trouble Brewing, Prison Break Pilsner 8.01695 mL alcohol/$
 1 x 473mL Can Broadhead Brewing Company, Grindstone Amber Ale 8.01695 mL alcohol/$
 24 x 473mL Can Broadhead Brewing Company, Grindstone Amber Ale 8.01695 mL alcohol/$
-1 x 473mL Can Bobcaygeon Brewing Company, Bobcaygeon Dockside Ale 8.01695 mL alcohol/$
+24 x 473mL Can Bobcaygeon Brewing Company, Bobcaygeon Dockside Ale 8.01695 mL alcohol/$
 4 x 473mL Can Frank Brewing Co, Franks No Nonsense 8.01695 mL alcohol/$
 24 x 473mL Can Frank Brewing Co, Franks No Nonsense 8.01695 mL alcohol/$
-24 x 473mL Can Bobcaygeon Brewing Company, Bobcaygeon Dockside Ale 8.01695 mL alcohol/$
+1 x 473mL Can Hop City Brewing Company, Big Mouth Pale Ale 8.01695 mL alcohol/$
 1 x 473mL Can Kichesippi Beer Company, Kichesippi 1855 8.01695 mL alcohol/$
+24 x 473mL Can Bell City Brewing, Bell City Eureka Cream 8.01695 mL alcohol/$
+1 x 473mL Can Cowbell Brewing Company, Cowbell Absent Landlord 8.01695 mL alcohol/$
 1 x 473mL Can Union Jack Brewing Company, Union Jack Root Beer 8.01695 mL alcohol/$
 6 x 473mL Can Whiprsnapr Brewing Company, Whiprsnapr Inukshuk IPA  8.01695 mL alcohol/$
 24 x 473mL Can Union Jack Brewing Company, Union Jack Root Beer 8.01695 mL alcohol/$
-1 x 473mL Can Hop City Brewing Company, Big Mouth Pale Ale 8.01695 mL alcohol/$
+1 x 473mL Can All Or Nothing Brewhouse, All Or Nothing Hopfenweis 8.01695 mL alcohol/$
 1 x 473mL Can Whitewater Brewing Company, Whitewater Class V IPA  8.01695 mL alcohol/$
 24 x 473mL Can Whitewater Brewing Company, Whitewater Class V IPA  8.01695 mL alcohol/$
-1 x 473mL Can Cowbell Brewing Company, Cowbell Absent Landlord 8.01695 mL alcohol/$
-24 x 473mL Can Bell City Brewing, Bell City Eureka Cream 8.01695 mL alcohol/$
-1 x 473mL Can All Or Nothing Brewhouse, All Or Nothing Hopfenweis 8.01695 mL alcohol/$
-1 x 473mL Can Redline Brewhouse, Redline Check Engine 8.01695 mL alcohol/$
+1 x 473mL Can Broadhead Brewing Company, Broadhead Darkhorse Stout 8.01695 mL alcohol/$
 1 x 473mL Can Perth Brewery, Perth Bonfire Black Lager 8.01695 mL alcohol/$
 24 x 473mL Can Perth Brewery, Perth Bonfire Black Lager 8.01695 mL alcohol/$
+1 x 473mL Can Redline Brewhouse, Redline Check Engine 8.01695 mL alcohol/$
+1 x 473mL Can Union Jack Brewing Company, Lock City Common 8.01695 mL alcohol/$
+24 x 473mL Can Union Jack Brewing Company, Lock City Common 8.01695 mL alcohol/$
 1 x 473mL Can Union Jack Brewing Company, Rapid River Cream Ale 8.01695 mL alcohol/$
 1 x 473mL Can Sawdust City Brewing, Sawdust City Gateway Kols 8.01695 mL alcohol/$
 12 x 500mL Can Innis & Gunn Brewing Company, Innis & Gunn Lager 8.01336 mL alcohol/$
@@ -1544,19 +1545,19 @@
 1 x 30000mL Keg Staatsbrauerei Weihenstephan, Weihenstephan Vitus 7.98783 mL alcohol/$
 1 x 30000mL Keg Double Trouble Brewing, Prison Break Pilsner 7.98722 mL alcohol/$
 1 x 30000mL Keg Double Trouble Brewing, Hops & Robbers IPA  7.98722 mL alcohol/$
-12 x 341mL Bottle Brava Brewing Company, Brava 7.98439 mL alcohol/$
-12 x 341mL Bottle Labatt, Lucky Lager 7.98439 mL alcohol/$
-6 x 341mL Bottle Molson, Carling Lager 7.98439 mL alcohol/$
+12 x 341mL Bottle Sleeman Brewing, Old Milwaukee 7.98439 mL alcohol/$
 12 x 341mL Bottle Labatt, Busch Light 7.98439 mL alcohol/$
 12 x 341mL Bottle Labatt, Blue Light 7.98439 mL alcohol/$
 6 x 341mL Bottle Brava Brewing Company, Brava Light 7.98439 mL alcohol/$
 12 x 341mL Bottle Brava Brewing Company, Brava Light 7.98439 mL alcohol/$
 6 x 341mL Bottle Brava Brewing Company, Brava 7.98439 mL alcohol/$
-12 x 341mL Bottle Sleeman Brewing, Old Milwaukee 7.98439 mL alcohol/$
-12 x 341mL Bottle Sleeman Brewing, Pabst Blue Ribbon Light 7.98439 mL alcohol/$
 12 x 341mL Bottle Labatt, Busch Lager 7.98439 mL alcohol/$
+12 x 341mL Bottle Sleeman Brewing, Pabst Blue Ribbon Light 7.98439 mL alcohol/$
+12 x 341mL Bottle Brava Brewing Company, Brava 7.98439 mL alcohol/$
 12 x 341mL Bottle Sleeman Brewing, Old Milwaukee Light 7.98439 mL alcohol/$
 12 x 341mL Bottle Lakeport Brewing Corp, Lakeport Light 7.98439 mL alcohol/$
+6 x 341mL Bottle Molson, Carling Lager 7.98439 mL alcohol/$
+12 x 341mL Bottle Labatt, Lucky Lager 7.98439 mL alcohol/$
 24 x 473mL Can Molson, Rickards Red Session 7.97331 mL alcohol/$
 24 x 473mL Can Labatt, Rolling Rock Pale Lager 7.97331 mL alcohol/$
 6 x 473mL Can Labatt, Michelob Ultra 7.96632 mL alcohol/$
@@ -1567,29 +1568,29 @@
 12 x 710mL Bottle Molson, Coors Light 7.93481 mL alcohol/$
 48 x 355mL Can G A Miller, Miller Lite 7.93019 mL alcohol/$
 24 x 330mL Bottle Ab Inbev, Stella Artois 7.92793 mL alcohol/$
+24 x 330mL Bottle Heineken Brouwerijen BV, Heineken 7.92793 mL alcohol/$
 24 x 330mL Bottle Brauerei Beck & Company, Becks 7.92793 mL alcohol/$
 24 x 330mL Bottle Palm Breweries Nv, Palm Amber Ale 7.92793 mL alcohol/$
-24 x 330mL Bottle Heineken Brouwerijen BV, Heineken 7.92793 mL alcohol/$
-12 x 355mL Can Labatt, Busch Light 7.92558 mL alcohol/$
-12 x 355mL Can White Water Brewery, PC Cerveza 7.92558 mL alcohol/$
 12 x 355mL Can Sleeman Brewing, Old Milwaukee 7.92558 mL alcohol/$
 12 x 355mL Can Labatt, Blue Light 7.92558 mL alcohol/$
-12 x 355mL Can Brick, Laker Light 7.92558 mL alcohol/$
+12 x 355mL Can Labatt, Busch Lager 7.92558 mL alcohol/$
 12 x 355mL Can Sleeman Brewing, Pabst Blue Ribbon 7.92558 mL alcohol/$
 12 x 355mL Can Sleeman Brewing, Old Milwaukee Light 7.92558 mL alcohol/$
-12 x 355mL Can Labatt, Lucky Lager 7.92558 mL alcohol/$
+12 x 355mL Can Brick, Laker Light 7.92558 mL alcohol/$
 12 x 355mL Can White Water Brewery, PC Low Carb 7.92558 mL alcohol/$
-12 x 355mL Can Labatt, Busch Lager 7.92558 mL alcohol/$
+12 x 355mL Can Labatt, Lucky Lager 7.92558 mL alcohol/$
+12 x 355mL Can Labatt, Busch Light 7.92558 mL alcohol/$
+12 x 355mL Can White Water Brewery, PC Cerveza 7.92558 mL alcohol/$
 18 x 330mL Bottle Heineken Brouwerijen BV, Heineken 7.92 mL alcohol/$
 6 x 355mL Bottle Tree Brewing Company, Thirsty Beaver Amber Ale 7.91822 mL alcohol/$
 24 x 473mL Can Wellington County, Wellington Kickin Back 7.9177 mL alcohol/$
+4 x 473mL Can Camerons Brewing Company, Camerons Captains Log 7.91632 mL alcohol/$
 4 x 473mL Can Camerons Brewing Company, Camerons Cosmic Cream Ale 7.91632 mL alcohol/$
 4 x 473mL Can Camerons Brewing Company, Camerons Ambear Red Ale 7.91632 mL alcohol/$
 4 x 473mL Can Camerons Brewing Company, Camerons Brewmasters 7.91632 mL alcohol/$
-4 x 473mL Can Camerons Brewing Company, Camerons Captains Log 7.91632 mL alcohol/$
+24 x 473mL Can Muskoka Brewery, Muskoka Survival Pack 7.90529 mL alcohol/$
 6 x 473mL Can Amsterdam Brewing Company, Amsterdam Downtown Brown 7.90529 mL alcohol/$
 6 x 473mL Can Grand River Brewing, Grand River Red Tail 7.90529 mL alcohol/$
-24 x 473mL Can Muskoka Brewery, Muskoka Survival Pack 7.90529 mL alcohol/$
 12 x 355mL Can Sleeman Brewing, Sleeman Silver Creek 7.90353 mL alcohol/$
 12 x 355mL Can Labatt, Shock Top Belgian White 7.90353 mL alcohol/$
 12 x 355mL Can Steam Whistle Brewing, Steam Whistle 7.90353 mL alcohol/$
@@ -1598,40 +1599,40 @@
 12 x 355mL Can Sleeman Brewing, Sleeman Cream Ale 7.90353 mL alcohol/$
 12 x 355mL Can Sleeman Brewing, Sleeman Selections 7.90353 mL alcohol/$
 12 x 355mL Can Molson, Belgian Moon 7.90353 mL alcohol/$
+8 x 473mL Can Muskoka Brewery, Muskoka Summerweiss 7.89979 mL alcohol/$
 8 x 473mL Can Muskoka Brewery, Muskoka Winterweiss 7.89979 mL alcohol/$
 8 x 473mL Can Muskoka Brewery, Muskoka Cream Ale 7.89979 mL alcohol/$
-8 x 473mL Can Muskoka Brewery, Muskoka Summerweiss 7.89979 mL alcohol/$
 6 x 341mL Bottle Mcauslan Brewing, Griffon Pale Ale 7.89961 mL alcohol/$
 6 x 341mL Bottle RJ Brewers, Belle Gueule 7.89961 mL alcohol/$
 1 x 30000mL Keg Sleeman Brewing, Sleeman Dark 7.89681 mL alcohol/$
 1 x 740mL Can Labatt, Bud Light 7.89333 mL alcohol/$
 1 x 710mL Can Molson, Coors Light 7.88889 mL alcohol/$
 6 x 330mL Can Grolsch Export B.V., Grolsch Premium Lager 7.88845 mL alcohol/$
-12 x 341mL Bottle Mill Street Brewery, Mill St Belgian Wit 7.88439 mL alcohol/$
+12 x 341mL Bottle Mill Street Brewery, Mill St Tankhouse Ale 7.88439 mL alcohol/$
 12 x 341mL Bottle Mcauslan Brewing, St Ambroise Pale Ale 7.88439 mL alcohol/$
-12 x 341mL Bottle RJ Brewers, Cheval Blanc 7.88439 mL alcohol/$
+12 x 341mL Bottle Mill Street Brewery, Mill St Stock Ale 7.88439 mL alcohol/$
 12 x 341mL Bottle Mcauslan Brewing, St Ambroise Taster Pack 7.88439 mL alcohol/$
 12 x 341mL Bottle Steam Whistle Brewing, Steam Whistle 7.88439 mL alcohol/$
 12 x 341mL Bottle Sleeman Brewing, Sapporo 7.88439 mL alcohol/$
 15 x 341mL Bottle Sleeman Brewing, Sleeman Clear 2.0 7.88439 mL alcohol/$
-12 x 341mL Bottle Mill Street Brewery, Mill St Tankhouse Ale 7.88439 mL alcohol/$
-12 x 341mL Bottle Mill Street Brewery, Mill St Stock Ale 7.88439 mL alcohol/$
-12 x 341mL Bottle Mcauslan Brewing, St Ambroise Apricot Wheat 7.88439 mL alcohol/$
-12 x 341mL Bottle Mcauslan Brewing, St Ambroise Oatmeal Stout 7.88439 mL alcohol/$
 12 x 341mL Bottle Old Credit Brewing, Old Credit Amber Ale 7.88439 mL alcohol/$
 12 x 341mL Bottle Hop City Brewing Company, Barking Squirrel Lager 7.88439 mL alcohol/$
+12 x 341mL Bottle Mcauslan Brewing, St Ambroise Apricot Wheat 7.88439 mL alcohol/$
+12 x 341mL Bottle Mcauslan Brewing, St Ambroise Oatmeal Stout 7.88439 mL alcohol/$
 12 x 341mL Bottle Old Credit Brewing, Old Credit Pale Pilsner 7.88439 mL alcohol/$
-1 x 473mL Can Creemore Springs Brewery, Hops Bolts India Pale Lager  7.88333 mL alcohol/$
-1 x 473mL Can Amsterdam Brewing Company, Amsterdam Big Wheel 7.88333 mL alcohol/$
-1 x 473mL Can Hop City Brewing Company, 8th Sin Black Lager 7.88333 mL alcohol/$
-24 x 473mL Can Whitewater Brewing Company, Whitewater Farmers Dau 7.88333 mL alcohol/$
+12 x 341mL Bottle Mill Street Brewery, Mill St Belgian Wit 7.88439 mL alcohol/$
+12 x 341mL Bottle RJ Brewers, Cheval Blanc 7.88439 mL alcohol/$
+1 x 473mL Can Amsterdam Brewing Company, Amsterdam Natural Blonde 7.88333 mL alcohol/$
 1 x 473mL Can Mill Street Brewery, Mill St Tankhouse Ale 7.88333 mL alcohol/$
 1 x 473mL Can Hop City Brewing Company, Polly Want A Pilsner 7.88333 mL alcohol/$
+24 x 473mL Can Whitewater Brewing Company, Whitewater Farmers Dau 7.88333 mL alcohol/$
 1 x 473mL Can Double Trouble Brewing, Hops & Robbers IPA  7.88333 mL alcohol/$
-1 x 473mL Can Whiprsnapr Brewing Company, Whiprsnapr Inukshuk IPA  7.88333 mL alcohol/$
-1 x 473mL Can Amsterdam Brewing Company, Amsterdam Natural Blonde 7.88333 mL alcohol/$
+1 x 473mL Can Amsterdam Brewing Company, Amsterdam Big Wheel 7.88333 mL alcohol/$
 1 x 473mL Can Kilannan Brewing Company, Kilannan Alt Bier 7.88333 mL alcohol/$
+1 x 473mL Can Whiprsnapr Brewing Company, Whiprsnapr Inukshuk IPA  7.88333 mL alcohol/$
 1 x 473mL Can Kilannan Brewing Company, Kilannan Kolsch Ale 7.88333 mL alcohol/$
+1 x 473mL Can Creemore Springs Brewery, Hops Bolts India Pale Lager  7.88333 mL alcohol/$
+1 x 473mL Can Hop City Brewing Company, 8th Sin Black Lager 7.88333 mL alcohol/$
 1 x 58600mL Keg New Holland Brewing Company, New Holland The Poet 7.87529 mL alcohol/$
 12 x 355mL Bottle Boston Beer Company, Twisted Tea Half & Half 7.85978 mL alcohol/$
 12 x 355mL Bottle Boston Beer Company, Twisted Tea 7.85978 mL alcohol/$
@@ -1640,60 +1641,60 @@
 1 x 30000mL Keg Camerons Brewing Company, Camerons Ambear Red Ale 7.84314 mL alcohol/$
 1 x 30000mL Keg Camerons Brewing Company, Camerons Captains Log 7.84314 mL alcohol/$
 12 x 330mL Bottle Grolsch Export B.V., Grolsch Premium Lager 7.84158 mL alcohol/$
-1 x 30000mL Keg Big Rock Brewery, Big Rock Grasshopper 7.83904 mL alcohol/$
 1 x 30000mL Keg Big Rock Brewery, Big Rock Traditional 7.83904 mL alcohol/$
+1 x 30000mL Keg Big Rock Brewery, Big Rock Grasshopper 7.83904 mL alcohol/$
 24 x 473mL Can Labatt, Shock Top Lemon Shandy 7.83572 mL alcohol/$
 24 x 473mL Can Labatt, Bud Light Lime Labatt 7.83572 mL alcohol/$
-24 x 473mL Can G A Miller, Miller Genuine Draft 7.83572 mL alcohol/$
 24 x 473mL Can Labatt, Bud Light Apple 7.83572 mL alcohol/$
+24 x 473mL Can G A Miller, Miller Genuine Draft 7.83572 mL alcohol/$
 6 x 473mL Can Sleeman Brewing, Sleeman Railside Ale 7.82897 mL alcohol/$
-6 x 473mL Can Molson, Coors Light 7.82897 mL alcohol/$
-24 x 473mL Can Sawdust City Brewing, Sawdustcity Little Norway 7.82897 mL alcohol/$
-6 x 473mL Can G A Miller, Miller Lite 7.82897 mL alcohol/$
 6 x 473mL Can Labatt, Bud Light 7.82897 mL alcohol/$
+24 x 473mL Can Sawdust City Brewing, Sawdustcity Little Norway 7.82897 mL alcohol/$
+6 x 473mL Can Molson, Coors Light 7.82897 mL alcohol/$
+6 x 473mL Can G A Miller, Miller Lite 7.82897 mL alcohol/$
 12 x 355mL Can Boston Beer Company, Twisted Tea 7.81651 mL alcohol/$
 12 x 341mL Bottle Cool Brewing Co., Saint Andre 7.81289 mL alcohol/$
-6 x 341mL Bottle Black Oak Brewing Company Ltd., Black Oak Pale Ale 7.80916 mL alcohol/$
 6 x 341mL Bottle Black Oak Brewing Company Ltd., Black Oak Nut Brown Ale 7.80916 mL alcohol/$
+6 x 341mL Bottle Black Oak Brewing Company Ltd., Black Oak Pale Ale 7.80916 mL alcohol/$
 8 x 500mL Can Innis & Gunn Brewing Company, Innis & Gunn Lager 7.80488 mL alcohol/$
 24 x 341mL Bottle Labatt, Bud Light Lime Labatt 7.80358 mL alcohol/$
 24 x 341mL Bottle Sleeman Brewing, Sleeman Railside Ale 7.80358 mL alcohol/$
 6 x 355mL Bottle Greene King Plc, Old Speckled Hen 7.8022 mL alcohol/$
-12 x 473mL Can Labatt, Bud Light Lime Labatt 7.80206 mL alcohol/$
 12 x 473mL Can Labatt, Bud Light Apple 7.80206 mL alcohol/$
+12 x 473mL Can Labatt, Bud Light Lime Labatt 7.80206 mL alcohol/$
 1 x 50000mL Keg Paulaner Brauerei GMBh, Hopf Weisse 7.7991 mL alcohol/$
 12 x 330mL Bottle Carlsberg International A/S, Carlsberg 7.79528 mL alcohol/$
 12 x 341mL Bottle Creemore Springs Brewery, Creemore Lager 7.79429 mL alcohol/$
 12 x 341mL Bottle Granville Island Brewing, Granville English Bay 7.79429 mL alcohol/$
 1 x 20000mL Keg Coors Brewery, Coors Banquet 7.7821 mL alcohol/$
 6 x 330mL Bottle Carlsberg International A/S, Tuborg Gold 7.76471 mL alcohol/$
-12 x 330mL Can Carlsberg International A/S, Kronenbourg 1664 Blanc 7.76471 mL alcohol/$
-24 x 330mL Bottle Paulaner Brauerei GMBh, Paulaner Hefe-Weissbier  7.76471 mL alcohol/$
 12 x 330mL Bottle Carlsberg International A/S, Kronenbourg 1664 Blanc 7.76471 mL alcohol/$
 12 x 330mL Bottle Brasserie Fischer S.A., Desperados Tequila Beer 7.76471 mL alcohol/$
+12 x 330mL Can Carlsberg International A/S, Kronenbourg 1664 Blanc 7.76471 mL alcohol/$
+24 x 330mL Bottle Paulaner Brauerei GMBh, Paulaner Hefe-Weissbier  7.76471 mL alcohol/$
 12 x 473mL Can Molson, Rickards Red Session 7.76205 mL alcohol/$
 12 x 473mL Can Labatt, Rolling Rock Pale Lager 7.76205 mL alcohol/$
 12 x 355mL Bottle Collective Arts, Collective Arts Rhyme 7.75956 mL alcohol/$
 1 x 30000mL Keg Brewery Huyghe, Delirium Tremens 7.7582 mL alcohol/$
-1 x 473mL Can Manitoulin Brewing Company, Bridal Veil Pale Ale 7.7541 mL alcohol/$
-24 x 473mL Can Manitoulin Brewing Company, Bridal Veil Pale Ale 7.7541 mL alcohol/$
-24 x 473mL Can Broadhead Brewing Company, Bodacious Blueberry Blond 7.7541 mL alcohol/$
+1 x 473mL Can Camerons Brewing Company, Camerons Ambear Red Ale 7.7541 mL alcohol/$
 1 x 473mL Can Neustadt Springs Brewery, Neustadt Lager 7.7541 mL alcohol/$
-1 x 473mL Can Thornbury Beverage Company, Thornbury Blue Mountain 7.7541 mL alcohol/$
 1 x 473mL Can Frank Brewing Co, Franks No Nonsense 7.7541 mL alcohol/$
+1 x 473mL Can Creemore Springs Brewery, Creemore Lager 7.7541 mL alcohol/$
+1 x 473mL Can Thornbury Beverage Company, Thornbury Blue Mountain 7.7541 mL alcohol/$
+1 x 473mL Can Granville Island Brewing, Granville English Bay 7.7541 mL alcohol/$
 1 x 473mL Can Thornbury Beverage Company, Thornbury Dark Horse 7.7541 mL alcohol/$
 1 x 473mL Can Thornbury Beverage Company, Thornbury Jubilee Amber 7.7541 mL alcohol/$
 1 x 473mL Can Thornbury Beverage Company, Thornbury Pickup Truck 7.7541 mL alcohol/$
-1 x 473mL Can Creemore Springs Brewery, Creemore Lager 7.7541 mL alcohol/$
-1 x 473mL Can Granville Island Brewing, Granville English Bay 7.7541 mL alcohol/$
-1 x 473mL Can Lake Of Bays Brewing, Wild North Midnight Bock 7.7541 mL alcohol/$
-1 x 473mL Can Camerons Brewing Company, Camerons Ambear Red Ale 7.7541 mL alcohol/$
 1 x 473mL Can Broadhead Brewing Company, Bodacious Blueberry Blond 7.7541 mL alcohol/$
-1 x 473mL Can Lake Of Bays Brewing, Lake Of Bays Topshelf 7.7541 mL alcohol/$
 1 x 473mL Can Camerons Brewing Company, Camerons Cosmic Cream Ale 7.7541 mL alcohol/$
-1 x 473mL Can Henderson Brewing Co, Henderson Best Amber Ale 7.7541 mL alcohol/$
+1 x 473mL Can Lake Of Bays Brewing, Wild North Midnight Bock 7.7541 mL alcohol/$
+1 x 473mL Can Lake Of Bays Brewing, Lake Of Bays Topshelf 7.7541 mL alcohol/$
 24 x 473mL Can Brock Street Brewing, Brock Street Irish Red 7.7541 mL alcohol/$
+1 x 473mL Can Henderson Brewing Co, Henderson Best Amber Ale 7.7541 mL alcohol/$
+1 x 473mL Can Manitoulin Brewing Company, Bridal Veil Pale Ale 7.7541 mL alcohol/$
 1 x 473mL Can Lake Of Bays Brewing, Lake Of Bays Vienna Lager 7.7541 mL alcohol/$
+24 x 473mL Can Manitoulin Brewing Company, Bridal Veil Pale Ale 7.7541 mL alcohol/$
+24 x 473mL Can Broadhead Brewing Company, Bodacious Blueberry Blond 7.7541 mL alcohol/$
 24 x 355mL Can Phillips Brewing Co, Phillips Bottle Rocket 7.7525 mL alcohol/$
 12 x 355mL Bottle Cerveceria Modelo S.A. De C.V., Negra Modelo 7.74545 mL alcohol/$
 6 x 355mL Bottle Wellington County, Wellington County Ale 7.74545 mL alcohol/$
@@ -1715,40 +1716,41 @@
 1 x 20000mL Keg Brick, Waterloo IPA  7.69527 mL alcohol/$
 1 x 20000mL Keg Molson, Rickards Red 7.69527 mL alcohol/$
 1 x 30000mL Keg Sleeman Brewing, Okanagan Spring Pale Ale 7.69428 mL alcohol/$
-24 x 500mL Can Warsteiner Brauerei, Warsteiner Double Hopped 7.69231 mL alcohol/$
-24 x 500mL Can S. A. Damm Brewery, Estrella Damm 7.69231 mL alcohol/$
-1 x 500mL Bottle Macleans Ales Inc, Macleans Armchair Scotch 7.69231 mL alcohol/$
 1 x 500mL Can Pilsner Urquell A.S., Pilsner Urquell 7.69231 mL alcohol/$
+1 x 30000mL Keg Central City Brewing, Red Racer Pilsner 7.69231 mL alcohol/$
 12 x 500mL Bottle Durham Brewing Company, County Durham Signature 7.69231 mL alcohol/$
+24 x 500mL Can S. A. Damm Brewery, Estrella Damm 7.69231 mL alcohol/$
 1 x 500mL Can Warsteiner Brauerei, Warsteiner Double Hopped 7.69231 mL alcohol/$
+24 x 500mL Can Warsteiner Brauerei, Warsteiner Double Hopped 7.69231 mL alcohol/$
+1 x 500mL Bottle Macleans Ales Inc, Macleans Armchair Scotch 7.69231 mL alcohol/$
 18 x 341mL Bottle Molson, Coors Light 7.68451 mL alcohol/$
 8 x 600mL Bottle Beaus All Natural Brewing Co, Beaus Lug Tread 7.68 mL alcohol/$
 24 x 341mL Bottle Moosehead Breweries Limited, Moosehead Light Lime 7.6755 mL alcohol/$
-12 x 341mL Bottle Goose Island Beer Company, Goose Island Mixer 7.6486 mL alcohol/$
 12 x 341mL Bottle Goose Island Beer Company, Goose Island IPA  7.6486 mL alcohol/$
+12 x 341mL Bottle Goose Island Beer Company, Goose Island Mixer 7.6486 mL alcohol/$
 6 x 330mL Bottle Grolsch Export B.V., Grolsch Premium Lager 7.64479 mL alcohol/$
 2 x 473mL Can Sleeman Brewing, Sleeman Clear 2.0 7.64444 mL alcohol/$
-6 x 355mL Can Phillips Brewing Co, Phillips Bottle Rocket 7.63441 mL alcohol/$
-6 x 355mL Bottle Amsterdam Brewing Company, Amsterdam Natural Blonde 7.63441 mL alcohol/$
-6 x 355mL Bottle Double Trouble Brewing, Hops & Robbers IPA  7.63441 mL alcohol/$
 6 x 355mL Bottle Flying Monkeys Craft Brewery, Flying Monkeys Hoptical 7.63441 mL alcohol/$
 6 x 355mL Bottle Flying Monkeys Craft Brewery, Flying Monkeys Amber Ale 7.63441 mL alcohol/$
-6 x 355mL Bottle Amsterdam Brewing Company, Amsterdam Big Wheel 7.63441 mL alcohol/$
+6 x 355mL Bottle Amsterdam Brewing Company, Amsterdam Natural Blonde 7.63441 mL alcohol/$
 6 x 355mL Bottle Flying Monkeys Craft Brewery, Flying Monkeys Mythology 7.63441 mL alcohol/$
+6 x 355mL Can Phillips Brewing Co, Phillips Bottle Rocket 7.63441 mL alcohol/$
+6 x 355mL Bottle Amsterdam Brewing Company, Amsterdam Big Wheel 7.63441 mL alcohol/$
+6 x 355mL Bottle Double Trouble Brewing, Hops & Robbers IPA  7.63441 mL alcohol/$
 24 x 473mL Can Railway City Brewing, Iron Spike Copper 7.6316 mL alcohol/$
 12 x 330mL Can Ab Inbev, Stella Artois 7.63006 mL alcohol/$
 12 x 330mL Can Heineken Brouwerijen BV, Heineken 7.63006 mL alcohol/$
 18 x 355mL Bottle G A Miller, Miller Genuine Draft 7.62985 mL alcohol/$
 24 x 473mL Can Stonehammer Brewing, Stonehammer Oatmeal Coffe 7.62903 mL alcohol/$
+1 x 473mL Can Mill Street Brewery, Mill St 100th Meridian 7.62903 mL alcohol/$
+1 x 473mL Can Amsterdam Brewing Company, Amsterdam Downtown Brown 7.62903 mL alcohol/$
+1 x 473mL Can Granville Island Brewing, Granville Hey Day Hefe 7.62903 mL alcohol/$
+1 x 473mL Can Goose Island Beer Company, Goose Island Endless IPA  7.62903 mL alcohol/$
+1 x 473mL Can Brock Street Brewing, Brock Street Irish Red 7.62903 mL alcohol/$
+1 x 473mL Can Four Fathers Brewing Co Ltd, Four Fathers Shevchenko 9 7.62903 mL alcohol/$
 1 x 473mL Can Grand River Brewing, Grand River Red Tail 7.62903 mL alcohol/$
 1 x 473mL Can Granville Island Brewing, Granville Lions Winter 7.62903 mL alcohol/$
 1 x 473mL Can Goose Island Beer Company, Goose Island IPA  7.62903 mL alcohol/$
-1 x 473mL Can Mill Street Brewery, Mill St 100th Meridian 7.62903 mL alcohol/$
-1 x 473mL Can Brock Street Brewing, Brock Street Irish Red 7.62903 mL alcohol/$
-1 x 473mL Can Granville Island Brewing, Granville Hey Day Hefe 7.62903 mL alcohol/$
-1 x 473mL Can Goose Island Beer Company, Goose Island Endless IPA  7.62903 mL alcohol/$
-1 x 473mL Can Amsterdam Brewing Company, Amsterdam Downtown Brown 7.62903 mL alcohol/$
-1 x 473mL Can Four Fathers Brewing Co Ltd, Four Fathers Shevchenko 9 7.62903 mL alcohol/$
 1 x 473mL Can Stonehammer Brewing, Stonehammer Oatmeal Coffe 7.62903 mL alcohol/$
 12 x 473mL Can Stonehammer Brewing, Stonehammer Oatmeal Coffe 7.62903 mL alcohol/$
 24 x 330mL Bottle Ab Inbev, Hoegaarden 7.62271 mL alcohol/$
@@ -1760,18 +1762,18 @@
 4 x 473mL Can G A Miller, Miller Lite 7.60603 mL alcohol/$
 4 x 473mL Can Molson, Coors Light 7.60603 mL alcohol/$
 4 x 473mL Can Labatt, Bud Light 7.60603 mL alcohol/$
-1 x 20000mL Keg Labatt, Budweiser 7.60167 mL alcohol/$
 1 x 20000mL Keg Molson, Molson Canadian 7.60167 mL alcohol/$
+1 x 20000mL Keg Labatt, Budweiser 7.60167 mL alcohol/$
 12 x 710mL Bottle Cerveceria Modelo S.A. De C.V., Corona 7.59866 mL alcohol/$
 12 x 500mL Bottle Pioneer Brewery Ltd, Black Creek Porter 7.59494 mL alcohol/$
 12 x 500mL Bottle Pioneer Brewery Ltd, Riflemans Ration 7.59494 mL alcohol/$
 6 x 473mL Can Labatt, Rolling Rock Pale Lager 7.59331 mL alcohol/$
 6 x 473mL Can Molson, Rickards Red Session 7.59331 mL alcohol/$
 6 x 473mL Can Labatt, Shock Top Lemon Shandy 7.59331 mL alcohol/$
+12 x 341mL Bottle Muskoka Brewery, Muskoka Cream Ale 7.59184 mL alcohol/$
 12 x 341mL Bottle Granville Island Brewing, Granville Hey Day Hefe 7.59184 mL alcohol/$
 12 x 341mL Bottle Creemore Springs Brewery, Creemore Collection 7.59184 mL alcohol/$
 12 x 341mL Bottle Granville Island Brewing, Granville Lions Winter 7.59184 mL alcohol/$
-12 x 341mL Bottle Muskoka Brewery, Muskoka Cream Ale 7.59184 mL alcohol/$
 24 x 355mL Can Sleeman Brewing, Sleeman Railside Ale 7.58176 mL alcohol/$
 24 x 355mL Bottle Brick, Landshark Lager 7.58176 mL alcohol/$
 24 x 355mL Can Labatt, Michelob Ultra 7.58176 mL alcohol/$
@@ -1781,12 +1783,12 @@
 6 x 341mL Bottle Old Credit Brewing, Old Credit Amber Ale 7.57778 mL alcohol/$
 6 x 341mL Bottle Old Credit Brewing, Old Credit Pale Pilsner 7.57778 mL alcohol/$
 24 x 473mL Can Abe Erb Brewing Co, 1857 Kolsch-style Ale 7.57431 mL alcohol/$
+24 x 473mL Can Labatt, Bud Light 7.57431 mL alcohol/$
 24 x 473mL Can Molson, Coors Light 7.57431 mL alcohol/$
 24 x 473mL Can Cerv Cuauhtemoc Moctezuma, Dos Equis Lager 7.57431 mL alcohol/$
-24 x 473mL Can Labatt, Bud Light 7.57431 mL alcohol/$
 12 x 355mL Bottle G A Miller, Miller Lite 7.57333 mL alcohol/$
-4 x 473mL Can Macleans Ales Inc, Macleans Farmhouse Blonde 7.568 mL alcohol/$
 16 x 473mL Can Railway City Brewing, Iron Spike Copper 7.568 mL alcohol/$
+4 x 473mL Can Macleans Ales Inc, Macleans Farmhouse Blonde 7.568 mL alcohol/$
 6 x 330mL Can Carlsberg International A/S, Carlsberg 7.55725 mL alcohol/$
 4 x 500mL Can Innis & Gunn Brewing Company, Innis & Gunn Lager 7.54717 mL alcohol/$
 1 x 500mL Can Fuerstlich Fuerstenbergische, Fuerstenberg Premium 7.54717 mL alcohol/$
@@ -1795,39 +1797,39 @@
 1 x 50000mL Keg Privatbrauerei Erdinger, Erdinger Weissbier 7.52445 mL alcohol/$
 1 x 20000mL Keg Steam Whistle Brewing, Steam Whistle 7.52162 mL alcohol/$
 6 x 500mL Bottle Smithavens Brewing Company, Smithavens Kellerbier 7.5188 mL alcohol/$
+1 x 473mL Can Muskoka Brewery, Muskoka Summerweiss 7.50794 mL alcohol/$
 1 x 473mL Can Muskoka Brewery, Muskoka Shinnicked Stout 7.50794 mL alcohol/$
 1 x 473mL Can Muskoka Brewery, Muskoka Winterweiss 7.50794 mL alcohol/$
 1 x 473mL Can Muskoka Brewery, Muskoka Cream Ale 7.50794 mL alcohol/$
-1 x 473mL Can Muskoka Brewery, Muskoka Summerweiss 7.50794 mL alcohol/$
 18 x 500mL Bottle Hacker Pschorr, Hacker-Pschorr Kellerbier 7.50626 mL alcohol/$
+6 x 330mL Bottle Carlsberg International A/S, Carlsberg 7.5 mL alcohol/$
 6 x 330mL Bottle Palm Breweries Nv, Palm Amber Ale 7.5 mL alcohol/$
 12 x 330mL Bottle Carlsberg International A/S, Kronenbourg 1664 7.5 mL alcohol/$
-6 x 330mL Bottle Carlsberg International A/S, Carlsberg 7.5 mL alcohol/$
 1 x 500mL Bottle Breuvages Octane, Charles Henri Amber 7.5 mL alcohol/$
 24 x 341mL Bottle Molson, Rickards Summer Taster Pk 7.48251 mL alcohol/$
 6 x 355mL Can Steam Whistle Brewing, Steam Whistle 7.47368 mL alcohol/$
 6 x 330mL Bottle Ab Inbev, Stella Artois 7.4717 mL alcohol/$
+1 x 500mL Bottle Fuller Turner Smith, Fullers Extra Spec Bitter 7.46269 mL alcohol/$
 1 x 500mL Bottle Hacker Pschorr, Hacker-Pschorr Munchen 7.46269 mL alcohol/$
 1 x 500mL Bottle Hacker Pschorr, Hacker-Pschorr Hefe Weiss 7.46269 mL alcohol/$
 1 x 500mL Bottle Hacker Pschorr, Hacker-Pschorr Kellerbier 7.46269 mL alcohol/$
-1 x 500mL Bottle Fuller Turner Smith, Fullers Extra Spec Bitter 7.46269 mL alcohol/$
 12 x 355mL Can Moosehead Breweries Limited, Moosehead Lager 7.4606 mL alcohol/$
 4 x 473mL Can Labatt, Bud Light 7.45616 mL alcohol/$
-24 x 473mL Can Cerveceria Modelo S.A. De C.V., Corona 7.45004 mL alcohol/$
 24 x 473mL Can Cerveceria Modelo S.A. De C.V., Modelo Especial 7.45004 mL alcohol/$
+24 x 473mL Can Cerveceria Modelo S.A. De C.V., Corona 7.45004 mL alcohol/$
 24 x 341mL Bottle Labatt, Bud Light Apple 7.44846 mL alcohol/$
-6 x 473mL Can Labatt, Bud Light Lime Labatt 7.44393 mL alcohol/$
+12 x 473mL Can Cerv Cuauhtemoc Moctezuma, Dos Equis Lager 7.44393 mL alcohol/$
 6 x 473mL Can Labatt, Bud Light Apple 7.44393 mL alcohol/$
 12 x 473mL Can Abe Erb Brewing Co, 1857 Kolsch-style Ale 7.44393 mL alcohol/$
-12 x 473mL Can Cerv Cuauhtemoc Moctezuma, Dos Equis Lager 7.44393 mL alcohol/$
-4 x 500mL Can Heineken Brouwerijen BV, Newcastle Brown Ale 7.44186 mL alcohol/$
+6 x 473mL Can Labatt, Bud Light Lime Labatt 7.44393 mL alcohol/$
 4 x 500mL Can Pilsner Urquell A.S., Pilsner Urquell 7.44186 mL alcohol/$
-12 x 341mL Bottle Granville Island Brewing, Granville Winter Mingler 7.44 mL alcohol/$
-6 x 341mL Bottle Keiths Brewery, Keiths 7.44 mL alcohol/$
-6 x 341mL Bottle Sleeman Brewing, Sleeman Dark 7.44 mL alcohol/$
-15 x 341mL Bottle Molson, Coors Light 7.44 mL alcohol/$
+4 x 500mL Can Heineken Brouwerijen BV, Newcastle Brown Ale 7.44186 mL alcohol/$
 12 x 341mL Bottle Granville Island Brewing, Granville Summer Mingler 7.44 mL alcohol/$
 15 x 341mL Bottle Labatt, Bud Light 7.44 mL alcohol/$
+6 x 341mL Bottle Sleeman Brewing, Sleeman Dark 7.44 mL alcohol/$
+12 x 341mL Bottle Granville Island Brewing, Granville Winter Mingler 7.44 mL alcohol/$
+6 x 341mL Bottle Keiths Brewery, Keiths 7.44 mL alcohol/$
+15 x 341mL Bottle Molson, Coors Light 7.44 mL alcohol/$
 6 x 341mL Bottle Sleeman Brewing, Sleeman Fine Porter 7.44 mL alcohol/$
 6 x 341mL Bottle Sleeman Brewing, Sleeman India Pale Ale 7.44 mL alcohol/$
 1 x 473mL Can Sleeman Brewing, Sleeman Clear 2.0 7.41961 mL alcohol/$
@@ -1837,48 +1839,49 @@
 1 x 20000mL Keg Labatt, Shock Top Belgian White 7.40741 mL alcohol/$
 1 x 20000mL Keg Keiths Brewery, Keiths 7.40741 mL alcohol/$
 1 x 500mL Can Stiegl Getranke Service GMBh, Stiegl Bier 7.40741 mL alcohol/$
-12 x 236mL Can Labatt, Mango Rita By Bud Lime 7.40392 mL alcohol/$
-12 x 236mL Can Labatt, Lime A Rita By Bud Lime 7.40392 mL alcohol/$
 12 x 236mL Can Labatt, Mix A Rita By Bud Lime 7.40392 mL alcohol/$
+12 x 236mL Can Labatt, Mango Rita By Bud Lime 7.40392 mL alcohol/$
 12 x 236mL Can Labatt, Apple Ahh Rita Bud Lime 7.40392 mL alcohol/$
-12 x 330mL Bottle Big Rock Brewery, Big Rock Variety Pack 7.40187 mL alcohol/$
+12 x 236mL Can Labatt, Lime A Rita By Bud Lime 7.40392 mL alcohol/$
+12 x 236mL Can Labatt, Cherry Rita By Bud Lime 7.40392 mL alcohol/$
 24 x 330mL Bottle Big Rock Brewery, Big Rock Variety Pack 7.40187 mL alcohol/$
+12 x 330mL Bottle Big Rock Brewery, Big Rock Variety Pack 7.40187 mL alcohol/$
 1 x 30000mL Keg Sleeman Brewing, Sapporo 7.39098 mL alcohol/$
 1 x 58600mL Keg Atwater Brewery, Atwater Vanilla Java 7.38407 mL alcohol/$
-4 x 473mL Can Moosehead Breweries Limited, Moosehead Radler 7.38341 mL alcohol/$
-24 x 473mL Can Sawdust City Brewing, Sawdust City Golden Beach 7.38341 mL alcohol/$
 8 x 473mL Can Railway City Brewing, Iron Spike Copper 7.38341 mL alcohol/$
+24 x 473mL Can Sawdust City Brewing, Sawdust City Golden Beach 7.38341 mL alcohol/$
+4 x 473mL Can Moosehead Breweries Limited, Moosehead Radler 7.38341 mL alcohol/$
 6 x 355mL Bottle Collective Arts, Collective Arts Rhyme 7.37024 mL alcohol/$
 12 x 355mL Can Keiths Brewery, Keiths 7.35751 mL alcohol/$
-12 x 330mL Bottle Brauerei Beck & Company, Becks 7.34694 mL alcohol/$
 12 x 330mL Bottle S. A. Damm Brewery, Daura Damm 7.34694 mL alcohol/$
+12 x 330mL Bottle Brauerei Beck & Company, Becks 7.34694 mL alcohol/$
 6 x 355mL Can Keiths Brewery, Keiths 7.34483 mL alcohol/$
 12 x 473mL Can Brock Street Brewing, Brock Street Blonde 7.3357 mL alcohol/$
 6 x 341mL Bottle Brick, Waterloo Dark 7.33333 mL alcohol/$
 6 x 341mL Bottle Steam Whistle Brewing, Steam Whistle 7.33333 mL alcohol/$
 6 x 341mL Bottle Mcauslan Brewing, St Ambroise Oatmeal Stout 7.33333 mL alcohol/$
 6 x 341mL Bottle Mcauslan Brewing, St Ambroise Apricot Wheat 7.33333 mL alcohol/$
+12 x 330mL Bottle Paulaner Brauerei GMBh, Paulaner Hefe-Weissbier  7.33333 mL alcohol/$
+6 x 341mL Bottle Mill Street Brewery, Mill St Belgian Wit 7.33333 mL alcohol/$
 6 x 341mL Bottle Mill Street Brewery, Mill St Tankhouse Ale 7.33333 mL alcohol/$
 6 x 341mL Bottle Mill Street Brewery, Mill St Stock Ale 7.33333 mL alcohol/$
-6 x 341mL Bottle RJ Brewers, Cheval Blanc 7.33333 mL alcohol/$
-12 x 330mL Bottle Paulaner Brauerei GMBh, Paulaner Hefe-Weissbier  7.33333 mL alcohol/$
 6 x 341mL Bottle Mcauslan Brewing, St Ambroise Pale Ale 7.33333 mL alcohol/$
-6 x 341mL Bottle Mill Street Brewery, Mill St Belgian Wit 7.33333 mL alcohol/$
+6 x 341mL Bottle RJ Brewers, Cheval Blanc 7.33333 mL alcohol/$
 6 x 473mL Can Wellington County, Wellington S.p.a. 7.32387 mL alcohol/$
-18 x 355mL Can Molson, Coors Light 7.3133 mL alcohol/$
 18 x 355mL Can Labatt, Bud Light 7.3133 mL alcohol/$
+18 x 355mL Can Molson, Coors Light 7.3133 mL alcohol/$
+8 x 500mL Can Diageo, Kilkenny Cream Ale 7.30594 mL alcohol/$
 12 x 500mL Can Diageo, Kilkenny Cream Ale 7.30594 mL alcohol/$
 24 x 500mL Can Diageo, Kilkenny Cream Ale 7.30594 mL alcohol/$
 4 x 500mL Can Diageo, Kilkenny Cream Ale 7.30594 mL alcohol/$
-8 x 500mL Can Diageo, Kilkenny Cream Ale 7.30594 mL alcohol/$
 1 x 20000mL Keg Duvel Moortgat N.V., La Chouffe 7.30427 mL alcohol/$
 12 x 473mL Can Wellington County, Wellington Kickin Back 7.2886 mL alcohol/$
 6 x 341mL Bottle Hop City Brewing Company, Barking Squirrel Lager 7.28114 mL alcohol/$
-1 x 473mL Can Labatt, Michelob Ultra 7.27692 mL alcohol/$
 24 x 473mL Can Big Rock Brewery, Big Rock Pilsner 7.27692 mL alcohol/$
+1 x 473mL Can Labatt, Michelob Ultra 7.27692 mL alcohol/$
 1 x 473mL Can Sleeman Brewing, Sleeman Railside Ale 7.27692 mL alcohol/$
-12 x 341mL Bottle Molson, Coors Light 7.27467 mL alcohol/$
 12 x 341mL Bottle Labatt, Bud Light 7.27467 mL alcohol/$
+12 x 341mL Bottle Molson, Coors Light 7.27467 mL alcohol/$
 1 x 500mL Can Birra Moretti Spa, Birra Moretti 7.27273 mL alcohol/$
 24 x 355mL Can G A Miller, Miller Genuine Draft 7.25879 mL alcohol/$
 24 x 355mL Bottle Wellington County, Wellington S.p.a. 7.25879 mL alcohol/$
@@ -1886,15 +1889,15 @@
 12 x 355mL Bottle G A Miller, Miller Genuine Draft 7.25106 mL alcohol/$
 24 x 473mL Can Big Rig Brewery, Big Rig Salute 1179 7.24211 mL alcohol/$
 6 x 330mL Bottle Beijing Yanjing Brewery, Yanjing Beer 7.23288 mL alcohol/$
+6 x 341mL Bottle Creemore Springs Brewery, Creemore Lager 7.22968 mL alcohol/$
 6 x 341mL Bottle Granville Island Brewing, Granville English Bay 7.22968 mL alcohol/$
 6 x 341mL Bottle Granville Island Brewing, Granville Hey Day Hefe 7.22968 mL alcohol/$
 6 x 341mL Bottle Granville Island Brewing, Granville Lions Winter 7.22968 mL alcohol/$
-6 x 341mL Bottle Creemore Springs Brewery, Creemore Lager 7.22968 mL alcohol/$
 6 x 355mL Bottle Cerveceria Modelo S.A. De C.V., Negra Modelo 7.22034 mL alcohol/$
 24 x 473mL Can Mcauslan Brewing, St Ambroise Session IPA  7.21334 mL alcohol/$
 24 x 330mL Bottle Heineken Brouwerijen BV, Red Stripe 7.20819 mL alcohol/$
-6 x 473mL Can Abe Erb Brewing Co, 1857 Kolsch-style Ale 7.20762 mL alcohol/$
 6 x 473mL Can Cerv Cuauhtemoc Moctezuma, Dos Equis Lager 7.20762 mL alcohol/$
+6 x 473mL Can Abe Erb Brewing Co, 1857 Kolsch-style Ale 7.20762 mL alcohol/$
 4 x 473mL Can Molson, Rickards Red Session 7.20762 mL alcohol/$
 4 x 600mL Bottle Beaus All Natural Brewing Co, Beaus Lug Tread 7.20721 mL alcohol/$
 24 x 330mL Bottle Northam Beverages Ltd., Whistler Brew Travel Pack 7.20655 mL alcohol/$
@@ -1903,8 +1906,8 @@
 6 x 330mL Can Heineken Brouwerijen BV, Heineken 7.2 mL alcohol/$
 12 x 330mL Bottle Heineken Brouwerijen BV, Heineken 7.2 mL alcohol/$
 12 x 330mL Bottle Ab Inbev, Stella Artois 7.2 mL alcohol/$
-12 x 473mL Can Cerveceria Modelo S.A. De C.V., Corona 7.1962 mL alcohol/$
 12 x 473mL Can Cerveceria Modelo S.A. De C.V., Modelo Especial 7.1962 mL alcohol/$
+12 x 473mL Can Cerveceria Modelo S.A. De C.V., Corona 7.1962 mL alcohol/$
 1 x 58600mL Keg Stone Brewing Company, Stone India Pale Ale 7.19239 mL alcohol/$
 1 x 710mL Bottle Cerveceria Modelo S.A. De C.V., Corona 7.18987 mL alcohol/$
 48 x 355mL Can Cerveceria Modelo S.A. De C.V., Corona 7.18608 mL alcohol/$
@@ -1912,22 +1915,22 @@
 6 x 341mL Bottle Sleeman Brewing, Blanche De Chambly 7.17895 mL alcohol/$
 6 x 341mL Bottle Muskoka Brewery, Muskoka Cream Ale 7.17895 mL alcohol/$
 6 x 341mL Bottle Mill Street Brewery, Mill St 100th Meridian 7.17895 mL alcohol/$
+24 x 355mL Can Labatt, Bud Light Lime Labatt 7.17474 mL alcohol/$
 24 x 355mL Can Labatt, Bud Light Mixer 7.17474 mL alcohol/$
 24 x 355mL Can Labatt, Bud Light Apple 7.17474 mL alcohol/$
-24 x 355mL Can Labatt, Bud Light Lime Labatt 7.17474 mL alcohol/$
 6 x 341mL Bottle Cool Brewing Co., Saint Andre 7.1476 mL alcohol/$
-12 x 500mL Bottle Forked River Brewing Company, Forked River Riptide Rye 7.14286 mL alcohol/$
 1 x 500mL Bottle Forked River Brewing Company, Forked River Riptide Rye 7.14286 mL alcohol/$
-1 x 473mL Can Big Rig Brewery, Big Rig Salute 1179 7.13962 mL alcohol/$
+12 x 500mL Bottle Forked River Brewing Company, Forked River Riptide Rye 7.14286 mL alcohol/$
+3 x 473mL Can Hockley Valley Brewing Company, Hockley Taster Pack 7.13962 mL alcohol/$
 1 x 473mL Can Molson, Rickards Red Session 7.13962 mL alcohol/$
 1 x 473mL Can Labatt, Shock Top Lemon Shandy 7.13962 mL alcohol/$
+1 x 473mL Can Big Rig Brewery, Big Rig Salute 1179 7.13962 mL alcohol/$
 1 x 473mL Can Great Lakes, Great Lakes Pompous Ass 7.13962 mL alcohol/$
 12 x 473mL Can Collingwood Brewery, Collingwood Rockwell Pils 7.13962 mL alcohol/$
-3 x 473mL Can Hockley Valley Brewing Company, Hockley Taster Pack 7.13962 mL alcohol/$
 12 x 330mL Bottle S.P.A. Birra Peroni A.S., Peroni Nastro Azzurro 7.13514 mL alcohol/$
 24 x 341mL Bottle Mcauslan Brewing, Griffon Red Ale 7.12427 mL alcohol/$
-6 x 473mL Can Brock Street Brewing, Brock Street Blonde 7.11724 mL alcohol/$
 6 x 473mL Can Niagara Brewing Company, Niagara Premium Lager 7.11724 mL alcohol/$
+6 x 473mL Can Brock Street Brewing, Brock Street Blonde 7.11724 mL alcohol/$
 12 x 355mL Bottle Heineken Brouwerijen BV, Amstel Light 7.11482 mL alcohol/$
 12 x 355mL Can G A Miller, Miller Lite 7.11482 mL alcohol/$
 12 x 355mL Bottle Cerv Cuauhtemoc Moctezuma, Beers Of Mexico 7.11482 mL alcohol/$
@@ -1939,11 +1942,11 @@
 12 x 236mL Can Labatt, Bud Light 7.10219 mL alcohol/$
 24 x 473mL Can Lake Of Bays Brewing, Lake Of Bays Rock Cut 7.10055 mL alcohol/$
 24 x 473mL Can Boston Beer Company, Samuel Adams Boston Lager 7.10055 mL alcohol/$
+6 x 330mL Bottle S. A. Damm Brewery, Daura Damm 7.09677 mL alcohol/$
+6 x 330mL Bottle Big Rock Brewery, Big Rock Traditional 7.09677 mL alcohol/$
 24 x 330mL Bottle S. A. Damm Brewery, Daura Damm 7.09677 mL alcohol/$
 6 x 330mL Bottle Shed Brewing Company, Lagershed Original 7.09677 mL alcohol/$
 6 x 330mL Bottle Big Rock Brewery, Big Rock Grasshopper 7.09677 mL alcohol/$
-6 x 330mL Bottle S. A. Damm Brewery, Daura Damm 7.09677 mL alcohol/$
-6 x 330mL Bottle Big Rock Brewery, Big Rock Traditional 7.09677 mL alcohol/$
 24 x 473mL Can Railway City Brewing, Witty Traveller 7.095 mL alcohol/$
 12 x 650mL Bottle Highlander Brew Co, Blacksmith Smoked Porter 7.09091 mL alcohol/$
 12 x 330mL Bottle Ab Inbev, Hoegaarden 7.08408 mL alcohol/$
@@ -1954,10 +1957,10 @@
 6 x 355mL Bottle Boston Beer Company, Twisted Tea 7.05298 mL alcohol/$
 6 x 355mL Bottle Boston Beer Company, Twisted Tea Half & Half 7.05298 mL alcohol/$
 6 x 473mL Can Wellington County, Wellington Kickin Back 7.05093 mL alcohol/$
+24 x 330mL Bottle Big Rock Brewery, Big Rock Warthog Ale 7.04783 mL alcohol/$
 24 x 330mL Bottle Diageo, Guinness Draught Bottle 7.04783 mL alcohol/$
 24 x 330mL Bottle Big Rock Brewery, Big Rock Rhineston Cowboy 7.04783 mL alcohol/$
 24 x 330mL Bottle Heineken Brouwerijen BV, Newcastle Brown Ale 7.04783 mL alcohol/$
-24 x 330mL Bottle Big Rock Brewery, Big Rock Warthog Ale 7.04783 mL alcohol/$
 12 x 330mL Bottle Northam Beverages Ltd., Whistler Brew Travel Pack 7.04626 mL alcohol/$
 24 x 330mL Bottle Brewery Huyghe, Delirium Tremens 7.04391 mL alcohol/$
 6 x 330mL Can Carlsberg International A/S, Kronenbourg 1664 Blanc 7.04125 mL alcohol/$
@@ -1965,27 +1968,27 @@
 8 x 473mL Can Cerveceria Modelo S.A. De C.V., Corona 7.04 mL alcohol/$
 8 x 473mL Can Molson, Coors Light 7.04 mL alcohol/$
 24 x 355mL Bottle Boston Beer Company, Samuel Adams Boston Lager 7.0268 mL alcohol/$
-6 x 330mL Bottle Carlsberg International A/S, Kronenbourg 1664 Blanc 7.02128 mL alcohol/$
 6 x 330mL Bottle Carlsberg International A/S, Kronenbourg 1664 7.02128 mL alcohol/$
+6 x 330mL Bottle Carlsberg International A/S, Kronenbourg 1664 Blanc 7.02128 mL alcohol/$
 1 x 30000mL Keg Sleeman Brewing, Pabst Blue Ribbon 7.0196 mL alcohol/$
 1 x 50000mL Keg Heineken Brouwerijen BV, Murphys Irish Stout 7.01754 mL alcohol/$
 24 x 473mL Can Publican House Brewery, Publican House Ale 7.01282 mL alcohol/$
 24 x 355mL Can Moosehead Breweries Limited, Moosehead Radler 7.01235 mL alcohol/$
 1 x 473mL Can G A Miller, Miller Genuine Draft 7.00741 mL alcohol/$
-12 x 450mL Bottle Grolsch Export B.V., Grolsch Lager 450ml 7.00389 mL alcohol/$
 24 x 450mL Bottle Grolsch Export B.V., Grolsch Lager 450ml 7.00389 mL alcohol/$
+12 x 450mL Bottle Grolsch Export B.V., Grolsch Lager 450ml 7.00389 mL alcohol/$
 24 x 473mL Can Kichesippi Beer Company, Kichesippi Heller Highwtr 6.99661 mL alcohol/$
-24 x 473mL Can Four Fathers Brewing Co Ltd, Four Fathers The Starter 6.99122 mL alcohol/$
-24 x 473mL Can Muskoka Brewery, Muskoka Craft Lager 6.99122 mL alcohol/$
-24 x 473mL Can Amsterdam Brewing Company, Cruiser All Day Pale Ale 6.99122 mL alcohol/$
 24 x 473mL Can Sleeping Giant Brewing Company, 360 Pale Ale 6.99122 mL alcohol/$
 24 x 473mL Can Labatt, Goose Island Honkers 6.99122 mL alcohol/$
 24 x 473mL Can Creemore Springs Brewery, Creemore Lot 9 6.99122 mL alcohol/$
 24 x 473mL Can Sleeping Giant Brewing Company, Northern Logger Golden 6.99122 mL alcohol/$
 24 x 473mL Can Granville Island Brewing, Granville 2tides Session 6.99122 mL alcohol/$
 24 x 473mL Can Amsterdam Brewing Company, Amsterdam 3speed 6.99122 mL alcohol/$
-24 x 473mL Can Outlaw Brew Co, Outlaw 21 Lagered Ale 6.98585 mL alcohol/$
+24 x 473mL Can Four Fathers Brewing Co Ltd, Four Fathers The Starter 6.99122 mL alcohol/$
+24 x 473mL Can Muskoka Brewery, Muskoka Craft Lager 6.99122 mL alcohol/$
+24 x 473mL Can Amsterdam Brewing Company, Cruiser All Day Pale Ale 6.99122 mL alcohol/$
 24 x 473mL Can Junction Craft Brewing, Junction Brakemans Ale 6.98585 mL alcohol/$
+24 x 473mL Can Outlaw Brew Co, Outlaw 21 Lagered Ale 6.98585 mL alcohol/$
 6 x 355mL Bottle Anchor Brewing, Anchor Liberty Ale 6.98361 mL alcohol/$
 16 x 473mL Can Railway City Brewing, Witty Traveller 6.96709 mL alcohol/$
 12 x 341mL Bottle Labatt, Michelob Ultra 6.96511 mL alcohol/$
@@ -1994,6 +1997,7 @@
 24 x 355mL Bottle Collective Arts, Collective Arts Saint 6.96221 mL alcohol/$
 1 x 58600mL Keg Labatt, Michelob Ultra 6.95652 mL alcohol/$
 4 x 450mL Bottle Grolsch Export B.V., Grolsch Lager 450ml 6.94981 mL alcohol/$
+6 x 330mL Bottle S.P.A. Birra Peroni A.S., Peroni Nastro Azzurro 6.94737 mL alcohol/$
 1 x 30000mL Keg Sleeman Brewing, Ephemere Pomme 6.94605 mL alcohol/$
 1 x 50000mL Keg Heineken Brouwerijen BV, Heineken 6.94444 mL alcohol/$
 1 x 30000mL Keg Ab Inbev, Leffe Blonde 6.93374 mL alcohol/$
@@ -2011,46 +2015,45 @@
 24 x 330mL Bottle Cerv Cuauhtemoc Moctezuma, Sol 6.89445 mL alcohol/$
 18 x 330mL Bottle Cerv Cuauhtemoc Moctezuma, Sol 6.88696 mL alcohol/$
 24 x 330mL Bottle Birra Castello Spa, Birra Castello 6.88696 mL alcohol/$
-24 x 473mL Can Amsterdam Brewing Company, Amsterdam Pale Rider 6.88522 mL alcohol/$
-24 x 473mL Can Lake Of Bays Brewing, Wild North Summer Sunset 6.88522 mL alcohol/$
 24 x 473mL Can Amsterdam Brewing Company, Kawartha Raspberry Wheat 6.88522 mL alcohol/$
+24 x 473mL Can Lake Of Bays Brewing, Wild North Summer Sunset 6.88522 mL alcohol/$
 24 x 473mL Can Grand River Brewing, Grand River Tailgate 6.88522 mL alcohol/$
-1 x 473mL Can Labatt, Bud Light Apple 6.88 mL alcohol/$
-24 x 473mL Can Clocktower Brewery Inc., Clocktower Kolsch 6.88 mL alcohol/$
-4 x 473mL Can Collingwood Brewery, Collingwood Rockwell Pils 6.88 mL alcohol/$
-1 x 473mL Can Labatt, Bud Light Lime Labatt 6.88 mL alcohol/$
+24 x 473mL Can Amsterdam Brewing Company, Amsterdam Pale Rider 6.88522 mL alcohol/$
 1 x 473mL Can Nickel Brook Brewing Company, Nickel Brook Cause&effect 6.88 mL alcohol/$
 24 x 473mL Can Ace Hill Beer Company, Ace Hill Pilsner 6.88 mL alcohol/$
-24 x 473mL Can Redline Brewhouse, 501 Golden Ale 6.88 mL alcohol/$
-1 x 473mL Can Cerv Cuauhtemoc Moctezuma, Dos Equis Lager 6.88 mL alcohol/$
-1 x 473mL Can Abe Erb Brewing Co, 1857 Kolsch-style Ale 6.88 mL alcohol/$
 12 x 473mL Can Amsterdam Brewing Company, Amsterdam 3speed 6.88 mL alcohol/$
+1 x 473mL Can Cerv Cuauhtemoc Moctezuma, Dos Equis Lager 6.88 mL alcohol/$
+1 x 473mL Can Labatt, Bud Light Apple 6.88 mL alcohol/$
+1 x 473mL Can Labatt, Bud Light Lime Labatt 6.88 mL alcohol/$
+24 x 473mL Can Redline Brewhouse, 501 Golden Ale 6.88 mL alcohol/$
+24 x 473mL Can Clocktower Brewery Inc., Clocktower Kolsch 6.88 mL alcohol/$
+4 x 473mL Can Collingwood Brewery, Collingwood Rockwell Pils 6.88 mL alcohol/$
+1 x 473mL Can Abe Erb Brewing Co, 1857 Kolsch-style Ale 6.88 mL alcohol/$
 24 x 473mL Can Whiprsnapr Brewing Company, Whiprsnapr Carol Anne Ale 6.88 mL alcohol/$
 24 x 500mL Can Diageo, Guinness Pub Draught 6.86204 mL alcohol/$
 6 x 341mL Bottle Molson, Coors Light 6.84854 mL alcohol/$
 6 x 341mL Bottle Labatt, Bud Light 6.84854 mL alcohol/$
-1 x 50000mL Keg Central City Brewing, Red Racer Session Ale 6.83761 mL alcohol/$
 1 x 58600mL Keg Labatt, Rolling Rock Pale Lager 6.83482 mL alcohol/$
 12 x 341mL Bottle Labatt, Rolling Rock Pale Lager 6.83424 mL alcohol/$
 12 x 341mL Bottle Mcauslan Brewing, Griffon Red Ale 6.83424 mL alcohol/$
 12 x 341mL Bottle Muskoka Brewery, Muskoka Survival Pack 6.83139 mL alcohol/$
 12 x 355mL Can G A Miller, Miller Genuine Draft 6.82966 mL alcohol/$
-6 x 330mL Bottle Brauerei Beck & Company, Becks 6.82759 mL alcohol/$
 6 x 330mL Bottle Heineken Brouwerijen BV, Heineken 6.82759 mL alcohol/$
+6 x 330mL Bottle Brauerei Beck & Company, Becks 6.82759 mL alcohol/$
 24 x 341mL Bottle Creemore Springs Brewery, Creemore Lot 9 6.82711 mL alcohol/$
 12 x 440mL Can Diageo, Guinness Pub Draught 6.82391 mL alcohol/$
-24 x 355mL Bottle Cerv Cuauhtemoc Moctezuma, Dos Equis Amber 6.82282 mL alcohol/$
-24 x 355mL Bottle Cerv Cuauhtemoc Moctezuma, Dos Equis Lager 6.82282 mL alcohol/$
-24 x 355mL Bottle Flying Monkeys Craft Brewery, Flying Monkeys Antigravty 6.82282 mL alcohol/$
 24 x 355mL Can Ab Inbev, Bud Light Chelada 6.82282 mL alcohol/$
 24 x 355mL Bottle Amsterdam Brewing Company, Cruiser All Day Pale Ale 6.82282 mL alcohol/$
 24 x 355mL Bottle Cerveceria Modelo S.A. De C.V., Modelo Especial 6.82282 mL alcohol/$
 24 x 355mL Bottle Collective Arts, Collective Arts State 6.82282 mL alcohol/$
+24 x 355mL Bottle Cerv Cuauhtemoc Moctezuma, Dos Equis Amber 6.82282 mL alcohol/$
+24 x 355mL Bottle Cerv Cuauhtemoc Moctezuma, Dos Equis Lager 6.82282 mL alcohol/$
+24 x 355mL Bottle Flying Monkeys Craft Brewery, Flying Monkeys Antigravty 6.82282 mL alcohol/$
 1 x 30000mL Keg Sleeman Brewing, Blanche De Chambly 6.81973 mL alcohol/$
 1 x 58600mL Keg Founders Brewing Company, Founders All Day IPA  6.81891 mL alcohol/$
 12 x 330mL Bottle Carlsberg International A/S, Tuborg Pilsner 6.8129 mL alcohol/$
 12 x 473mL Can Publican House Brewery, Publican House Ale 6.7976 mL alcohol/$
-24 x 473mL Can St Mary Axe Inc, St Mary Axe Best Bitter 6.78237 mL alcohol/$
+24 x 473mL Can St Mary Axe Inc, St Mary Axe 6.78237 mL alcohol/$
 1 x 500mL Can Diageo, Guinness Pub Draught 6.77966 mL alcohol/$
 12 x 473mL Can Labatt, Goose Island Honkers 6.76721 mL alcohol/$
 6 x 355mL Bottle Bitburger Braugruppe GMBh, Bitburger 6.7619 mL alcohol/$
@@ -2069,42 +2072,42 @@
 1 x 20000mL Keg Palm Breweries Nv, Palm Amber Ale 6.73174 mL alcohol/$
 4 x 473mL Can Cerveceria Modelo S.A. De C.V., Modelo Especial 6.72711 mL alcohol/$
 4 x 473mL Can Cerveceria Modelo S.A. De C.V., Corona 6.72711 mL alcohol/$
-12 x 473mL Can St Mary Axe Inc, St Mary Axe Best Bitter 6.72711 mL alcohol/$
+12 x 473mL Can St Mary Axe Inc, St Mary Axe 6.72711 mL alcohol/$
 8 x 473mL Can Creemore Springs Brewery, Creemore Lot 9 6.72711 mL alcohol/$
 8 x 473mL Can Mcauslan Brewing, St Ambroise Session IPA  6.72711 mL alcohol/$
 8 x 473mL Can Railway City Brewing, Witty Traveller 6.72711 mL alcohol/$
 6 x 330mL Bottle Ab Inbev, Hoegaarden 6.71186 mL alcohol/$
-6 x 473mL Can St Mary Axe Inc, St Mary Axe Best Bitter 6.69735 mL alcohol/$
+6 x 473mL Can St Mary Axe Inc, St Mary Axe 6.69735 mL alcohol/$
 6 x 473mL Can Amsterdam Brewing Company, Amsterdam 3speed 6.69735 mL alcohol/$
 6 x 473mL Can Outlaw Brew Co, Outlaw 21 Lagered Ale 6.69735 mL alcohol/$
 12 x 473mL Can Outlaw Brew Co, Outlaw 21 Lagered Ale 6.69735 mL alcohol/$
-24 x 341mL Bottle Mill Street Brewery, Mill St Original Organic 6.68764 mL alcohol/$
 24 x 341mL Bottle Labatt, Goose Island Honkers 6.68764 mL alcohol/$
-24 x 473mL Can Henderson Brewing Co, Henderson Food Truck Ale 6.68748 mL alcohol/$
+24 x 341mL Bottle Mill Street Brewery, Mill St Original Organic 6.68764 mL alcohol/$
+12 x 473mL Can Granville Island Brewing, Granville 2tides Session 6.68748 mL alcohol/$
 12 x 473mL Can Lake Of Bays Brewing, Wild North Summer Sunset 6.68748 mL alcohol/$
+24 x 473mL Can Henderson Brewing Co, Henderson Food Truck Ale 6.68748 mL alcohol/$
 12 x 473mL Can Mill Street Brewery, Mill St Original Organic 6.68748 mL alcohol/$
 12 x 473mL Can Grand River Brewing, Grand River Tailgate 6.68748 mL alcohol/$
-12 x 473mL Can Granville Island Brewing, Granville 2tides Session 6.68748 mL alcohol/$
 24 x 473mL Can Muskoka Brewery, Muskoka Detour IPA  6.68256 mL alcohol/$
 12 x 355mL Can Labatt, Rolling Rock Pale Lager 6.68235 mL alcohol/$
 12 x 355mL Bottle Wellington County, Wellington S.p.a. 6.68235 mL alcohol/$
 1 x 20000mL Keg Brick, Red Baron 6.66945 mL alcohol/$
-1 x 500mL Bottle Durham Brewing Company, County Durham Signature 6.66667 mL alcohol/$
 1 x 500mL Bottle Staatsbrauerei Weihenstephan, Dunkel Weihenstephaner 6.66667 mL alcohol/$
+1 x 500mL Bottle Durham Brewing Company, County Durham Signature 6.66667 mL alcohol/$
 24 x 341mL Bottle Molson, Molson Canadian 67 6.64465 mL alcohol/$
-1 x 473mL Can Junction Craft Brewing, Junction Brakemans Ale 6.6386 mL alcohol/$
-1 x 473mL Can Wellington County, Wellington S.p.a. 6.6386 mL alcohol/$
-6 x 473mL Can Publican House Brewery, Publican House Ale 6.6386 mL alcohol/$
-12 x 473mL Can Redline Brewhouse, 501 Golden Ale 6.6386 mL alcohol/$
-12 x 473mL Can Boston Beer Company, Samuel Adams Boston Lager 6.6386 mL alcohol/$
 1 x 473mL Can Clocktower Brewery Inc., Clocktower Kolsch 6.6386 mL alcohol/$
-12 x 473mL Can Whiprsnapr Brewing Company, Whiprsnapr Carol Anne Ale 6.6386 mL alcohol/$
+1 x 473mL Can Wellington County, Wellington S.p.a. 6.6386 mL alcohol/$
 1 x 473mL Can Big Rock Brewery, Big Rock Pilsner 6.6386 mL alcohol/$
+1 x 473mL Can Junction Craft Brewing, Junction Brakemans Ale 6.6386 mL alcohol/$
+12 x 473mL Can Boston Beer Company, Samuel Adams Boston Lager 6.6386 mL alcohol/$
+12 x 473mL Can Redline Brewhouse, 501 Golden Ale 6.6386 mL alcohol/$
+12 x 473mL Can Whiprsnapr Brewing Company, Whiprsnapr Carol Anne Ale 6.6386 mL alcohol/$
+6 x 473mL Can Publican House Brewery, Publican House Ale 6.6386 mL alcohol/$
 12 x 500mL Bottle Royal City Brewing, Royalcity Smoked Honey 6.62983 mL alcohol/$
 1 x 50000mL Keg Ab Inbev, Stella Artois 6.62427 mL alcohol/$
 1 x 50000mL Keg Ab Inbev, Hoegaarden 6.62339 mL alcohol/$
-6 x 330mL Bottle Brasserie Fischer S.A., Desperados Tequila Beer 6.62207 mL alcohol/$
 6 x 330mL Bottle Paulaner Brauerei GMBh, Paulaner Hefe-Weissbier  6.62207 mL alcohol/$
+6 x 330mL Bottle Brasserie Fischer S.A., Desperados Tequila Beer 6.62207 mL alcohol/$
 12 x 330mL Bottle Heineken Brouwerijen BV, Newcastle Brown Ale 6.61378 mL alcohol/$
 12 x 341mL Bottle Molson, Rickards Summer Taster Pk 6.61333 mL alcohol/$
 24 x 330mL Bottle Warsteiner Brauerei, Warsteiner Premium Verum 6.60688 mL alcohol/$
@@ -2121,29 +2124,29 @@
 4 x 473mL Can Railway City Brewing, Witty Traveller 6.58087 mL alcohol/$
 6 x 473mL Can Labatt, Goose Island Honkers 6.58087 mL alcohol/$
 6 x 473mL Can Barnstormer Brewing Company, Barnstormer 400 Blonde 6.58087 mL alcohol/$
+6 x 355mL Bottle G A Miller, Miller Genuine Draft 6.57915 mL alcohol/$
 6 x 355mL Can Labatt, Bud Light 6.57915 mL alcohol/$
 6 x 355mL Can Molson, Coors Light 6.57915 mL alcohol/$
 6 x 355mL Bottle Heineken Brouwerijen BV, Amstel Light 6.57915 mL alcohol/$
-6 x 355mL Bottle G A Miller, Miller Genuine Draft 6.57915 mL alcohol/$
 24 x 341mL Bottle Microbrasserie Nouvelle France, La Messagere Gluten Free 6.57878 mL alcohol/$
 12 x 355mL Can Sleeman Brewing, Sleeman Light 6.56647 mL alcohol/$
+12 x 355mL Bottle Brick, Landshark Lager 6.56647 mL alcohol/$
 12 x 355mL Can Cerveceria Modelo S.A. De C.V., Corona 6.56647 mL alcohol/$
 12 x 355mL Can Cerveceria Modelo S.A. De C.V., Modelo Especial 6.56647 mL alcohol/$
-12 x 355mL Can Labatt, Michelob Ultra 6.56647 mL alcohol/$
 12 x 355mL Can Sleeman Brewing, Sleeman Clear 2.0 6.56647 mL alcohol/$
-12 x 355mL Bottle Brick, Landshark Lager 6.56647 mL alcohol/$
+12 x 355mL Can Labatt, Michelob Ultra 6.56647 mL alcohol/$
 12 x 341mL Bottle Sleeman Brewing, Sleeman Railside Ale 6.56032 mL alcohol/$
 1 x 650mL Bottle Highlander Brew Co, Blacksmith Smoked Porter 6.55462 mL alcohol/$
 24 x 341mL Bottle Muskoka Brewery, Muskoka Craft Lager 6.55375 mL alcohol/$
 6 x 500mL Bottle Smithavens Brewing Company, Smithavens Amber Solace 6.53595 mL alcohol/$
 6 x 500mL Bottle Smithavens Brewing Company, Smithavens Taster Pack 6.53595 mL alcohol/$
-1 x 473mL Can Cerveceria Modelo S.A. De C.V., Modelo Especial 6.52414 mL alcohol/$
-1 x 473mL Can Publican House Brewery, Publican House Ale 6.52414 mL alcohol/$
-1 x 473mL Can Mcauslan Brewing, St Ambroise Session IPA  6.52414 mL alcohol/$
-1 x 473mL Can Collingwood Brewery, Collingwood Rockwell Pils 6.52414 mL alcohol/$
 6 x 473mL Can Redline Brewhouse, 501 Golden Ale 6.52414 mL alcohol/$
 4 x 473mL Can Ace Hill Beer Company, Ace Hill Pilsner 6.52414 mL alcohol/$
+1 x 473mL Can Mcauslan Brewing, St Ambroise Session IPA  6.52414 mL alcohol/$
 1 x 473mL Can Cerveceria Modelo S.A. De C.V., Corona 6.52414 mL alcohol/$
+1 x 473mL Can Cerveceria Modelo S.A. De C.V., Modelo Especial 6.52414 mL alcohol/$
+1 x 473mL Can Collingwood Brewery, Collingwood Rockwell Pils 6.52414 mL alcohol/$
+1 x 473mL Can Publican House Brewery, Publican House Ale 6.52414 mL alcohol/$
 12 x 473mL Can Publican House Brewery, Publican High Noon 6.51478 mL alcohol/$
 36 x 330mL Bottle Cerveceria Modelo S.A. De C.V., Corona 6.50959 mL alcohol/$
 6 x 473mL Can Lake Of Bays Brewing, Wild North Summer Sunset 6.50544 mL alcohol/$
@@ -2158,11 +2161,11 @@
 12 x 330mL Bottle Heineken Brouwerijen BV, Red Stripe 6.46531 mL alcohol/$
 12 x 330mL Bottle Cerv Cuauhtemoc Moctezuma, Sol 6.46531 mL alcohol/$
 1 x 58600mL Keg Craft Brew Alliance, Redhook Audible Ale 6.46442 mL alcohol/$
-12 x 341mL Bottle Moosehead Breweries Limited, Moosehead Light Lime 6.4568 mL alcohol/$
 12 x 341mL Bottle Moosehead Breweries Limited, Moosehead Light 6.4568 mL alcohol/$
+12 x 341mL Bottle Moosehead Breweries Limited, Moosehead Light Lime 6.4568 mL alcohol/$
 8 x 473mL Can Four Fathers Brewing Co Ltd, Four Fathers The Starter 6.44085 mL alcohol/$
-12 x 341mL Bottle Labatt, Bud Light Apple 6.43143 mL alcohol/$
 12 x 341mL Bottle Labatt, Bud Light Lime Labatt 6.43143 mL alcohol/$
+12 x 341mL Bottle Labatt, Bud Light Apple 6.43143 mL alcohol/$
 12 x 355mL Can Labatt, Bud Light 6.43019 mL alcohol/$
 12 x 355mL Bottle Flying Monkeys Craft Brewery, Flying Monkeys Antigravty 6.43019 mL alcohol/$
 12 x 355mL Can Molson, Coors Light 6.43019 mL alcohol/$
@@ -2170,27 +2173,27 @@
 12 x 330mL Bottle Carlsberg International A/S, Carlsberg Lite 6.42596 mL alcohol/$
 1 x 58600mL Keg Labatt, Goose Island Honkers 6.41752 mL alcohol/$
 8 x 440mL Can Diageo, Guinness Pub Draught 6.41458 mL alcohol/$
-1 x 473mL Can Lake Of Bays Brewing, Lake Of Bays Rock Cut 6.41356 mL alcohol/$
-1 x 473mL Can Creemore Springs Brewery, Creemore Lot 9 6.41356 mL alcohol/$
-1 x 473mL Can St Mary Axe Inc, St Mary Axe Best Bitter 6.41356 mL alcohol/$
-1 x 473mL Can Ace Hill Beer Company, Ace Hill Pilsner 6.41356 mL alcohol/$
-1 x 473mL Can Redline Brewhouse, 501 Golden Ale 6.41356 mL alcohol/$
+1 x 473mL Can Bobcaygeon Brewing Company, Bobcaygeon Common Loon 6.41356 mL alcohol/$
 4 x 473mL Can Frank Brewing Co, Franks Old Comrade 6.41356 mL alcohol/$
+1 x 473mL Can St Mary Axe Inc, St Mary Axe 6.41356 mL alcohol/$
 24 x 473mL Can Frank Brewing Co, Franks Old Comrade 6.41356 mL alcohol/$
+24 x 473mL Can Bobcaygeon Brewing Company, Bobcaygeon Common Loon 6.41356 mL alcohol/$
 1 x 473mL Can Publican House Brewery, Publican High Noon 6.41356 mL alcohol/$
-1 x 473mL Can Brock Street Brewing, Brock Street Blonde 6.41356 mL alcohol/$
 1 x 473mL Can Outlaw Brew Co, Outlaw 21 Lagered Ale 6.41356 mL alcohol/$
 1 x 473mL Can Railway City Brewing, Iron Spike Copper 6.41356 mL alcohol/$
-1 x 473mL Can Bobcaygeon Brewing Company, Bobcaygeon Common Loon 6.41356 mL alcohol/$
-1 x 473mL Can Henderson Brewing Co, Henderson Food Truck Ale 6.41356 mL alcohol/$
-6 x 473mL Can Whiprsnapr Brewing Company, Whiprsnapr Carol Anne Ale 6.41356 mL alcohol/$
-24 x 473mL Can Bobcaygeon Brewing Company, Bobcaygeon Common Loon 6.41356 mL alcohol/$
-1 x 473mL Can Kichesippi Beer Company, Kichesippi Heller Highwtr 6.41356 mL alcohol/$
 24 x 473mL Can Brock Street Brewing, Brock Street Blonde 6.41356 mL alcohol/$
+1 x 473mL Can Henderson Brewing Co, Henderson Food Truck Ale 6.41356 mL alcohol/$
+1 x 473mL Can Barnstormer Brewing Company, Barnstormer 400 Blonde 6.41356 mL alcohol/$
+1 x 473mL Can Kichesippi Beer Company, Kichesippi Heller Highwtr 6.41356 mL alcohol/$
+1 x 473mL Can Ace Hill Beer Company, Ace Hill Pilsner 6.41356 mL alcohol/$
+6 x 473mL Can Whiprsnapr Brewing Company, Whiprsnapr Carol Anne Ale 6.41356 mL alcohol/$
 1 x 473mL Can Niagara Brewing Company, Niagara Premium Lager 6.41356 mL alcohol/$
+1 x 473mL Can Redline Brewhouse, 501 Golden Ale 6.41356 mL alcohol/$
+1 x 473mL Can Lake Of Bays Brewing, Lake Of Bays Rock Cut 6.41356 mL alcohol/$
+1 x 473mL Can Creemore Springs Brewery, Creemore Lot 9 6.41356 mL alcohol/$
 1 x 473mL Can Wellington County, Wellington Kickin Back 6.41356 mL alcohol/$
 1 x 473mL Can Sawdust City Brewing, Sawdustcity Little Norway 6.41356 mL alcohol/$
-1 x 473mL Can Barnstormer Brewing Company, Barnstormer 400 Blonde 6.41356 mL alcohol/$
+1 x 473mL Can Brock Street Brewing, Brock Street Blonde 6.41356 mL alcohol/$
 1 x 30000mL Keg Bitburger Braugruppe GMBh, Benediktiner Weissbier 6.41026 mL alcohol/$
 1 x 58600mL Keg Craft Brew Alliance, Kona Big Wave Golden 6.407 mL alcohol/$
 16 x 600mL Bottle Beaus All Natural Brewing Co, Beaus Tom Green Beer 6.40427 mL alcohol/$
@@ -2205,31 +2208,31 @@
 1 x 500mL Bottle Pioneer Brewery Ltd, Black Creek Porter 6.32911 mL alcohol/$
 1 x 500mL Bottle Royal City Brewing, Royalcity Smoked Honey 6.32911 mL alcohol/$
 1 x 500mL Bottle Pioneer Brewery Ltd, Riflemans Ration 6.32911 mL alcohol/$
-6 x 473mL Can Amsterdam Brewing Company, Kawartha Raspberry Wheat 6.32423 mL alcohol/$
 6 x 473mL Can Grand River Brewing, Grand River Tailgate 6.32423 mL alcohol/$
-12 x 355mL Bottle Collective Arts, Collective Arts Saint 6.32282 mL alcohol/$
-12 x 355mL Can Sleeman Brewing, Sleeman Railside Ale 6.32282 mL alcohol/$
+6 x 473mL Can Amsterdam Brewing Company, Kawartha Raspberry Wheat 6.32423 mL alcohol/$
 12 x 355mL Bottle Amsterdam Brewing Company, Cruiser All Day Pale Ale 6.32282 mL alcohol/$
+12 x 355mL Can Sleeman Brewing, Sleeman Railside Ale 6.32282 mL alcohol/$
+12 x 355mL Bottle Collective Arts, Collective Arts Saint 6.32282 mL alcohol/$
 8 x 473mL Can Muskoka Brewery, Muskoka Craft Lager 6.31983 mL alcohol/$
 8 x 473mL Can Amsterdam Brewing Company, Cruiser All Day Pale Ale 6.31983 mL alcohol/$
 8 x 473mL Can Amsterdam Brewing Company, Amsterdam Pale Rider 6.31983 mL alcohol/$
-6 x 341mL Bottle Labatt, Michelob Ultra 6.31969 mL alcohol/$
 6 x 341mL Bottle Mcauslan Brewing, Griffon Red Ale 6.31969 mL alcohol/$
+6 x 341mL Bottle Labatt, Michelob Ultra 6.31969 mL alcohol/$
 6 x 355mL Can G A Miller, Miller Genuine Draft 6.31111 mL alcohol/$
 12 x 355mL Bottle Boston Beer Company, Samuel Adams Boston Lager 6.31111 mL alcohol/$
-1 x 473mL Can Sleeping Giant Brewing Company, 360 Pale Ale 6.30667 mL alcohol/$
-1 x 473mL Can Publican House Brewery, Publican Roaring Rotarian 6.30667 mL alcohol/$
 6 x 473mL Can Publican House Brewery, Publican Roaring Rotarian 6.30667 mL alcohol/$
 12 x 473mL Can Publican House Brewery, Publican Roaring Rotarian 6.30667 mL alcohol/$
+1 x 473mL Can Sleeping Giant Brewing Company, Northern Logger Golden 6.30667 mL alcohol/$
+1 x 473mL Can Sleeping Giant Brewing Company, 360 Pale Ale 6.30667 mL alcohol/$
 1 x 473mL Can Amsterdam Brewing Company, Amsterdam 3speed 6.30667 mL alcohol/$
 1 x 473mL Can Whiprsnapr Brewing Company, Whiprsnapr Carol Anne Ale 6.30667 mL alcohol/$
-1 x 473mL Can Sleeping Giant Brewing Company, Northern Logger Golden 6.30667 mL alcohol/$
+1 x 473mL Can Publican House Brewery, Publican Roaring Rotarian 6.30667 mL alcohol/$
 24 x 341mL Bottle Muskoka Brewery, Muskoka Detour IPA  6.30144 mL alcohol/$
 6 x 341mL Bottle Labatt, Bud Light Lime Labatt 6.29538 mL alcohol/$
 1 x 30000mL Keg Privatbrauerei Erdinger, Erdinger Oktoberfest 6.27746 mL alcohol/$
+1 x 30000mL Keg Big Rock Brewery, Big Rock Warthog Ale 6.27123 mL alcohol/$
 1 x 30000mL Keg Big Rock Brewery, Big Rock Rhineston Cowboy 6.27123 mL alcohol/$
 1 x 30000mL Keg Big Rock Brewery, Big Rock Pilsner 6.27123 mL alcohol/$
-1 x 30000mL Keg Big Rock Brewery, Big Rock Warthog Ale 6.27123 mL alcohol/$
 1 x 30000mL Keg Staatliches Hofbraeuhaus, Hofbraeu Muenchen Dunkel 6.26697 mL alcohol/$
 1 x 500mL Bottle Breuvages Octane, Charles Henri Belgian 6.25 mL alcohol/$
 24 x 207mL Bottle Cerveceria Modelo S.A. De C.V., Corona 6.21972 mL alcohol/$
@@ -2239,17 +2242,17 @@
 1 x 473mL Can Granville Island Brewing, Granville 2tides Session 6.20328 mL alcohol/$
 1 x 473mL Can Frank Brewing Co, Franks Old Comrade 6.20328 mL alcohol/$
 1 x 473mL Can Nickel Brook Brewing Company, Nickel Brook Naughty Apa 6.20328 mL alcohol/$
-24 x 473mL Can Molson, Molson Canadian 67 IPA  6.19763 mL alcohol/$
 24 x 473mL Can Molson, Molson Canadian 67 6.19763 mL alcohol/$
-12 x 355mL Bottle Cerv Cuauhtemoc Moctezuma, Dos Equis Lager 6.19636 mL alcohol/$
-12 x 355mL Bottle Cerv Cuauhtemoc Moctezuma, Dos Equis Amber 6.19636 mL alcohol/$
-6 x 355mL Bottle Wellington County, Wellington S.p.a. 6.19636 mL alcohol/$
-6 x 355mL Can Cerveceria Modelo S.A. De C.V., Corona 6.19636 mL alcohol/$
+24 x 473mL Can Molson, Molson Canadian 67 IPA  6.19763 mL alcohol/$
 12 x 355mL Bottle Cerveceria Modelo S.A. De C.V., Modelo Especial 6.19636 mL alcohol/$
 12 x 355mL Can Ab Inbev, Bud Light Chelada 6.19636 mL alcohol/$
+6 x 355mL Bottle Wellington County, Wellington S.p.a. 6.19636 mL alcohol/$
+12 x 355mL Bottle Cerv Cuauhtemoc Moctezuma, Dos Equis Lager 6.19636 mL alcohol/$
+12 x 355mL Bottle Cerv Cuauhtemoc Moctezuma, Dos Equis Amber 6.19636 mL alcohol/$
+6 x 355mL Can Cerveceria Modelo S.A. De C.V., Corona 6.19636 mL alcohol/$
 1 x 50000mL Keg Stiegl Getranke Service GMBh, Stiegl Bier 6.19291 mL alcohol/$
-12 x 473mL Can Molson, Molson Canadian 67 6.192 mL alcohol/$
 12 x 473mL Can Molson, Molson Canadian 67 IPA  6.192 mL alcohol/$
+12 x 473mL Can Molson, Molson Canadian 67 6.192 mL alcohol/$
 1 x 30000mL Keg Sleeman Brewing, Sleeman Light 6.18716 mL alcohol/$
 1 x 30000mL Keg Sleeman Brewing, Sleeman Railside Ale 6.18716 mL alcohol/$
 1 x 30000mL Keg Menabrea, Menabrea Ambrata 6.18557 mL alcohol/$
@@ -2257,26 +2260,27 @@
 1 x 30000mL Keg Staatsbrauerei Weihenstephan, Dunkel Weihenstephaner 6.18429 mL alcohol/$
 12 x 341mL Bottle Mill Street Brewery, Mill St Original Organic 6.1766 mL alcohol/$
 8 x 600mL Bottle Beaus All Natural Brewing Co, Beaus Tom Green Beer 6.16175 mL alcohol/$
+1 x 30000mL Keg Central City Brewing, Red Racer Session Ale 6.15385 mL alcohol/$
 1 x 30000mL Keg Ace Hill Beer Company, Ace Hill Pilsner 6.15385 mL alcohol/$
 24 x 341mL Bottle Moosehead Breweries Limited, Cracked Canoe 6.14568 mL alcohol/$
 24 x 440mL Can Interbrew UK Whitbread, Boddingtons Pub Ale 6.144 mL alcohol/$
 4 x 440mL Can Greene King Plc, Belhaven Black Scot Stout 6.12174 mL alcohol/$
 12 x 341mL Bottle Labatt, Goose Island Honkers 6.11888 mL alcohol/$
 6 x 330mL Bottle Cerv Cuauhtemoc Moctezuma, Sol 6.11583 mL alcohol/$
-6 x 355mL Bottle Flying Monkeys Craft Brewery, Flying Monkeys Antigravty 6.10753 mL alcohol/$
 6 x 355mL Bottle Brick, Landshark Lager 6.10753 mL alcohol/$
 6 x 355mL Bottle Amsterdam Brewing Company, Cruiser All Day Pale Ale 6.10753 mL alcohol/$
-1 x 473mL Can Four Fathers Brewing Co Ltd, Four Fathers The Starter 6.10323 mL alcohol/$
-1 x 473mL Can Amsterdam Brewing Company, Cruiser All Day Pale Ale 6.10323 mL alcohol/$
-1 x 473mL Can Boston Beer Company, Samuel Adams Boston Lager 6.10323 mL alcohol/$
-1 x 473mL Can Sawdust City Brewing, Sawdust City Golden Beach 6.10323 mL alcohol/$
-1 x 473mL Can Labatt, Goose Island Honkers 6.10323 mL alcohol/$
-1 x 473mL Can Amsterdam Brewing Company, Kawartha Raspberry Wheat 6.10323 mL alcohol/$
+6 x 355mL Bottle Flying Monkeys Craft Brewery, Flying Monkeys Antigravty 6.10753 mL alcohol/$
 6 x 473mL Can Molson, Molson Canadian 67 6.10323 mL alcohol/$
 1 x 473mL Can Mill Street Brewery, Mill St Original Organic 6.10323 mL alcohol/$
+1 x 473mL Can Boston Beer Company, Samuel Adams Boston Lager 6.10323 mL alcohol/$
+1 x 473mL Can Sawdust City Brewing, Sawdust City Golden Beach 6.10323 mL alcohol/$
 1 x 473mL Can Amsterdam Brewing Company, Amsterdam Pale Rider 6.10323 mL alcohol/$
 1 x 473mL Can Grand River Brewing, Grand River Tailgate 6.10323 mL alcohol/$
 6 x 473mL Can Molson, Molson Canadian 67 IPA  6.10323 mL alcohol/$
+1 x 473mL Can Four Fathers Brewing Co Ltd, Four Fathers The Starter 6.10323 mL alcohol/$
+1 x 473mL Can Amsterdam Brewing Company, Cruiser All Day Pale Ale 6.10323 mL alcohol/$
+1 x 473mL Can Labatt, Goose Island Honkers 6.10323 mL alcohol/$
+1 x 473mL Can Amsterdam Brewing Company, Kawartha Raspberry Wheat 6.10323 mL alcohol/$
 24 x 330mL Bottle Birra Moretti Spa, Birra Moretti 6.09817 mL alcohol/$
 24 x 330mL Bottle Schnitzerbrau GMBh, Schnitzerbrau Gluten Free 6.097 mL alcohol/$
 12 x 355mL Can Labatt, Bud Light Apple 6.0966 mL alcohol/$
@@ -2317,9 +2321,9 @@
 6 x 355mL Bottle Cerveceria Modelo S.A. De C.V., Modelo Especial 5.87586 mL alcohol/$
 12 x 341mL Bottle Muskoka Brewery, Muskoka Detour IPA  5.85617 mL alcohol/$
 12 x 473mL Can Molson, Rickards Radler 5.82154 mL alcohol/$
+1 x 473mL Can Barnstormer Brewing Company, Barnstormer Watermelon 5.82154 mL alcohol/$
 6 x 473mL Can Barnstormer Brewing Company, Barnstormer Watermelon 5.82154 mL alcohol/$
 24 x 473mL Can Barnstormer Brewing Company, Barnstormer Watermelon 5.82154 mL alcohol/$
-1 x 473mL Can Barnstormer Brewing Company, Barnstormer Watermelon 5.82154 mL alcohol/$
 1 x 473mL Can Muskoka Brewery, Muskoka Detour IPA  5.82154 mL alcohol/$
 6 x 330mL Bottle Diageo, Guinness Draught Bottle 5.8022 mL alcohol/$
 24 x 330mL Bottle Diageo, Guinness Black Lager 5.8022 mL alcohol/$
@@ -2335,9 +2339,9 @@
 6 x 330mL Bottle Warsteiner Brauerei, Warsteiner Premium Verum 5.73913 mL alcohol/$
 1 x 30000mL Keg Warsteiner Brauerei, Konig Ludwig Weissbier 5.73285 mL alcohol/$
 1 x 50000mL Keg Heineken Brouwerijen BV, Newcastle Brown Ale 5.73148 mL alcohol/$
-1 x 500mL Bottle Forked River Brewing Company, Forked River Capital 5.71429 mL alcohol/$
 12 x 500mL Bottle Forked River Brewing Company, Forked River Capital 5.71429 mL alcohol/$
 12 x 500mL Bottle Block Three Brewing Company, King Street Saison 5.71429 mL alcohol/$
+1 x 500mL Bottle Forked River Brewing Company, Forked River Capital 5.71429 mL alcohol/$
 6 x 473mL Can Molson, Rickards Radler 5.69498 mL alcohol/$
 24 x 355mL Can Molson, Molson Canadian 67 IPA  5.68632 mL alcohol/$
 24 x 355mL Can Molson, Rickards Radler 5.68632 mL alcohol/$
@@ -2345,17 +2349,17 @@
 6 x 341mL Bottle Muskoka Brewery, Muskoka Detour IPA  5.68333 mL alcohol/$
 24 x 473mL Can Amsterdam Brewing Company, Sweetwater Orange Radler 5.68073 mL alcohol/$
 24 x 473mL Can Brick, Waterloo Grapefr Radler 5.68073 mL alcohol/$
+6 x 330mL Bottle Big Rock Brewery, Big Rock Warthog Ale 5.67742 mL alcohol/$
 6 x 330mL Bottle Big Rock Brewery, Big Rock Rhineston Cowboy 5.67742 mL alcohol/$
 6 x 330mL Bottle Dortmunder Actien Brewery, Radeberger Pilsner 5.67742 mL alcohol/$
 6 x 330mL Bottle Birra Moretti Spa, Birra Moretti 5.67742 mL alcohol/$
-6 x 330mL Bottle Big Rock Brewery, Big Rock Warthog Ale 5.67742 mL alcohol/$
 1 x 473mL Can Amsterdam Brewing Company, Sweetwater Orange Radler 5.676 mL alcohol/$
 6 x 473mL Can Amsterdam Brewing Company, Sweetwater Orange Radler 5.676 mL alcohol/$
 1 x 30000mL Keg Ab Inbev, Stella Artois 5.67108 mL alcohol/$
 1 x 20000mL Keg Duvel Moortgat Usa Ltd, Ommegang Hennepin 5.66572 mL alcohol/$
 6 x 330mL Bottle Stiegl Getranke Service GMBh, Stiegl Bier 5.65714 mL alcohol/$
-12 x 650mL Bottle Refined Fool Brewing Company, Brouhaha Nut Brown 5.65217 mL alcohol/$
 12 x 650mL Bottle Refined Fool Brewing Company, Pouch Envy Australian 5.65217 mL alcohol/$
+12 x 650mL Bottle Refined Fool Brewing Company, Brouhaha Nut Brown 5.65217 mL alcohol/$
 6 x 341mL Bottle Highlander Brew Co, Beerded Lady 5.64414 mL alcohol/$
 6 x 330mL Bottle San Miguel Brewing Intl Ltd, San Miguel Premium Lager 5.63701 mL alcohol/$
 6 x 330mL Bottle Pilsner Urquell A.S., Pilsner Urquell 5.61702 mL alcohol/$
@@ -2371,8 +2375,8 @@
 1 x 500mL Bottle Badger Ales Limited, Badger Fursty Ferret 5.47945 mL alcohol/$
 6 x 500mL Bottle Badger Ales Limited, Badger Fursty Ferret 5.47945 mL alcohol/$
 20 x 500mL Bottle Badger Ales Limited, Badger Fursty Ferret 5.47945 mL alcohol/$
-1 x 650mL Bottle Highlander Brew Co, Highlander Scottish Ale 5.46218 mL alcohol/$
 1 x 650mL Bottle Refined Fool Brewing Company, Brouhaha Nut Brown 5.46218 mL alcohol/$
+1 x 650mL Bottle Highlander Brew Co, Highlander Scottish Ale 5.46218 mL alcohol/$
 1 x 650mL Bottle Refined Fool Brewing Company, Pouch Envy Australian 5.46218 mL alcohol/$
 6 x 330mL Bottle Cerveceria Modelo S.A. De C.V., Corona 5.46207 mL alcohol/$
 24 x 341mL Bottle Strathroy Brewing Company, Strathroy 1815 Frambois 5.45964 mL alcohol/$
@@ -2383,30 +2387,31 @@
 12 x 341mL Bottle Molson, Molson Canadian 67 5.34902 mL alcohol/$
 96 x 473mL Can Barnstormer Brewing Company, Barnstormer Billy Bishop 5.34212 mL alcohol/$
 12 x 355mL Can Molson, Rickards Radler 5.33612 mL alcohol/$
+30 x 355mL Can Brick, Waterloo Grapefr Radler 5.32944 mL alcohol/$
 1 x 50000mL Keg Interbrew UK Whitbread, Boddingtons Pub Ale 5.32198 mL alcohol/$
-12 x 500mL Bottle Royal City Brewing, Royalcity Exhibition IPA  5.30387 mL alcohol/$
 12 x 500mL Bottle Royal City Brewing, Royalcity Hibiscus Saison 5.30387 mL alcohol/$
-4 x 600mL Bottle Beaus All Natural Brewing Co, Beaus 80 Shilling Ale 5.27473 mL alcohol/$
+12 x 500mL Bottle Royal City Brewing, Royalcity Exhibition IPA  5.30387 mL alcohol/$
 12 x 600mL Bottle Beaus All Natural Brewing Co, Beaus 80 Shilling Ale 5.27473 mL alcohol/$
+4 x 600mL Bottle Beaus All Natural Brewing Co, Beaus 80 Shilling Ale 5.27473 mL alcohol/$
 1 x 20000mL Keg Palm Breweries Nv, Rodenbach Grand Cru 5.23903 mL alcohol/$
 1 x 20000mL Keg Birra Moretti Spa, Birra Moretti 5.21173 mL alcohol/$
 1 x 20000mL Keg Brouwerij Verhaeghe Vichte, Duchesse De Bourgogne 5.21059 mL alcohol/$
 1 x 30000mL Keg Bitburger Braugruppe GMBh, Konig Pilsener Keg 5.20043 mL alcohol/$
 12 x 473mL Can Brick, Waterloo Grapefr Radler 5.16783 mL alcohol/$
-1 x 473mL Can Brick, Waterloo Grapefr Radler 5.16 mL alcohol/$
 6 x 473mL Can Brick, Waterloo Grapefr Radler 5.16 mL alcohol/$
-12 x 355mL Can Molson, Molson Canadian 67 5.12224 mL alcohol/$
+1 x 473mL Can Brick, Waterloo Grapefr Radler 5.16 mL alcohol/$
 12 x 355mL Can Molson, Molson Canadian 67 IPA  5.12224 mL alcohol/$
+12 x 355mL Can Molson, Molson Canadian 67 5.12224 mL alcohol/$
 24 x 355mL Bottle Flying Monkeys Craft Brewery, Flying Monkeys Genius 5.11712 mL alcohol/$
 6 x 207mL Bottle Cerveceria Modelo S.A. De C.V., Corona 5.09538 mL alcohol/$
 24 x 473mL Can Barnstormer Brewing Company, Barnstormer Billy Bishop 5.06409 mL alcohol/$
-1 x 500mL Bottle Royal City Brewing, Royalcity Exhibition IPA  5.06329 mL alcohol/$
 1 x 500mL Bottle Royal City Brewing, Royalcity Hibiscus Saison 5.06329 mL alcohol/$
+1 x 500mL Bottle Royal City Brewing, Royalcity Exhibition IPA  5.06329 mL alcohol/$
 1 x 30000mL Keg Menabrea, Menabrea Blonda 5.05796 mL alcohol/$
 1 x 600mL Bottle Beaus All Natural Brewing Co, Beaus 80 Shilling Ale 5.05263 mL alcohol/$
 24 x 341mL Bottle Strathroy Brewing Company, Strathroy 1815 Lockstock 5.04018 mL alcohol/$
-24 x 355mL Bottle City Brewing Co. Llc, Not Your Fathers Root Beer 5.02655 mL alcohol/$
 6 x 355mL Bottle City Brewing Co. Llc, Not Your Fathers Root Beer 5.02655 mL alcohol/$
+24 x 355mL Bottle City Brewing Co. Llc, Not Your Fathers Root Beer 5.02655 mL alcohol/$
 1 x 500mL Bottle Block Three Brewing Company, King Street Saison 5.0 mL alcohol/$
 16 x 355mL Can Moosehead Breweries Limited, Cracked Canoe 4.95349 mL alcohol/$
 1 x 30000mL Keg Labatt, Labatt Bass Pale Ale 4.94845 mL alcohol/$
@@ -2417,8 +2422,8 @@
 12 x 341mL Bottle Moosehead Breweries Limited, Cracked Canoe 4.8426 mL alcohol/$
 12 x 355mL Bottle Flying Monkeys Craft Brewery, Flying Monkeys Genius 4.82264 mL alcohol/$
 24 x 341mL Bottle Brick, Red Baron Platinum Light 4.82121 mL alcohol/$
-1 x 30000mL Keg Krombacher Braueri, Krombacher Dark 4.81541 mL alcohol/$
 1 x 30000mL Keg Krombacher Braueri, Krombacher Pils 4.81541 mL alcohol/$
+1 x 30000mL Keg Krombacher Braueri, Krombacher Dark 4.81541 mL alcohol/$
 1 x 473mL Can Barnstormer Brewing Company, Barnstormer Billy Bishop 4.81017 mL alcohol/$
 24 x 330mL Bottle Cerveceria Modelo S.A. De C.V., Corona Light 4.75676 mL alcohol/$
 1 x 750mL Bottle Brasserie Belgh Brass, Mons Abbey Witte 4.71698 mL alcohol/$
@@ -2426,13 +2431,14 @@
 1 x 650mL Bottle Refined Fool Brewing Company, Troll Toll Cream Ale 4.67626 mL alcohol/$
 8 x 355mL Can Moosehead Breweries Limited, Cracked Canoe 4.63043 mL alcohol/$
 1 x 341mL Bottle Strathroy Brewing Company, Strathroy 1815 Lockstock 4.62373 mL alcohol/$
-4 x 600mL Bottle Beaus All Natural Brewing Co, Best Beaus Mixed Pack 4.61538 mL alcohol/$
 8 x 600mL Bottle Beaus All Natural Brewing Co, Best Beaus Mixed Pack 4.61538 mL alcohol/$
 16 x 600mL Bottle Beaus All Natural Brewing Co, Best Beaus Mixed Pack 4.61538 mL alcohol/$
+4 x 600mL Bottle Beaus All Natural Brewing Co, Best Beaus Mixed Pack 4.61538 mL alcohol/$
 1 x 20000mL Keg Duvel Moortgat N.V., Vedette Extra White 4.60829 mL alcohol/$
-1 x 30000mL Keg Warsteiner Brauerei, Warsteiner Premium Dunkel 4.58628 mL alcohol/$
 1 x 30000mL Keg Warsteiner Brauerei, Warsteiner Premium Verum 4.58628 mL alcohol/$
+1 x 30000mL Keg Warsteiner Brauerei, Warsteiner Premium Dunkel 4.58628 mL alcohol/$
 6 x 355mL Bottle Flying Monkeys Craft Brewery, Flying Monkeys Genius 4.58065 mL alcohol/$
+15 x 355mL Can Brick, Waterloo Grapefr Radler 4.57082 mL alcohol/$
 1 x 341mL Bottle Strathroy Brewing Company, Strathroy 1815 Frambois 4.54667 mL alcohol/$
 24 x 330mL Bottle Brewery Huyghe, Mongozo Premium Pilsner 4.52895 mL alcohol/$
 1 x 750mL Bottle Four Fathers Brewing Co Ltd, Honey Badger 4.52261 mL alcohol/$
@@ -2481,27 +2487,27 @@
 24 x 500mL Can Bavaria, Hollandia Super Strong 1.18636 mL alcohol/$
 12 x 568mL Can Breuvages Octane, Four Loko Peach 1.18333 mL alcohol/$
 2 x 568mL Can Breuvages Octane, Four Loko Peach 1.18333 mL alcohol/$
+12 x 568mL Can Breuvages Octane, Four Loko Lemonade 1.16513 mL alcohol/$
+2 x 568mL Can Breuvages Octane, Four Loko Black Cherry 1.16513 mL alcohol/$
+12 x 568mL Can Breuvages Octane, Four Loko Black Cherry 1.16513 mL alcohol/$
+2 x 568mL Can Breuvages Octane, Four Loko Fruit Punch 1.16513 mL alcohol/$
 12 x 568mL Can Breuvages Octane, Four Loko Fruit Punch 1.16513 mL alcohol/$
 2 x 568mL Can Breuvages Octane, Four Loko Watermelon 1.16513 mL alcohol/$
 12 x 568mL Can Breuvages Octane, Four Loko Watermelon 1.16513 mL alcohol/$
 2 x 568mL Can Breuvages Octane, Four Loko Grape 1.16513 mL alcohol/$
 12 x 568mL Can Breuvages Octane, Four Loko Grape 1.16513 mL alcohol/$
 2 x 568mL Can Breuvages Octane, Four Loko Lemonade 1.16513 mL alcohol/$
-12 x 568mL Can Breuvages Octane, Four Loko Lemonade 1.16513 mL alcohol/$
-2 x 568mL Can Breuvages Octane, Four Loko Black Cherry 1.16513 mL alcohol/$
-12 x 568mL Can Breuvages Octane, Four Loko Black Cherry 1.16513 mL alcohol/$
-2 x 568mL Can Breuvages Octane, Four Loko Fruit Punch 1.16513 mL alcohol/$
 1 x 500mL Can Bavaria, Hollandia Super Strong 1.16279 mL alcohol/$
+1 x 568mL Can Breuvages Octane, Four Loko Grape 1.136 mL alcohol/$
 1 x 568mL Can Breuvages Octane, Four Loko Black Cherry 1.136 mL alcohol/$
 1 x 568mL Can Breuvages Octane, Four Loko Watermelon 1.136 mL alcohol/$
 1 x 568mL Can Breuvages Octane, Four Loko Peach 1.136 mL alcohol/$
 1 x 568mL Can Breuvages Octane, Four Loko Fruit Punch 1.136 mL alcohol/$
 1 x 568mL Can Breuvages Octane, Four Loko Lemonade 1.136 mL alcohol/$
 1 x 568mL Can Breuvages Octane, Four Loko Strawbrry Lemon 1.136 mL alcohol/$
-1 x 568mL Can Breuvages Octane, Four Loko Grape 1.136 mL alcohol/$
 1 x 500mL Bottle Block Three Brewing Company, Through The Quad Belgian 0.83333 mL alcohol/$
-1 x 750mL Bottle Breuvages Octane, Mojo Shot Sourberry 0.75377 mL alcohol/$
-6 x 750mL Bottle Breuvages Octane, Mojo Shot Sourberry 0.75377 mL alcohol/$
 1 x 750mL Bottle Breuvages Octane, Mojo Shot Blue Lagoon 0.75377 mL alcohol/$
 6 x 750mL Bottle Breuvages Octane, Mojo Shot Blue Lagoon 0.75377 mL alcohol/$
+1 x 750mL Bottle Breuvages Octane, Mojo Shot Sourberry 0.75377 mL alcohol/$
+6 x 750mL Bottle Breuvages Octane, Mojo Shot Sourberry 0.75377 mL alcohol/$
 1 x 750mL Bottle Breuvages Octane, Mojo Shot Melon Ball 0.75 mL alcohol/$

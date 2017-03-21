@@ -11,6 +11,7 @@ class Beer:
         self.alcohol = alc
         self.price = prc
         self.sale = sl
+        self.rank = 0
         self.value = round((qnt * sz) / prc, 5)
         self.valueAlcohol = round((qnt * sz * (alc / 100)) / prc, 5)
     def prnt(self):
@@ -38,6 +39,7 @@ class BeerList:
                     swap =  self.list[i]
                     self.list[i] = self.list[j]
                     self.list[j] = swap
+            self.list[i].rank = i
     def insertName(self, beerData, quant):
         for i in range(0, self.length):
             if(i == self.length - 1):

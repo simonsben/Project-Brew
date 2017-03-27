@@ -2,7 +2,7 @@
 
 #Individual beer class
 class Beer:
-    def __init__(self, brnd, nm, tp, sz, qnt, alc, prc, sl):
+    def __init__(self, brnd, nm, tp, sz, qnt, alc, prc, sl, slPrc):
         self.brand = brnd
         self.name = nm
         self.type = tp
@@ -11,9 +11,13 @@ class Beer:
         self.alcohol = alc
         self.price = prc
         self.sale = sl
+        self.salePrice = slPrc
         self.rank = 0
-        self.value = round((qnt * sz) / prc, 5)
-        self.valueAlcohol = round((qnt * sz * (alc / 100)) / prc, 5)
+        calcPrice = prc
+        if(slPrc != 0):
+            calcPrice = slPrc
+        self.value = round((qnt * sz) / calcPrice, 5)
+        self.valueAlcohol = round((qnt * sz * (alc / 100)) / calcPrice, 5)
     def prnt(self):
         print(str(self.quantity) + ' x ' + str(self.size) + 'mL ' + str(self.type) + ' ' + str(self.brand) + ', ' + str(self.name) + ' ' + str(self.price) + '$')
     def prntAsString(self):

@@ -67,14 +67,18 @@ class collection:
 
                 #Extract price
                 price_location = content.find('price', size_location) + len('price') + 3
+                sale_price_location = price_location
+                salePrice = 0
                 if(content.find('sale-price', price_location, price_location + 50) != -1):
-                    price_location = content.find('sale-price', price_location)
-                    price_location = content.find('$', price_location + 1) + 1
+                    price_location = content.find('$', price_location) + 1
+                    sale_price_location = content.find('sale-price', sale_price_location)
+                    sale_price_location = content.find('$', sale_price_location + 1) + 1
+                    salePrice = float(content[sale_price_location:content.find('<', sale_price_location)])
                     sale = 1
                 price = float(content[price_location:content.find('<', price_location)])
                 #Calculate next quantity location (and whether it exists)
                 quantity_location = content.find('<td class="size">', quantity_location + 1, type_end)
-                brew = typeClass(brewer, beer_name, type, int(size), int(quantity), float(alcohol[0]), float(price), sale)
+                brew = typeClass(brewer, beer_name, type, int(size), int(quantity), float(alcohol[0]), float(price), sale, salePrice)
                 listOfBeer.append(brew)
                 sale = 0
 
@@ -86,5 +90,5 @@ class collection:
         linkLength = len(links)
         for i in range(0, linkLength):
             listOfBeer = collection.collectInfo(listOfBeer, links[i], listOfBeer)
-            print(str(i) + ' Beers complete of ' + str(linkLength) + '.')
+            print(str(i) + ' Beers complete of ' + (str(linkLength)-1) + '.')
         return listOfBeer

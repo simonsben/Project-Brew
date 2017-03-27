@@ -31,5 +31,5 @@ with open('jsonOut.txt', 'w+') as f:
     print(jsonOutput.dataToFile.toJSON(jsonOutput.dataToFile, listOfBeer), file=f)
 
 #Print list of beers
-listOfBeer.prnt()
+#listOfBeer.prnt()
 

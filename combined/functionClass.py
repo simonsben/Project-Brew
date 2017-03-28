@@ -28,8 +28,13 @@ class collection:
         #Class Instantiation
         typeClass = beerClass.Beer
 
+        #Beer picture
+        begin = content.find('brand-image-container')
+        beer_link_location = content.find('src', begin) + len('src') + 2
+        beer_link = content[beer_link_location:content.find('"', beer_link_location)]
+
         #Beer name
-        begin = content.find('only-desktop')
+        begin = content.find('only-desktop', begin)
         beer_name_location = content.find('class="page-title"', begin) + len('class="page-title"') + 1
         beer_name = content[beer_name_location:content.find('<', beer_name_location + 1)]
 
@@ -78,7 +83,7 @@ class collection:
                 price = float(content[price_location:content.find('<', price_location)])
                 #Calculate next quantity location (and whether it exists)
                 quantity_location = content.find('<td class="size">', quantity_location + 1, type_end)
-                brew = typeClass(brewer, beer_name, type, int(size), int(quantity), float(alcohol[0]), float(price), sale, salePrice)
+                brew = typeClass(brewer, beer_name, type, int(size), int(quantity), float(alcohol[0]), float(price), sale, salePrice, beer_link)
                 listOfBeer.append(brew)
                 sale = 0
 
@@ -90,5 +95,5 @@ class collection:
         linkLength = len(links)
         for i in range(0, linkLength):
             listOfBeer = collection.collectInfo(listOfBeer, links[i], listOfBeer)
-            print(str(i) + ' Beers complete of ' + (str(linkLength)-1) + '.')
+            print(str(i) + ' Beers complete of ' + (str(linkLength-1)) + '.')
         return listOfBeer

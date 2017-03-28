@@ -32,4 +32,3 @@ with open('jsonOut.txt', 'w+') as f:
 
 #Print list of beers
 #listOfBeer.prnt()
-

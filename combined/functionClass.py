@@ -83,7 +83,7 @@ class collection:
                 price = float(content[price_location:content.find('<', price_location)])
                 #Calculate next quantity location (and whether it exists)
                 quantity_location = content.find('<td class="size">', quantity_location + 1, type_end)
-                brew = typeClass(brewer, beer_name, type, int(size), int(quantity), float(alcohol[0]), float(price), sale, salePrice, beer_link)
+                brew = typeClass(brewer, beer_name, type, int(size), int(quantity), float(alcohol[0]), float(price), sale, salePrice, beer_link, url)
                 listOfBeer.append(brew)
                 sale = 0
 

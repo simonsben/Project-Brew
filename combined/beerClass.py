@@ -2,7 +2,7 @@
 
 #Individual beer class
 class Beer:
-    def __init__(self, brnd, nm, tp, sz, qnt, alc, prc, sl, slPrc, picLnk):
+    def __init__(self, brnd, nm, tp, sz, qnt, alc, prc, sl, slPrc, picLnk, pgLnk):
         self.brand = brnd
         self.name = nm
         self.type = tp
@@ -14,6 +14,7 @@ class Beer:
         self.salePrice = slPrc
         self.rank = 0
         self.pictureLink = picLnk
+        self.pageLink = pgLnk
         calcPrice = prc
         if(slPrc != 0):
             calcPrice = slPrc

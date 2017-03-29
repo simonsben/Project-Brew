@@ -15,9 +15,11 @@ class Beer:
         self.rank = 0
         self.pictureLink = picLnk
         self.pageLink = pgLnk
+        self.salePercent = 0
         calcPrice = prc
         if(slPrc != 0):
             calcPrice = slPrc
+            self.salePercent = (1-slPrc/prc)*100
         self.value = round((qnt * sz) / calcPrice, 5)
         self.valueAlcohol = round((qnt * sz * (alc / 100)) / calcPrice, 5)
     def prnt(self):

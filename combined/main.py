@@ -28,8 +28,8 @@ for i in range(0, 10):
     topTenList.append(listOfBeer.list[i])
 
 #Populate new sale list to reduce file size
-for i in range(0, 10):
-    if(listOfBeer.list[i].sale == 1):
+for i in range(0, listOfBeer.length):
+    if(listOfBeer.list[i].sale == 0):
         saleList.append(listOfBeer.list[i])
 
 #Output list of beers to text summary

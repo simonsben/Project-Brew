@@ -31,6 +31,7 @@ for i in range(0, 10):
 for i in range(0, listOfBeer.length):
     if(listOfBeer.list[i].sale == 1):
         saleList.append(listOfBeer.list[i])
+saleList.sort('salePercent')
 
 #Output list of beers to text summary
 with open('dataTaken.txt', 'w+') as f:

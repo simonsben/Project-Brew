@@ -1,7 +1,6 @@
 import json
 import beerClass
 
-
 class dataToFile:
         def toJSON(self, listOfBeer):
             beerObject = beerClass.Beer

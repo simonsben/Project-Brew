@@ -13,6 +13,7 @@ funcClass = functionClass.collection
 listOfBeer = listClass()
 topTenList = listClass()
 saleList = listClass()
+kegList = listClass()
 
 #Strip links for all beer pages
 link = funcClass.stripURL(funcClass)
@@ -33,6 +34,11 @@ for i in range(0, listOfBeer.length):
         saleList.append(listOfBeer.list[i])
 saleList.sort('salePercent')
 
+#Populate new keg list to reduce file size
+for bit in listOfBeer.list:
+    if(bit.type == 'Keg'):
+        kegList.append(bit)
+
 #Output list of beers to text summary
 with open('dataTaken.txt', 'w+') as f:
     for i in range(0, listOfBeer.length):
@@ -48,6 +54,8 @@ with open('top10jsonData.txt', 'w+') as f:
 with open('jsonSaleData.txt', 'w+') as f:
     print(jsonOutput.dataToFile.toJSON(jsonOutput.dataToFile, saleList), file=f)
 
+with open('jsonKegData.txt', 'w+') as f:
+    print(jsonOutput.dataToFile.toJSON(jsonOutput.dataToFile, kegList), file=f)
 
 #Print list of beers
 #listOfBeer.prnt()

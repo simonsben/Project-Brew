@@ -38,6 +38,7 @@ saleList.sort('salePercent')
 for bit in listOfBeer.list:
     if(bit.type == 'Keg'):
         kegList.append(bit)
+kegList.sort('value')
 
 #Output list of beers to text summary
 with open('dataTaken.txt', 'w+') as f:

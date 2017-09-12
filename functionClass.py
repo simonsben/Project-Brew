@@ -93,7 +93,7 @@ class collection:
         listClass = beerClass.BeerList
         listOfBeer = listClass()
         linkLength = len(links)
-        for i in range(0, linkLength):
+        for i in range(0, 50):
             listOfBeer = collection.collectInfo(listOfBeer, links[i], listOfBeer)
             print(str(i) + ' Beers complete of ' + (str(linkLength-1)) + '.')
         return listOfBeer

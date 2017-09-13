@@ -1,4 +1,4 @@
-from urllib.request import urlopen
+from urllib.request import urlopen, URLError
 import beerClass
 import multiprocessing
 
@@ -50,6 +50,7 @@ def collectInfo(url):
     type_location = alcohol_location
     sale = 0
 
+    setOfBrews = []
     while(content.find('<th class="large">', type_location) != -1):
         type_location = content.find('<th class="large">', type_location + 1) + len('<th class="large">')
         type = content[type_location:content.find('<', type_location)]
@@ -81,23 +82,29 @@ def collectInfo(url):
             price = float(content[price_location:content.find('<', price_location)])
             #Calculate next quantity location (and whether it exists)
             quantity_location = content.find('<td class="size">', quantity_location + 1, type_end)
-            brew = beerClass.Beer(brewer, beer_name, type, int(size), int(quantity), float(alcohol[0]), float(price), sale, salePrice, beer_link, url)
-            #listOfBeer.append(brew)
-            print('Done' + beer_name)
+            setOfBrews.append(beerClass.Beer(brewer, beer_name, type, int(size), int(quantity), float(alcohol[0]), float(price), sale, salePrice, beer_link, url))
             sale = 0
 
-    return brew
+    print('Done' + beer_name)
+
+    return setOfBrews
 
 def ripList(links):
     listOfBeer = beerClass.BeerList()
-    #linkLength = len(links)
 
     results = []
-    newSet = links[:50]
-    with multiprocessing.Pool(processes=20) as p:
-        results = p.map(collectInfo, newSet)
+    with multiprocessing.Pool(processes=35) as p:
+        results = p.map(collectInfo, links)
 
-    for brew in results:
-        listOfBeer.append(brew)
+    for brand in results:
+        for brew in brand:
+            listOfBeer.append(brew)
 
     return listOfBeer
+
+def connectionCheck():
+    try:
+        urlopen('http://www.thebeerstore.ca/', timeout=2)
+        return True
+    except URLError as err:
+        return False

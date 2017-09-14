@@ -1,47 +1,38 @@
 import beerClass
-import functionClass
+import functionClass as funcClass
 import jsonOutput
-import updatedFunctionClass
-import time
 
-if __name__ == '__main__' and updatedFunctionClass.connectionCheck():
+if __name__ == '__main__' and funcClass.connectionCheck():
     #Class Instantiation
     typeClass = beerClass.Beer
     listClass = beerClass.BeerList
-    funcClass = functionClass.collection
-    newFuncClass = updatedFunctionClass
 
     #Variable declaration
     outputFolder = 'data/'
 
-    #Class initalization
+    #Object instatiation
     listOfBeer = listClass()
-    newListOfBeer = listClass()
     topTenList = listClass()
     saleList = listClass()
     kegList = listClass()
 
+    #Pull beers and sort
+    link = funcClass.stripURL()     #Strip links for all beer pages
+    listOfBeer = funcClass.ripList(link)    #Pull information from each beer page
+    listOfBeer.sort('valueAlcohol')     #Sort list of beers by mL / $
+    print('Collection done.')
 
-    #Strip links for all beer pages
-    link = funcClass.stripURL(funcClass)
-
-    #Pull information from each beer page
-    listOfBeer = newFuncClass.ripList(link)
-
-    #Sort list of beers by mL / $
-    listOfBeer.sort('valueAlcohol')
-
-    #Populate new topTen list to reduce file size
+    #Populate new topTen list to reduce its file size
     for i in range(0, 10):
         topTenList.append(listOfBeer.list[i])
 
-    #Populate new sale list to reduce file size
+    #Populate new sale list to reduce its file size
     for bit in listOfBeer.list:
         if bit.sale == 1:
             saleList.append(bit)
     saleList.sort('salePercent')
 
-    #Populate new keg list to reduce file size
+    #Populate keg list to reduce its file size
     for bit in listOfBeer.list:
         if(bit.type == 'Keg'):
             kegList.append(bit)
@@ -50,14 +41,11 @@ if __name__ == '__main__' and updatedFunctionClass.connectionCheck():
     #Output list of beers to text summary
     with open(outputFolder + 'dataTaken.txt', 'w+') as f:
         for bit in listOfBeer.list:
-            print(bit, file=f)
+            print(bit.prntAsString, file=f)
 
     #Output list of beers to JSON
     with open(outputFolder + 'jsonAllData.txt', 'w+') as f:
         print(jsonOutput.dataToFile.toJSON(jsonOutput.dataToFile, listOfBeer), file=f)
-
-    with open(outputFolder + 'newJsonAllData.txt', 'w+') as f:
-        print(jsonOutput.dataToFile.toJSON(jsonOutput.dataToFile, newListOfBeer), file=f)
 
     with open(outputFolder + 'top10jsonData.txt', 'w+') as f:
         print(jsonOutput.dataToFile.toJSON(jsonOutput.dataToFile, topTenList), file=f)

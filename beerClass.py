@@ -1,17 +1,15 @@
-#Beer definition template
+from copy import copy
 
 #Individual beer class
 class Beer:
+    infOrd = {'type': 0, 'size': 1, 'quantity': 2, 'price': 3, 'sale': 4, 'salePrice': 5, 'salePercent': 6, 'value': 7, 'valAlc': 8}
     def __init__(self, brnd, nm, tp, sz, qnt, alc, prc, sl, slPrc, picLnk, pgLnk):
         self.brand = brnd
         self.name = nm
-        self.type = tp
-        self.size = sz
-        self.quantity = qnt
+        #Info format: Type (0), size(1), quantity(2), price(3), sale(4), sale price(5), sale percent(6), value(7), alc value(8)
+        self.info = [[tp, sz, qnt, prc, sl, slPrc, 0, 0, 0]] #NOTE: 0s are sale percent, value, and alc value
+        self.cnt = 1
         self.alcohol = alc
-        self.price = prc
-        self.sale = sl
-        self.salePrice = slPrc
         self.rank = 0
         self.pictureLink = picLnk
         self.pageLink = pgLnk
@@ -19,14 +17,59 @@ class Beer:
         calcPrice = prc
         if(slPrc != 0):
             calcPrice = slPrc
-            self.salePercent = (1-slPrc/prc)*100
+            self.info[0][6] = (1-slPrc/prc)*100
+            self.salePercent = self.info[0][6]
         self.value = round((qnt * sz) / calcPrice, 5)
-        self.valueAlcohol = round((qnt * sz * (alc / 100)) / calcPrice, 5)
+        self.valAlc = round((qnt * sz * (alc / 100)) / calcPrice, 5)
+        self.info[0][7] = self.value
+        self.info[0][8] = self.valAlc
+        self.isSale = sl == 1
+    def addBrew(self, tp, sz, qnt, prc, sl, slPrc):
+        self.info.append([tp, sz, qnt, prc, sl, slPrc, 0, 0, 0])
+        self.cnt = len(self.info)
+        offset = len(self.info)-1
+        calcPrice = prc
+        if(slPrc != 0):
+            calcPrice = slPrc
+            self.info[offset][6] = (1-slPrc/prc)*100
+            if self.info[offset][6] > self.salePercent:
+                self.salePercent = self.info[offset][6]
+        self.info[offset][7] = round((qnt * sz) / calcPrice, 5)
+        self.info[offset][8] = round((qnt * sz * (self.alcohol / 100)) / calcPrice, 5)
+        if self.info[offset][8] > self.valAlc:
+            self.valAlc = self.info[offset][8]
+            self.value = self.info[offset][7]
+        self.isSale = self.isSale or sl == 1
+    def dumpBrew(self, ind):
+        if ind >= 0 and ind < len(self.info) - 1:
+            del self.info[ind]
+            self.cnt = len(self.info)
+    def pullBAttr(self, attr, val):
+        for i, brew in enumerate(self.info):
+            delList = []
+            if(brew[self.infOrd[attr]] != val):
+                delList.append(i)
+
+        if len(delList) == len(self.info):
+            return False
+        elif len(delList) > 0:
+            for i in range(delList[len(delList)-1], 0, -1):
+                del self.info[i]
+        return True
     def prnt(self):
-        print(str(self.quantity) + ' x ' + str(self.size) + 'mL ' + str(self.type) + ' ' + str(self.brand) + ', ' + str(self.name) + ' ' + str(self.price) + '$')
+        print(self.brand + "'s "  + self.name + ' with ' + str(self.alcohol.toFixed(1)) + ' in sizes:  ')
+        for brew in self.info:
+            if(brew[4] == 1):
+                print(brew[2] + ' x ' + brew[1] + ' at ' + brew[5] + ' (' + brew[6] + '% off) or ' + brew[8] + ' mL of alc. /$')
+            else:
+                print(brew[2] + ' x ' + brew[1] + ' at ' + brew[3] + ' or ' + brew[8] + ' mL of alc. /$')
     def prntAsString(self):
-        #strng = str(self.quantity) + ' x ' + str(self.size) + 'mL ' + str(self.type) + ' ' + str(self.brand) + ' ' + str(self.name) + ' ' + str(self.price) + '$'
-        strng = str(self.quantity) + ' x ' + str(self.size) + 'mL ' + str(self.type) + ' ' + str(self.brand) + ', ' + str(self.name) + ' ' + str(self.valueAlcohol) + ' mL alcohol/$'
+        strng = self.brand + "'s "  + self.name + ' with ' + str(self.alcohol.toFixed(1)) + ' in sizes:  '
+        for brew in self.info:
+            if(brew[4] == 1):
+                strng += brew[2] + ' x ' + brew[1] + ' at ' + brew[5] + ' (' + brew[6] + '% off) or ' + brew[8] + ' mL of alc. /$'
+            else:
+                strng += brew[2] + ' x ' + brew[1] + ' at ' + brew[3] + ' or ' + brew[8] + ' mL of alc. /$'
         return strng
 
 #List of all beers class
@@ -36,18 +79,15 @@ class BeerList:
         self.length = 0
     def append(self, beerData):
         self.list.append(beerData)
-        self.length += 1
+        self.length += beerData.cnt
     def prnt(self):
         for i in range(0, self.length):
             Beer.prnt(self.list[i])
     def sort(self, quant):
-        for i in range(0, self.length):
-            for j in range(i, self.length):
-                if(getattr(self.list[i], quant) < getattr(self.list[j], quant)):
-                    swap =  self.list[i]
-                    self.list[i] = self.list[j]
-                    self.list[j] = swap
-            self.list[i].rank = i
+        self.list.sort(key=lambda Beer: getattr(Beer, quant), reverse=True)
+        for i, brew in enumerate(self.list):
+            brew.rank = i + 1
+            brew.info.sort(key=lambda list: brew.infOrd[quant], reverse=True)
     def insertName(self, beerData, quant):
         for i in range(0, self.length):
             if(i == self.length - 1):
@@ -55,6 +95,14 @@ class BeerList:
             elif(getattr(self.list[i], quant) > getattr(beerData, quant)):
                 self.list.insert(i, beerData)
                 return
+    def kegListGen(self):
+        kegList = BeerList()
+        for brew in self.list:
+            for i in range(0, len(brew.info)-1):
+                if brew.info[i][brew.infOrd['type']] == 'keg':
+                    kegList.append(copy(brew))
+                    break
+        return  kegList
     def prntSng(self, ind):
         return Beer.prntAsString(self.list[ind])
 

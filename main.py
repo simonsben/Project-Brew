@@ -1,6 +1,8 @@
 import beerClass
 import functionClass as funcClass
 import jsonOutput
+from time import time
+from copy import copy
 
 if __name__ == '__main__' and funcClass.connectionCheck():
     #Class Instantiation
@@ -16,26 +18,25 @@ if __name__ == '__main__' and funcClass.connectionCheck():
     saleList = listClass()
     kegList = listClass()
 
+    start = time()
     #Pull beers and sort
     link = funcClass.stripURL()     #Strip links for all beer pages
     listOfBeer = funcClass.ripList(link)    #Pull information from each beer page
-    listOfBeer.sort('valueAlcohol')     #Sort list of beers by mL / $
-    print('Collection done.')
+    listOfBeer.sort('valAlc')     #Sort list of beers by mL / $
+    print('Collection done in ' + str(time()-start) + ' seconds.')
 
     #Populate new topTen list to reduce its file size
     for i in range(0, 10):
-        topTenList.append(listOfBeer.list[i])
+        topTenList.append(copy(listOfBeer.list[i]))
 
     #Populate new sale list to reduce its file size
     for bit in listOfBeer.list:
-        if bit.sale == 1:
-            saleList.append(bit)
+        if bit.isSale == 1:
+            saleList.append(copy(bit))
     saleList.sort('salePercent')
 
     #Populate keg list to reduce its file size
-    for bit in listOfBeer.list:
-        if(bit.type == 'Keg'):
-            kegList.append(bit)
+    kegList = listOfBeer.kegListGen()
     kegList.sort('value')
 
     #Output list of beers to text summary

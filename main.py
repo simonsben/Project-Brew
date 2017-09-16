@@ -37,7 +37,6 @@ if __name__ == '__main__' and funcClass.connectionCheck():
 
     #Populate keg list to reduce its file size
     kegList = listOfBeer.kegListGen()
-    kegList.sort('value')
 
     #Output list of beers to text summary
     with open(outputFolder + 'dataTaken.txt', 'w+') as f:
@@ -45,16 +44,16 @@ if __name__ == '__main__' and funcClass.connectionCheck():
             print(bit.prntAsString, file=f)
 
     #Output list of beers to JSON
-    with open(outputFolder + 'jsonAllData.txt', 'w+') as f:
+    with open(outputFolder + 'jsonAllData.json', 'w+') as f:
         print(jsonOutput.dataToFile.toJSON(jsonOutput.dataToFile, listOfBeer), file=f)
 
-    with open(outputFolder + 'top10jsonData.txt', 'w+') as f:
+    with open(outputFolder + 'top10jsonData.json', 'w+') as f:
         print(jsonOutput.dataToFile.toJSON(jsonOutput.dataToFile, topTenList), file=f)
 
-    with open(outputFolder + 'jsonSaleData.txt', 'w+') as f:
+    with open(outputFolder + 'jsonSaleData.json', 'w+') as f:
         print(jsonOutput.dataToFile.toJSON(jsonOutput.dataToFile, saleList), file=f)
 
-    with open(outputFolder + 'jsonKegData.txt', 'w+') as f:
+    with open(outputFolder + 'jsonKegData.json', 'w+') as f:
         print(jsonOutput.dataToFile.toJSON(jsonOutput.dataToFile, kegList), file=f)
 
 elif __name__ == '__main__':

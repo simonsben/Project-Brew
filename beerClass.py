@@ -24,6 +24,7 @@ class Beer:
         self.info[0][7] = self.value
         self.info[0][8] = self.valAlc
         self.isSale = sl == 1
+        self.price = prc
     def addBrew(self, tp, sz, qnt, prc, sl, slPrc):
         self.info.append([tp, sz, qnt, prc, sl, slPrc, 0, 0, 0])
         self.cnt = len(self.info)
@@ -39,11 +40,8 @@ class Beer:
         if self.info[offset][8] > self.valAlc:
             self.valAlc = self.info[offset][8]
             self.value = self.info[offset][7]
+            self.price = self.info[offset][3]
         self.isSale = self.isSale or sl == 1
-    def dumpBrew(self, ind):
-        if ind >= 0 and ind < len(self.info) - 1:
-            del self.info[ind]
-            self.cnt = len(self.info)
     def pullBAttr(self, attr, val):
         for i, brew in enumerate(self.info):
             delList = []
@@ -56,6 +54,12 @@ class Beer:
             for i in range(delList[len(delList)-1], 0, -1):
                 del self.info[i]
         return True
+    def makeMain(self, ind):
+        if not ind >= 0 or not len(self.info)-1 >= ind:
+            return
+        self.price = self.info[ind][3]
+        self.value = self.info[ind][7]
+        self.valAlc = self.info[ind][8]
     def prnt(self):
         print(self.brand + "'s "  + self.name + ' with ' + str(self.alcohol.toFixed(1)) + ' in sizes:  ')
         for brew in self.info:
@@ -98,10 +102,17 @@ class BeerList:
     def kegListGen(self):
         kegList = BeerList()
         for brew in self.list:
+            mainKeg = -1
             for i in range(0, len(brew.info)-1):
                 if brew.info[i][brew.infOrd['type']] == 'keg':
-                    kegList.append(copy(brew))
-                    break
+                    if mainKeg == -1:
+                        mainKeg = i
+                    elif brew.info[i][7] > brew.info[mainKeg][7]:
+                        mainKeg = i
+            if mainKeg != -1:
+                kegList.append(copy(brew))
+                kegList.list[len(kegList.list)-1].makeMain(len(kegList.list)-1)
+        kegList.list.sort(key=lambda Beer: Beer.value, reverse=True)
         return  kegList
     def prntSng(self, ind):
         return Beer.prntAsString(self.list[ind])

@@ -33,7 +33,7 @@ if __name__ == '__main__' and funcClass.connectionCheck():
     for bit in listOfBeer.list:
         if bit.isSale == 1:
             saleList.append(copy(bit))
-    saleList.sort('salePercent')
+    saleList.lightSort('salePercent')
 
     #Populate keg list to reduce its file size
     kegList = listOfBeer.kegListGen()

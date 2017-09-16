@@ -96,6 +96,10 @@ class BeerList:
         for i, brew in enumerate(self.list):
             brew.rank = i + 1
             brew.info.sort(key=lambda list: brew.infOrd[quant], reverse=True)
+    def lightSort(self, quant):
+        self.list.sort(key=lambda Beer: getattr(Beer, quant), reverse=True)
+        for i, brew in enumerate(self.list):
+            brew.rank = i
     def insertName(self, beerData, quant):
         for i in range(0, self.length):
             if(i == self.length - 1):
@@ -116,7 +120,7 @@ class BeerList:
             if mainKeg != -1:
                 kegList.append(copy(brew))
                 kegList.list[len(kegList.list)-1].makeMain(len(kegList.list)-1)
-        kegList.list.sort(key=lambda Beer: Beer.value, reverse=True)
+        kegList.lightSort('value')
         return  kegList
     def prntSng(self, ind):
         return Beer.prntAsString(self.list[ind])

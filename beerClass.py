@@ -95,7 +95,7 @@ class BeerList:
         self.list.sort(key=lambda Beer: getattr(Beer, quant), reverse=True)
         for i, brew in enumerate(self.list):
             brew.rank = i + 1
-            brew.info.sort(key=lambda list: brew.infOrd[quant], reverse=True)
+            brew.info.sort(key=lambda list: list[brew.infOrd[quant]], reverse=True)
     def lightSort(self, quant):
         self.list.sort(key=lambda Beer: getattr(Beer, quant), reverse=True)
         for i, brew in enumerate(self.list):

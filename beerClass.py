@@ -120,9 +120,10 @@ class BeerList:
                         mainKeg = i
             if mainKeg != -1:
                 kegList.append(copy(brew))
-                print(str(len(kegList.list)) + ' vs ' + str(mainKeg))
                 kegList.list[len(kegList.list)-1].makeMain(mainKeg)
         kegList.list.sort(key=lambda Beer: Beer.value, reverse=True)
+        for i, brew in enumerate(kegList.list):
+            brew.rank = i
 
         return kegList
     def prntSng(self, ind):

@@ -1,4 +1,5 @@
 from copy import copy
+import time
 
 #Individual beer class
 class Beer:
@@ -119,7 +120,8 @@ class BeerList:
                         mainKeg = i
             if mainKeg != -1:
                 kegList.append(copy(brew))
-                kegList.list[len(kegList.list)-1].makeMain(len(kegList.list)-1)
+                print(str(len(kegList.list)) + ' vs ' + str(mainKeg))
+                kegList.list[len(kegList.list)-1].makeMain(mainKeg)
         kegList.list.sort(key=lambda Beer: Beer.value, reverse=True)
 
         return kegList

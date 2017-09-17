@@ -120,8 +120,9 @@ class BeerList:
             if mainKeg != -1:
                 kegList.append(copy(brew))
                 kegList.list[len(kegList.list)-1].makeMain(len(kegList.list)-1)
-        kegList.lightSort('value')
-        return  kegList
+        kegList.list.sort(key=lambda Beer: Beer.value, reverse=True)
+
+        return kegList
     def prntSng(self, ind):
         return Beer.prntAsString(self.list[ind])
 

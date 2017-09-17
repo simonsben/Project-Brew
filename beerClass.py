@@ -112,7 +112,7 @@ class BeerList:
         for brew in self.list:
             mainKeg = -1
             for i in range(0, len(brew.info)-1):
-                if brew.info[i][brew.infOrd['type']] == 'keg':
+                if brew.info[i][brew.infOrd['type']] == 'Keg':
                     if mainKeg == -1:
                         mainKeg = i
                     elif brew.info[i][7] > brew.info[mainKeg][7]:

@@ -5,7 +5,7 @@ import time
 class Beer:
     infOrd = {'type': 0, 'size': 1, 'quantity': 2, 'price': 3, 'sale': 4, 'salePrice': 5, 'salePercent': 6, 'value': 7, 'valAlc': 8}
     retAmt = {'Can': 0.05, 'Bottle': 0.1}
-    kRetAmt = {58600: 50, 50000:50, 30000:50, 25000: 20, 20000: 20}
+    kRetAmt = {58600: 50, 50000:50, 30000:50, 25000: 20, 20000: 20, 12000:20}
     def __init__(self, brnd, nm, tp, sz, qnt, alc, prc, sl, slPrc, picLnk, pgLnk):
         self.brand = brnd
         self.name = nm
@@ -23,11 +23,11 @@ class Beer:
             calcPrice -= Beer.kRetAmt[sz] * qnt
         else:
             calcPrice -= Beer.retAmt[tp] * qnt
+
         if(slPrc != 0):
-            calcPrice = slPrc
+            calcPrice -= prc - slPrc
             self.info[0][6] = (1-slPrc/prc)*100
             self.salePercent = self.info[0][6]
-
         self.value = round((qnt * sz) / calcPrice, 5)
         self.valAlc = round((qnt * sz * (alc / 100)) / calcPrice, 5)
         self.info[0][7] = self.value
@@ -39,9 +39,14 @@ class Beer:
         self.cnt = len(self.info)
         offset = len(self.info)-1
         calcPrice = prc
+        if tp == 'Keg':
+            calcPrice -= Beer.kRetAmt[sz] * qnt
+        else:
+            calcPrice -= Beer.retAmt[tp] * qnt
+
         if(slPrc != 0):
-            calcPrice = slPrc
-            self.info[offset][6] = (1-slPrc/prc)*100
+            calcPrice -= prc - slPrc
+            self.info[offset][6] = (1-calcPrice/prc)*100
             if self.info[offset][6] > self.salePercent:
                 self.salePercent = self.info[offset][6]
         self.info[offset][7] = round((qnt * sz) / calcPrice, 5)

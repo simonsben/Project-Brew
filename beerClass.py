@@ -4,6 +4,8 @@ import time
 #Individual beer class
 class Beer:
     infOrd = {'type': 0, 'size': 1, 'quantity': 2, 'price': 3, 'sale': 4, 'salePrice': 5, 'salePercent': 6, 'value': 7, 'valAlc': 8}
+    retAmt = {'Can': 0.05, 'Bottle': 0.1}
+    kRetAmt = {58600: 50, 50000:50, 30000:50, 25000: 20, 20000: 20}
     def __init__(self, brnd, nm, tp, sz, qnt, alc, prc, sl, slPrc, picLnk, pgLnk):
         self.brand = brnd
         self.name = nm
@@ -17,6 +19,10 @@ class Beer:
         self.cnt = 1
         self.salePercent = 0
         calcPrice = prc
+        if tp == 'Keg':
+            calcPrice -= Beer.kRetAmt[sz] * qnt
+        else:
+            calcPrice -= Beer.retAmt[tp] * qnt
         if(slPrc != 0):
             calcPrice = slPrc
             self.info[0][6] = (1-slPrc/prc)*100
@@ -27,7 +33,7 @@ class Beer:
         self.info[0][7] = self.value
         self.info[0][8] = self.valAlc
         self.isSale = sl == 1
-        self.price = prc
+        self.price = calcPrice
     def addBrew(self, tp, sz, qnt, prc, sl, slPrc):
         self.info.append([tp, sz, qnt, prc, sl, slPrc, 0, 0, 0])
         self.cnt = len(self.info)

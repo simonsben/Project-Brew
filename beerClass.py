@@ -25,7 +25,7 @@ class Beer:
             calcPrice -= Beer.retAmt[tp] * qnt
 
         if(slPrc != 0):
-            calcPrice -= prc - slPrc
+            calcPrice -= (prc - slPrc)
             self.info[0][6] = (1-slPrc/prc)*100
             self.salePercent = self.info[0][6]
         self.value = round((qnt * sz) / calcPrice, 5)
@@ -43,9 +43,9 @@ class Beer:
             calcPrice -= Beer.kRetAmt[sz] * qnt
         else:
             calcPrice -= Beer.retAmt[tp] * qnt
-
+        self.info[offset][3] = calcPrice
         if(slPrc != 0):
-            calcPrice -= prc - slPrc
+            calcPrice -= (prc - slPrc)
             self.info[offset][6] = (1-calcPrice/prc)*100
             if self.info[offset][6] > self.salePercent:
                 self.salePercent = self.info[offset][6]

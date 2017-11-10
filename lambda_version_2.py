@@ -7,7 +7,7 @@ import json
 #Individual beer class
 class Beer:
     infOrd = {'type': 0, 'size': 1, 'quantity': 2, 'price': 3, 'sale': 4, 'salePrice': 5, 'salePercent': 6, 'value': 7, 'valAlc': 8}
-    retAmt = {'Can': 0.05, 'Bottle': 0.1}
+    retAmt = {'Can': 0, 'Bottle': 0}
     kRetAmt = {58600: 50, 50000:50, 30000:50, 25000: 20, 20000: 20, 12000:20}
     def __init__(self, brnd, nm, tp, sz, qnt, alc, prc, sl, slPrc, picLnk, pgLnk):
         self.brand = brnd

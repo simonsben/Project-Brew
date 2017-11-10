@@ -1,5 +1,4 @@
 from copy import copy
-import time
 
 #Individual beer class
 class Beer:

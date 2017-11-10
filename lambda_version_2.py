@@ -7,7 +7,6 @@ import json
 #Individual beer class
 class Beer:
     infOrd = {'type': 0, 'size': 1, 'quantity': 2, 'price': 3, 'sale': 4, 'salePrice': 5, 'salePercent': 6, 'value': 7, 'valAlc': 8}
-    retAmt = {'Can': 0, 'Bottle': 0}
     kRetAmt = {58600: 50, 50000:50, 30000:50, 25000: 20, 20000: 20, 12000:20}
     def __init__(self, brnd, nm, tp, sz, qnt, alc, prc, sl, slPrc, picLnk, pgLnk):
         self.brand = brnd
@@ -21,34 +20,36 @@ class Beer:
         self.info = [[tp, sz, qnt, prc, sl, slPrc, 0, 0, 0]] #NOTE: 0s are sale percent, value, and alc value
         self.cnt = 1
         self.salePercent = 0
-        calcPrice = prc
+        if sl:
+            calcPrice = slPrc
+        else:
+            calcPrice = prc
         if tp == 'Keg':
             calcPrice -= Beer.kRetAmt[sz] * qnt
-        else:
-            calcPrice -= Beer.retAmt[tp] * qnt
 
-        if(slPrc != 0):
-            calcPrice -= (prc - slPrc)
+        if sl:
             self.info[0][6] = (1-slPrc/prc)*100
             self.salePercent = self.info[0][6]
         self.value = round((qnt * sz) / calcPrice, 5)
         self.valAlc = round((qnt * sz * (alc / 100)) / calcPrice, 5)
         self.info[0][7] = self.value
         self.info[0][8] = self.valAlc
-        self.isSale = sl == 1
+        self.isSale = sl
         self.price = calcPrice
     def addBrew(self, tp, sz, qnt, prc, sl, slPrc):
         self.info.append([tp, sz, qnt, prc, sl, slPrc, 0, 0, 0])
         self.cnt = len(self.info)
-        offset = len(self.info)-1
-        calcPrice = prc
+        offset = self.cnt-1
+        if sl:
+            calcPrice = slPrc
+        else:
+            calcPrice = prc
+
         if tp == 'Keg':
             calcPrice -= Beer.kRetAmt[sz] * qnt
-        else:
-            calcPrice -= Beer.retAmt[tp] * qnt
+
         self.info[offset][3] = calcPrice
-        if(slPrc != 0):
-            calcPrice -= (prc - slPrc)
+        if sl:
             self.info[offset][6] = (1-calcPrice/prc)*100
             if self.info[offset][6] > self.salePercent:
                 self.salePercent = self.info[offset][6]
@@ -59,7 +60,7 @@ class Beer:
             self.value = self.info[offset][7]
             self.price = self.info[offset][3]
             self.main = offset
-        self.isSale = self.isSale or sl == 1
+        self.isSale = sl or self.isSale
     def pullBAttr(self, attr, val):
         for i, brew in enumerate(self.info):
             delList = []

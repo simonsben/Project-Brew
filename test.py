@@ -1,23 +1,32 @@
-import multiprocessing
-import time
-from urllib.request import urlopen
+from multiprocessing import Process, Lock, Queue
+from time import sleep, time
 
-def action(b):
-    raw = urlopen('http://google.ca/').read()
-    print(str(b) + ' done.')
-    return b
+def work(_queue, procNm):
+    l = Lock()
+    while True:
+        sleep(1)
+        nm = _queue.get()
+        if nm != 'DONE':
+            print(nm)
+        else:
+            print('Killed: ' + str(procNm))
+            break
 
-if __name__ == '__main__':
-    start = time.time()
-    numP = 50
-    arguments = range(numP)
+def main():
+    if __name__ == '__main__':
+        queue = Queue()
+        for i in range(15):
+            queue.put(i)
+        procs = []
 
-    startN = time.time()
-    with multiprocessing.Pool(processes=10) as p:
-        result_set = p.map(action, arguments)
-    endN = time.time()
-    result_set = []
+        for i in range(10):
+            p = Process(target=work, args=(queue,i))
+            p.start()
+            procs.append(p)
+            queue.put('DONE')
 
-    print('Normal: ' + str(endN - startN))
+        for pcs in procs:
+            pcs.join()
+        print('Done.')
 
-    #print(len(result_set))
+main()

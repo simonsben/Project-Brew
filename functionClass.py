@@ -50,7 +50,7 @@ def collectInfo(url):
     type_location = alcohol_location
     sale = 0
 
-    setOfBrews = []
+    first = True
     while(content.find('<th class="large">', type_location) != -1):
         type_location = content.find('<th class="large">', type_location + 1) + len('<th class="large">')
         type = content[type_location:content.find('<', type_location)]
@@ -82,23 +82,25 @@ def collectInfo(url):
             price = float(content[price_location:content.find('<', price_location)])
             #Calculate next quantity location (and whether it exists)
             quantity_location = content.find('<td class="size">', quantity_location + 1, type_end)
-            setOfBrews.append(beerClass.Beer(brewer, beer_name, type, int(size), int(quantity), float(alcohol[0]), float(price), sale, salePrice, beer_link, url))
+            if first == True:
+                brew = beerClass.Beer(brewer, beer_name, type, int(size), int(quantity), float(alcohol[0]), float(price), sale, salePrice, beer_link, url)
+                first = False
+            else:
+                brew.addBrew(type, size, quantity, price, sale, salePrice)
             sale = 0
 
-    print('Done ' + beer_name)
+    print('Done ' + brew.name)
 
-    return setOfBrews
+    return brew
 
 def ripList(links):
     listOfBeer = beerClass.BeerList()
 
-    results = []
     with multiprocessing.Pool(processes=35) as p:
-        results = p.map(collectInfo, links)
+        brews = p.map(collectInfo, links)
 
-    for brand in results:
-        for brew in brand:
-            listOfBeer.append(brew)
+    for brew in brews:
+        listOfBeer.append(brew)
 
     return listOfBeer
 

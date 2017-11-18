@@ -1,6 +1,8 @@
 import beerClass
 import functionClass as funcClass
 import jsonOutput
+from time import time
+from copy import copy
 
 if __name__ == '__main__' and funcClass.connectionCheck():
     #Class Instantiation
@@ -16,27 +18,25 @@ if __name__ == '__main__' and funcClass.connectionCheck():
     saleList = listClass()
     kegList = listClass()
 
+    start = time()
     #Pull beers and sort
     link = funcClass.stripURL()     #Strip links for all beer pages
     listOfBeer = funcClass.ripList(link)    #Pull information from each beer page
-    listOfBeer.sort('valueAlcohol')     #Sort list of beers by mL / $
-    print('Collection done.')
+    listOfBeer.sort('valAlc')     #Sort list of beers by mL / $
+    print('Collection done in ' + str(time()-start) + ' seconds.')
 
     #Populate new topTen list to reduce its file size
     for i in range(0, 10):
-        topTenList.append(listOfBeer.list[i])
+        topTenList.append(copy(listOfBeer.list[i]))
 
     #Populate new sale list to reduce its file size
     for bit in listOfBeer.list:
-        if bit.sale == 1:
-            saleList.append(bit)
-    saleList.sort('salePercent')
+        if bit.isSale == 1:
+            saleList.append(copy(bit))
+    saleList.lightSort('salePercent')
 
     #Populate keg list to reduce its file size
-    for bit in listOfBeer.list:
-        if(bit.type == 'Keg'):
-            kegList.append(bit)
-    kegList.sort('value')
+    kegList = listOfBeer.kegListGen()
 
     #Output list of beers to text summary
     with open(outputFolder + 'dataTaken.txt', 'w+') as f:
@@ -44,16 +44,16 @@ if __name__ == '__main__' and funcClass.connectionCheck():
             print(bit.prntAsString, file=f)
 
     #Output list of beers to JSON
-    with open(outputFolder + 'jsonAllData.txt', 'w+') as f:
+    with open(outputFolder + 'jsonAllData.json', 'w+') as f:
         print(jsonOutput.dataToFile.toJSON(jsonOutput.dataToFile, listOfBeer), file=f)
 
-    with open(outputFolder + 'top10jsonData.txt', 'w+') as f:
+    with open(outputFolder + 'top10jsonData.json', 'w+') as f:
         print(jsonOutput.dataToFile.toJSON(jsonOutput.dataToFile, topTenList), file=f)
 
-    with open(outputFolder + 'jsonSaleData.txt', 'w+') as f:
+    with open(outputFolder + 'jsonSaleData.json', 'w+') as f:
         print(jsonOutput.dataToFile.toJSON(jsonOutput.dataToFile, saleList), file=f)
 
-    with open(outputFolder + 'jsonKegData.txt', 'w+') as f:
+    with open(outputFolder + 'jsonKegData.json', 'w+') as f:
         print(jsonOutput.dataToFile.toJSON(jsonOutput.dataToFile, kegList), file=f)
 
 elif __name__ == '__main__':

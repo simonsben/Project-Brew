@@ -202,8 +202,11 @@ def collectInfo(urlLst, retData):
 
             #Alcohol content
             alcohol_location = content.find('Alcohol Content', brewer_location)
-            alcohol_location = content.find('<dd>', alcohol_location) + len('<dd>')
-            alcohol = content[alcohol_location:content.find('<', alcohol_location)-1]
+            if alcohol_location != -1:
+                alcohol_location = content.find('<dd>', alcohol_location) + len('<dd>')
+                alcohol = content[alcohol_location:content.find('<', alcohol_location)-1]
+            else:
+                alcohol = 0
 
             #Initializing arrays and variables required
             type_location = alcohol_location
@@ -242,13 +245,18 @@ def collectInfo(urlLst, retData):
                     #Calculate next quantity location (and whether it exists)
                     quantity_location = content.find('<td class="size">', quantity_location + 1, type_end)
                     if first == True:
-                        brew = Beer(brewer, beer_name, type, int(size), int(quantity), float(alcohol[0]), float(price), sale, salePrice, beer_link, url)
+                        try:
+                            brew = Beer(brewer, beer_name, type, int(size), int(quantity), float(alcohol), float(price), sale, salePrice, beer_link, url)
+                        except ValueError:
+                            print('Error on ' + beer_name)
                         first = False
                     else:
                         brew.addBrew(type, size, quantity, price, sale, salePrice)
                     sale = 0
 
-            print('Done ' + brew.name)
+            #print('Done ' + brew.name)
+            if 'prohibition' in beer_name:
+                print('Done ' + beer_name)
 
             retData.put(brew)
         else:

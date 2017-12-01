@@ -8,12 +8,14 @@ import json
 class Beer:
     infOrd = {'type': 0, 'size': 1, 'quantity': 2, 'price': 3, 'sale': 4, 'salePrice': 5, 'salePercent': 6, 'value': 7, 'valAlc': 8}
     kRetAmt = {58600: 50, 50000:50, 30000:50, 25000: 20, 20000: 20, 12000:20}
-    def __init__(self, brnd, nm, tp, sz, qnt, alc, prc, sl, slPrc, picLnk, pgLnk):
+    def __init__(self, brnd, nm, tp, sz, qnt, knd, stl, alc, prc, sl, slPrc, picLnk, pgLnk):
         self.brand = brnd
         self.name = nm
         self.alcohol = alc
         self.pictureLink = picLnk
         self.pageLink = pgLnk
+        self.kind = knd
+        self.style = stl
         self.rank = 0
         self.main = 0
         #Info format: Type (0), size(1), quantity(2), price(3), sale(4), sale price(5), sale percent(6), value(7), alc value(8)
@@ -195,6 +197,17 @@ def collectInfo(urlLst, retData):
             beer_name_location = content.find('class="page-title"', begin) + len('class="page-title"') + 1
             beer_name = content[beer_name_location:content.find('<', beer_name_location + 1)]
 
+            #Style
+            beer_style_location = content.find('filter', beer_name_location) + len('filter') + 2
+            beer_style = content[beer_style_location:content.find('<', beer_style_location)]
+
+            #Kind
+            beer_kind_location = content.find('filter', beer_style_location) + len('filter') + 2
+            beer_kind = content[beer_kind_location:content.find('<', beer_kind_location)]
+            if(content.find('filter', beer_kind_location, beer_kind_location + 50) == -1):
+                beer_kind = beer_style
+                beer_style = ''
+
             #Brewer
             brewer_location = content.find('Brewer', beer_name_location)
             brewer_location = content.find('<dd>', brewer_location) + len('<dd>')
@@ -246,7 +259,7 @@ def collectInfo(urlLst, retData):
                     quantity_location = content.find('<td class="size">', quantity_location + 1, type_end)
                     if first == True:
                         try:
-                            brew = Beer(brewer, beer_name, type, int(size), int(quantity), float(alcohol), float(price), sale, salePrice, beer_link, url)
+                            brew = Beer(brewer, beer_name, type, int(size), int(quantity), beer_kind, beer_style, float(alcohol), float(price), sale, salePrice, beer_link, url)
                         except ValueError:
                             print('Error on ' + beer_name)
                         first = False

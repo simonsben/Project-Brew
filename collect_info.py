@@ -7,8 +7,13 @@ quiet = False
 
 url_extensions = get_beers()
 
-if not quiet: print('Collected Beers.')
-if test: url_extensions = url_extensions[:1]
+if not quiet: print('Collected beers.')
+if test: url_extensions = url_extensions[:50]
 
+beers = []
 for ext in url_extensions:
-    scrape_beer(ext)
+    beers.append(scrape_beer(ext))
+
+if not quiet: print('Scraped all beers.')
+
+print(beers)

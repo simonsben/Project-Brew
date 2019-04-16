@@ -24,7 +24,6 @@ def make_request(url, header=None):
     if 'Content-Encoding' in res_header:
         if res_header['Content-Encoding'] == 'gzip':
             raw = GzipFile(fileobj=raw)
-            print('Decompressed Response')
 
     page = raw.read().decode('utf-8')
 

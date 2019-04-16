@@ -1,6 +1,4 @@
-import beerClass
-import functionClass as funcClass
-import jsonOutput
+from old_files import beerClass, functionClass as funcClass, jsonOutput
 from time import time
 from copy import copy
 

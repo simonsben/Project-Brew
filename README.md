@@ -1,11 +1,7 @@
-The goal of this is to strip beer prices from The Beer Store website.
+# My Beer
 
-Status:
-* Able to collect and store links to all unique beer pages
-* Able to strip information about a given beer from webpage
-* Able to populate an array with all the data the output sorted data to file in JSON format
-
-
-Multithread update:
-* Able to strip all of The Beer Store in <20 sec
-* Executable on AWS Lambda
+This was originally the project that helped me learn Python!
+Now, I'm returning to it because 
+  
+  1. The code is embarassing
+  2. I want to use it as a reason to learn how to scrape *properly*

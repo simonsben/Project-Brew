@@ -1,5 +1,5 @@
 from urllib.request import urlopen, URLError
-import beerClass
+from old_files import beerClass
 import multiprocessing
 
 def readURL(url):

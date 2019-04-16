@@ -1,5 +1,6 @@
 import json
-import beerClass
+from old_files import beerClass
+
 
 class dataToFile:
         def toJSON(self, listOfBeer):

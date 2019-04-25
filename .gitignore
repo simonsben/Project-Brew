@@ -1,5 +1,6 @@
 venv/
 .idea/
+.vscode/
 old_files/
 __pycache__/
 tests/

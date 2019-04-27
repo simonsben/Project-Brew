@@ -2,6 +2,7 @@ const { get } = require('http');
 const { generate_cookie } = require('./get_generator.js');
 const { writeFile } = require('fs');
 
+// Request header
 const header = {
     'Host': 'www.thebeerstore.ca',
     'Connection': 'keep-alive',
@@ -13,18 +14,24 @@ const header = {
 },
 cookie_path = 'cookie.json';
 
+// Make request to get cookie generate script
 get('http://www.thebeerstore.ca/beers/search/', {'headers': header}, resp => {
     resp.setEncoding('utf8');
     let raw_data = '';
 
+    // If new data, add to pack
     resp.on('data', raw => { raw_data += raw; });
+
+    // Once all data received
     resp.on('end', () => {
+        // Generate cookie
         const cookie = generate_cookie(raw_data);
         const tmp = { 'cookie': cookie };
 
+        // Write cookie to json file
         writeFile(cookie_path, JSON.stringify(tmp), e => {
-            if(e) console.log(e);
-            else console.log('Good write');
+            if(e) console.log('Error:', e);
+            console.log('Cookie Generated');
         });
     });
 });

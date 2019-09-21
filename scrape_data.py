@@ -7,11 +7,7 @@ info_order = ['category', 'brewer', 'alcohol_content']
 
 
 # Scrape info for a given beer
-def scrape_beer(extension):
-    # Get page content
-    url = base_url + extension
-    page = make_request(url)
-
+def scrape_beer(page):
     # Initialize parser
     soup = BeautifulSoup(page, 'html.parser')
 
@@ -20,7 +16,7 @@ def scrape_beer(extension):
 
     # Get general information on beer
     beer['name'] = soup.find('h1', class_='page-title').get_text()
-    beer['img_link'] =soup.find('img', class_='image-style-none')['src']
+    beer['img_link'] = soup.find('img', class_='image-style-none')['src']
 
     info_mark = soup.find('dd')
     for info in info_order:

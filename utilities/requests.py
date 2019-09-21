@@ -1,30 +1,52 @@
 from urllib.request import Request, urlopen
 from gzip import GzipFile
-
-def_headers = {
-    'Host': 'www.thebeerstore.ca',
-    'Connection': 'keep-alive',
-    'Cache-Control': 'max-age=0',
-    'Upgrade-Insecure-Requests': '1',
-    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36',
-    'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
-    'Referer': 'http://www.thebeerstore.ca/',
-    'Accept-Language': 'en-CA,en-GB;q=0.9,en-US;q=0.8,en;q=0.7',
-    'Cookie': 'sucuri_cloudproxy_uuid_c32eb98e2=0939486cecdf4c071c4b6a85ec316a8c'
-}
+from async_timeout import timeout
+from asyncio import gather, create_task
+from aiohttp import ClientSession
+from time import sleep
+from requests import post, get
 
 
-def make_request(url, header=None):
-    headers = def_headers if header is None else header
+async def make_async(session, url):
+    with timeout(5):
+        async with session.get(url) as resp:
+            return await resp.text()
 
-    req = Request(url, headers=headers)
-    raw = urlopen(req)
 
-    res_header = raw.info()
-    if 'Content-Encoding' in res_header:
-        if res_header['Content-Encoding'] == 'gzip':
-            raw = GzipFile(fileobj=raw)
+def make_request(url, headers, data=None):
+    if data is None:
+        return get(url, headers=headers).text
+    return post(url, data=data, headers=headers)
 
-    page = raw.read().decode('utf-8')
+# def make_request(url, headers):
+#     req = Request(url, headers=headers)
+#     raw = urlopen(req)
+#
+#     res_header = raw.info()
+#     if 'Content-Encoding' in res_header:
+#         if res_header['Content-Encoding'] == 'gzip':
+#             raw = GzipFile(fileobj=raw)
+#
+#     page = raw.read().decode('utf-8')
+#
+#     return page
 
-    return page
+
+async def collect(extensions, headers, base):
+    tasks = []
+    count = 0
+
+    async with ClientSession(headers=headers) as session:
+        for ext in extensions:
+            count += 1
+            if count > 20:
+                sleep(.25)
+                count = 0
+
+            url = base + ext
+            task = create_task(make_async(session, url))
+            tasks.append(task)
+
+        responses = await gather(*tasks)
+
+    return responses

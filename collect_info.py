@@ -8,11 +8,11 @@ test = True
 urls = get_beers(test)
 
 print('Collected beers. ' + str(len(urls)) + ' to strip')
-if test: urls = urls[:5]
+if test: urls = urls[:50]
 
 start = time()
 raw_beers = make_requests(urls)
-beers = [scrape_beer(page) for page in raw_beers]
+beers = [scrape_beer(page, url) for page, url in zip(raw_beers, urls)]
 print(beers)
 
 end = time()

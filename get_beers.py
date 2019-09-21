@@ -4,7 +4,7 @@ from utilities import make_request
 URL = 'https://www.thebeerstore.ca/wp-admin/admin-ajax.php'
 
 
-def get_beers():
+def get_beers(test=False):
     """ Gets the URLs to all individual beer pages """
 
     # Get all data from lazy-loaded page
@@ -12,9 +12,10 @@ def get_beers():
     while True:
         payload = {'action': 'beer_ajax_load_more', 'page': i, 'is_new': 0, 'query': ''}
         response = make_request(URL, data=payload)
-        if response == '':
-            break
         content += response
+
+        if response == '' or test:
+            break
         i += 1
 
     # Get links to every beer page

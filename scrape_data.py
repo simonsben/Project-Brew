@@ -1,66 +1,68 @@
 from bs4 import BeautifulSoup
-from re import match, search
+from re import compile
 
-base_url = 'http://www.thebeerstore.ca'
+
 info_order = ['category', 'brewer', 'alcohol_content']
+value_regex = compile(r'[\w.]+')
+quantity_regex = compile(r'(\d+)\sX\s(\w+)[\n ]+\s+(\d+) (\w+)')
+price_regex = compile(r'\d+\.\d+(?=\s+$)')
+quantity_map = {1: 'number', 3: 'capacity'}
+
+
+def get_value(raw):
+    return ' '.join(value_regex.findall(raw))
 
 
 # Scrape info for a given beer
 def scrape_beer(page):
     # Initialize parser
     soup = BeautifulSoup(page, 'html.parser')
-
-    # Initialize beer data
-    beer = dict()
+    beer = {}
 
     # Get general information on beer
-    beer['name'] = soup.find('h1', class_='page-title').get_text()
-    beer['img_link'] = soup.find('img', class_='image-style-none')['src']
+    title_panel = soup.find('div', class_='detail_block single_beer_eq_ht')
+    beer['brewery'] = title_panel.find('h3').get_text()
+    beer['brand'] = title_panel.find('h2').get_text()
+    beer['description'] = title_panel.find('p').get_text()
 
-    info_mark = soup.find('dd')
-    for info in info_order:
-        beer[info] = info_mark.get_text()
-        info_mark = info_mark.find_next_sibling('dd')
+    # Get additional information
+    info_panel = soup.find('div', class_='deatil_box single_beer_dt_sec')
+    for child in info_panel.findChildren('div'):
+        info_name = get_value(child.find('h3').get_text())
+        info_value = get_value(child.find('p').get_text())
+        beer[info_name] = info_value
+    beer['ABV'] = float(beer['ABV'])
 
-    beer[info_order[2]] = float(match(r'[0-9.]+', beer[info_order[2]]).group(0))
+    # Image link
+    image_panel = soup.find('div', class_='img_thumb')
+    beer['pictureLink'] = image_panel.find('img')['src']
 
-    # Collect information on beer qualities/sizes
-    forms = []
-    curr_form = soup.find('th', class_='large')
-    while curr_form is not None:    # For each container type (ex. can, bottle, etc.)
-        # Initialize form and get name of container type
-        form = dict()
-        form['type'] = curr_form.get_text()
+    # Get quantity and price information
+    quantity_panel = soup.find('div', class_='more_detail')
+    beer['forms'] = []
 
+    # For each type of container
+    for container_panel in quantity_panel.findChildren('div', class_='more_detail_box', recursive=True):
+        container_type = get_value(container_panel.find('h3').text)
+        form = {'type': container_type}
         sizes = []
-        curr_size = curr_form.find_next('tr')
-        while curr_size is not None:    # For each quantity/size of container (ex. 12 x 355ml)
-            size = {}   # Initialize size
 
-            # Parse information
-            info_mark = curr_size.find_next('td')
-            info = info_mark.get_text()     # Get text in form quantity x form size
-            size['quantity'] = int(match(r'^[0-9]+', info).group(0))
-            size['volume'] = int(search(r'[0-9]{2,}', info[3:]).group(0))
+        # For each variant of container
+        for quantity_info in container_panel.findChildren('li', class_='single_beer_details'):
+            raw_container_info = quantity_regex.search(quantity_info.find('div', class_='col_1').text)
+            container_info = {quantity_map[key]: int(raw_container_info.group(key)) for key in quantity_map}
 
-            # Parse price
-            raw_price = info_mark.next_sibling
-            sale_price = raw_price.findChild('span', class_='sale-price')
+            raw_price = quantity_info.find('div', class_='col_2').text
+            price = float(price_regex.search(raw_price)[0])
+            container_info['price'] = price
+            container_info['on_sale'] = 'sale' in raw_price
 
-            if sale_price is not None:
-                size['sale'] = float(search(r'[0-9.]+', sale_price.get_text()).group(0))
-            size['price'] = float(search(r'[0-9.]+', raw_price.get_text()).group(0))
+            container_info['quantity_per_dollar'] = container_info['capacity'] / container_info['price']
+            container_info['alcohol_per_dollar'] = container_info['quantity_per_dollar'] * beer['ABV'] / 100
 
-            # Add size to list and get next
-            sizes.append(size)
-            curr_size = curr_size.find_next('tr')
+            sizes.append(container_info)
+
         form['sizes'] = sizes
-
-        # Add form to list
-        forms.append(form)
-        curr_form = curr_form.find_next_sibling('th', class_='large')
-
-    # Add forms to beer
-    beer['forms'] = forms
+        beer['forms'].append(form)
 
     return beer

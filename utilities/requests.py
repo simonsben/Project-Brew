@@ -1,52 +1,45 @@
-from urllib.request import Request, urlopen
-from gzip import GzipFile
-from async_timeout import timeout
-from asyncio import gather, create_task
-from aiohttp import ClientSession
-from time import sleep
 from requests import post, get
+from multiprocessing.dummy import Pool
+from functools import partial
+
+def_headers = {
+    'Host': 'www.thebeerstore.ca',
+    'Connection': 'keep-alive',
+    'Cache-Control': 'max-age=0',
+    'Upgrade-Insecure-Requests': '1',
+    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36',
+    'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+    'Referer': 'http://www.thebeerstore.ca/',
+    'Accept-Language': 'en-CA,en-GB;q=0.9,en-US;q=0.8,en;q=0.7'
+}
+num_workers = 50
 
 
-async def make_async(session, url):
-    with timeout(5):
-        async with session.get(url) as resp:
-            return await resp.text()
-
-
-def make_request(url, headers, data=None):
+# TODO add error handling
+def make_request(url, headers=def_headers, data=None):
+    """
+    Makes GET or POST requests
+    :param url: URL of target site
+    :param headers: request headers, optional
+    :param data: POST request data, optional
+    :return: webpage
+    """
     if data is None:
         return get(url, headers=headers).text
-    return post(url, data=data, headers=headers)
-
-# def make_request(url, headers):
-#     req = Request(url, headers=headers)
-#     raw = urlopen(req)
-#
-#     res_header = raw.info()
-#     if 'Content-Encoding' in res_header:
-#         if res_header['Content-Encoding'] == 'gzip':
-#             raw = GzipFile(fileobj=raw)
-#
-#     page = raw.read().decode('utf-8')
-#
-#     return page
+    return post(url, data=data, headers=headers).text
 
 
-async def collect(extensions, headers, base):
-    tasks = []
-    count = 0
-
-    async with ClientSession(headers=headers) as session:
-        for ext in extensions:
-            count += 1
-            if count > 20:
-                sleep(.25)
-                count = 0
-
-            url = base + ext
-            task = create_task(make_async(session, url))
-            tasks.append(task)
-
-        responses = await gather(*tasks)
+def make_requests(urls, headers=def_headers, n_workers=num_workers):
+    """
+    Makes multiple requests
+    :param urls: list of URLs to get
+    :param headers: request headers, optional
+    :param n_workers: number of worker threads, optional
+    :return: list of webpages
+    """
+    workers = Pool(n_workers)
+    responses = workers.map(partial(make_request, headers=headers), urls)
+    workers.close()
+    workers.join()
 
     return responses

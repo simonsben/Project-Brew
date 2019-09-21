@@ -1,4 +1,3 @@
-from utilities import make_request
 from bs4 import BeautifulSoup
 from re import match, search
 

@@ -41,6 +41,8 @@ def collect_data(a, b):
         if has_keg:
             keg_data.append(beer)
 
+    sale_data = sorted(sale_data, key=lambda beer: beer['salePercent'], reverse=True)
+
     datasets = [beers, top_10, sale_data, keg_data]
     filenames = ['jsonAllData', 'top10jsonData', 'jsonSaleData', 'jsonKegData']
     save_compressed(datasets, filenames)

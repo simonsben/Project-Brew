@@ -48,7 +48,6 @@ def scrape_beer(page, url):
     beer['name'] = title_panel.find('h2').get_text()
     beer['description'] = title_panel.find('p').get_text()
     beer['pageLink'] = url
-    beer['main'] = 0
 
     # Get additional information
     info_panel = soup.find('div', class_='deatil_box single_beer_dt_sec')
@@ -117,7 +116,8 @@ def scrape_beer(page, url):
     best_value = max(raw_value)
     best_alc_value = max(alcohol_value)
 
-    beer['price'] = beer['info'][alcohol_value.index(best_alc_value)][3]
+    beer['main'] = alcohol_value.index(best_alc_value)
+    beer['price'] = beer['info'][beer['main']][3]
     beer['value'] = best_value
     beer['valAlc'] = best_alc_value
     beer['salePercent'] = best_sale

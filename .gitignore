@@ -6,3 +6,5 @@ __pycache__/
 tests/
 data/
 data_old/
+config.json
+production_files.zip

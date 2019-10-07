@@ -7,8 +7,11 @@ quantity_regex = compile(r'(\d+)\sX\s(\w+)[\n ]+\s+(\d+) (\w+)')
 price_regex = compile(r'\d+\.\d+(?=\s+$)')
 non_numeric_regex = compile(r'[a-zA-Z ]+')
 sale_regex = compile(r'(?<=\$)(\d+\.\d+)')
+
 quantity_map = {1: 'number', 2: 'container_type', 3: 'capacity'}
 info_map = {'Type': 'kind', 'Category': 'category', 'Country': 'country', 'ABV': 'alcohol'}
+keg_deposit_amount = {58600: 50, 50000: 50, 30000: 50, 25000: 20, 20000: 20, 12000: 20, 18500: 20, 19500: 20}
+
 is_numeric = lambda info: non_numeric_regex.search(info) is None
 container_order = [
     'container_type', 'capacity', 'number',
@@ -87,12 +90,22 @@ def scrape_beer(page, url):
                 container_info['sale_price'] = 0
                 container_info['sale_percent'] = 0
 
+            # Remove keg deposit cost
+            if container_info['container_type'] == 'Keg':
+                capacity = container_info['capacity']
+                if capacity not in keg_deposit_amount:
+                    print('Bad keg size', beer['name'], capacity)
+                    keg_deposit_amount[capacity] = 20
+
+                container_info['price'] -= keg_deposit_amount[capacity]
+                if container_info['on_sale']:
+                    container_info['sale_price'] -= keg_deposit_amount[capacity]
+
             container_info['quantity_per_dollar'] = container_info['capacity'] * container_info['number'] / container_info['price']
             container_info['alcohol_per_dollar'] = container_info['quantity_per_dollar'] * beer['alcohol'] / 100
 
             sizes.append([container_info[info] for info in container_order])
 
-        # form['sizes'] = sizes
         beer['info'] += sizes
 
     return beer

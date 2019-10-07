@@ -2,26 +2,26 @@ from get_beers import get_beers
 from scrape_data import scrape_beer
 from utilities import make_requests
 from time import time
-from json import dumps
-from gzip import GzipFile
+from utilities import save_compressed, load_config, commit_to_s3
 
 
 def collect_data():
+    """ Collects data for all beers listed on The Beer Store """
+
     # Constants
+    load_config()
     test = False
     urls = get_beers(test)
 
-    print('Collected beers. ' + str(len(urls)) + ' to strip')
+    print('Collected beers. ', len(urls), ' to strip')
     if test: urls = urls[:15]
 
     start = time()
     raw_beers = make_requests(urls, processor=scrape_beer)
     beers = list(filter(lambda doc: doc is not None, raw_beers))
-    # beers = [scrape_beer(page, url) for page, url in zip(raw_beers, urls)]
-    print(beers)
 
     end = time()
-    print('Scraped all beers in ' + str(end-start) + 's')
+    print('Scraped all beers in', round(end - start), 's')
 
     # Sort beers by value
     best_values = [max([value[-2] for value in beer['info']]) for beer in beers]
@@ -45,10 +45,8 @@ def collect_data():
 
     datasets = [beers, top_10, sale_data, keg_data]
     filenames = ['jsonAllData', 'top10jsonData', 'jsonSaleData', 'jsonKegData']
-
-    for filename, dataset in zip(filenames, datasets):
-        with GzipFile('data/' + filename + '.json.gz', 'w') as file:
-            file.write((dumps(dataset) + '\n').encode('utf-8'))
+    save_compressed(datasets, filenames)
+    commit_to_s3()
 
 
 collect_data()

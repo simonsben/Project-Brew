@@ -13,6 +13,7 @@ cp collect_info.py tmp/
 cp get_beers.py tmp/
 cp scrape_data.py tmp/
 cp -r utilities tmp/
+cp resources/config.json tmp/
 echo "All core files copied."
 
 # Copy depepndancies

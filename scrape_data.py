@@ -108,4 +108,18 @@ def scrape_beer(page, url):
 
         beer['info'] += sizes
 
+    # Additional legacy parameters
+    sale_percent = [beer[6] for beer in beer['info']]
+    raw_value = [beer[7] for beer in beer['info']]
+    alcohol_value = [beer[8] for beer in beer['info']]
+
+    best_sale = max(sale_percent)
+    best_value = max(raw_value)
+    best_alc_value = max(alcohol_value)
+
+    beer['price'] = beer['info'][alcohol_value.index(best_alc_value)][3]
+    beer['value'] = best_value
+    beer['valAlc'] = best_alc_value
+    beer['salePercent'] = best_sale
+
     return beer

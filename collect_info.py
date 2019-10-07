@@ -5,7 +5,7 @@ from time import time
 from utilities import save_compressed, load_config, commit_to_s3
 
 
-def collect_data():
+def collect_data(a, b):
     """ Collects data for all beers listed on The Beer Store """
 
     # Constants
@@ -24,10 +24,8 @@ def collect_data():
     print('Scraped all beers in', round(end - start), 's')
 
     # Sort beers by value
-    best_values = [max([value[-2] for value in beer['info']]) for beer in beers]
-    value_indexes = [index for index, _ in sorted(enumerate(best_values), key=lambda inf: inf[1], reverse=True)]
-
-    for rank, index in enumerate(value_indexes):
+    beers = sorted(beers, key=lambda beer: beer['valAlc'], reverse=True)
+    for index, _ in enumerate(beers):
         beers[index]['rank'] = index + 1
 
     # Make datasets
@@ -49,4 +47,4 @@ def collect_data():
     commit_to_s3()
 
 
-collect_data()
+# collect_data(None, None)

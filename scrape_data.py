@@ -33,9 +33,15 @@ def scrape_beer(page, url):
     soup = BeautifulSoup(page, 'html.parser')
     beer = {}
 
+    # Ensure that a valid page was returned
+    try:
+        title_panel = soup.find('div', class_='detail_block single_beer_eq_ht')
+        beer['brand'] = title_panel.find('h3').get_text()
+    except AttributeError:
+        print('Bad page', url)
+        return None
+
     # Get general information on beer
-    title_panel = soup.find('div', class_='detail_block single_beer_eq_ht')
-    beer['brand'] = title_panel.find('h3').get_text()
     beer['name'] = title_panel.find('h2').get_text()
     beer['description'] = title_panel.find('p').get_text()
     beer['pageLink'] = url
@@ -59,8 +65,7 @@ def scrape_beer(page, url):
 
     # For each type of container
     for container_panel in quantity_panel.findChildren('div', class_='more_detail_box', recursive=True):
-        container_type = get_value(container_panel.find('h3').text)
-        form = {'type': container_type}
+        # container_type = get_value(container_panel.find('h3').text)
         sizes = []
 
         # For each variant of container
@@ -87,7 +92,7 @@ def scrape_beer(page, url):
 
             sizes.append([container_info[info] for info in container_order])
 
-        form['sizes'] = sizes
-        beer['info'].append(form)
+        # form['sizes'] = sizes
+        beer['info'] += sizes
 
     return beer

@@ -1,6 +1,7 @@
 from requests import post, get
 from multiprocessing.dummy import Pool
 from functools import partial
+from time import sleep
 
 def_headers = {
     'Host': 'www.thebeerstore.ca',
@@ -12,11 +13,12 @@ def_headers = {
     'Referer': 'http://www.thebeerstore.ca/',
     'Accept-Language': 'en-CA,en-GB;q=0.9,en-US;q=0.8,en;q=0.7'
 }
-num_workers = 50
+num_workers = 5
+timeout = 5
 
 
 # TODO add error handling
-def make_request(url, headers=def_headers, data=None):
+def make_request(url, headers=def_headers, data=None, sleep_process=False, processor=None):
     """
     Makes GET or POST requests
     :param url: URL of target site
@@ -24,12 +26,20 @@ def make_request(url, headers=def_headers, data=None):
     :param data: POST request data, optional
     :return: webpage
     """
+
     if data is None:
-        return get(url, headers=headers).text
-    return post(url, data=data, headers=headers).text
+        tmp = get(url, headers=headers, timeout=timeout).text
+    else:
+        tmp = post(url, data=data, headers=headers, timeout=timeout).text
+
+    if sleep_process:
+        sleep(.5)
+    if processor is None:
+        return tmp
+    return processor(tmp, url)
 
 
-def make_requests(urls, headers=def_headers, n_workers=num_workers):
+def make_requests(urls, headers=def_headers, n_workers=num_workers, processor=None):
     """
     Makes multiple requests
     :param urls: list of URLs to get
@@ -38,7 +48,7 @@ def make_requests(urls, headers=def_headers, n_workers=num_workers):
     :return: list of webpages
     """
     workers = Pool(n_workers)
-    responses = workers.map(partial(make_request, headers=headers), urls)
+    responses = workers.map(partial(make_request, headers=headers, processor=processor), urls)
     workers.close()
     workers.join()
 

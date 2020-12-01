@@ -49,4 +49,4 @@ def collect_data(a, b):
     commit_to_s3()
 
 
-# collect_data(None, None)
+collect_data(None, None)

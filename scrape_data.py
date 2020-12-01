@@ -3,7 +3,7 @@ from re import compile
 
 
 value_regex = compile(r'[\w.]+')
-quantity_regex = compile(r'(\d+)\sX\s(\w+)[\n ]+\s+(\d+) (\w+)')
+quantity_regex = compile(r'(\d+)\sX\s(\w+)\s(\d+)\s(\w+)')
 price_regex = compile(r'\d+\.\d+(?=\s+$)')
 non_numeric_regex = compile(r'[a-zA-Z ]+')
 sale_regex = compile(r'(?<=\$)(\d+\.\d+)')
@@ -38,19 +38,19 @@ def scrape_beer(page, url):
 
     # Ensure that a valid page was returned
     try:
-        title_panel = soup.find('div', class_='detail_block single_beer_eq_ht')
+        title_panel = soup.find('div', class_='detail_block search-beer-detail')
         beer['brand'] = title_panel.find('h3').get_text()
     except AttributeError:
         print('Bad page', url)
         return None
 
     # Get general information on beer
-    beer['name'] = title_panel.find('h2').get_text()
+    beer['name'] = title_panel.find('h1').get_text()
     beer['description'] = title_panel.find('p').get_text()
     beer['pageLink'] = url
 
     # Get additional information
-    info_panel = soup.find('div', class_='deatil_box single_beer_dt_sec')
+    info_panel = soup.find('div', class_='detail-coloums deatil_box single_beer_dt_sec')
     for child in info_panel.findChildren('div'):
         info_name = info_map[get_value(child.find('h3').get_text())]
         info_value = get_value(child.find('p').get_text())
@@ -62,7 +62,7 @@ def scrape_beer(page, url):
     beer['pictureLink'] = image_panel.find('img')['src']
 
     # Get quantity and price information
-    quantity_panel = soup.find('div', class_='more_detail')
+    quantity_panel = soup.find('div', class_='tabbed-deatil-desc')
     beer['info'] = []
 
     # For each type of container
@@ -71,11 +71,11 @@ def scrape_beer(page, url):
         sizes = []
 
         # For each variant of container
-        for quantity_info in container_panel.findChildren('li', class_='single_beer_details'):
-            raw_container_info = quantity_regex.search(quantity_info.find('div', class_='col_1').text)
+        for quantity_info in container_panel.findChildren('li', class_='d-column d-row option _cart'):
+            raw_container_info = quantity_regex.search(quantity_info.find('div', {'class': 'col_1'}).text)
             container_info = {quantity_map[key]: int_cast(raw_container_info.group(key)) for key in quantity_map}
 
-            raw_price = quantity_info.find('div', class_='col_2').text
+            raw_price = quantity_info.find('div', class_='col_3').text
             price = float(price_regex.search(raw_price)[0])
             container_info['price'] = price
             container_info['on_sale'] = int('sale' in raw_price)

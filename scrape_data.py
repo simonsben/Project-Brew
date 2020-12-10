@@ -143,7 +143,7 @@ def scrape_beer(page, url):
     """
     try:
         beer, soup = get_general_info(page, url)
-    except TypeError:
+    except (TypeError, AttributeError):
         print('Bad page', url)
         return None
 

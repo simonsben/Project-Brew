@@ -35,6 +35,3 @@ def handler(event, context):
 
     save_compressed(beer_data, 'beers.json.gz')
     commit_to_s3()
-
-
-handler(None, None)

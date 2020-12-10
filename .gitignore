@@ -1,10 +1,10 @@
+# Development items
 venv/
 .idea/
 .vscode/
-old_files/
 __pycache__/
-tests/
+
+# Temporary files
+tmp/
 data/
-data_old/
-config.json
-production_files.zip
+*.zip

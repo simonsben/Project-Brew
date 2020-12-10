@@ -1,31 +1,36 @@
 #!/bin/bash
 
+TMP_DIR="tmp/"
+
 cd ..
-if [ -d "tmp/" ]; then
-  echo "Clearing previous assembly."
-  rm -r tmp/
+if [ ! -d "venv/" ]; then
+  echo "No virtual environment present, exiting."
+  exit 1;
 fi
-mkdir tmp/
+
+if [ -d "$TMP_DIR" ]; then
+  echo "Clearing previous assembly."
+  rm -r "$TMP_DIR"
+fi
+mkdir "$TMP_DIR"
 
 # Copy python files
-cp __init__.py tmp/
-cp collect_info.py tmp/
-cp get_beers.py tmp/
-cp scrape_data.py tmp/
-cp -r utilities tmp/
-cp resources/config.json tmp/
+cp "__init__.py" "$TMP_DIR"
+cp "collect_info.py" "$TMP_DIR"
+cp "get_beers.py" "$TMP_DIR"
+cp "scrape_data.py" "$TMP_DIR"
+cp -r "utilities/" "$TMP_DIR"
 echo "All core files copied."
 
-# Copy depepndancies
-cp -r venv/Lib/site-packages/* tmp/
-echo "All dependancies copied."
+# Copy dependencies
+cp -r venv/Lib/site-packages/* "$TMP_DIR"
+echo "All dependencies copied."
 
-cd tmp/
-zip -rq production_files.zip *
+cd "$TMP_DIR"
+zip -rq "production_files.zip" *
 echo "Files compressed."
 
-mv production_files.zip ..
+mv "production_files.zip" ..
 cd ..
-rm -r tmp/
+rm -r "$TMP_DIR"
 echo "Temporary files cleaned up"
-

@@ -1,13 +1,14 @@
-# My Beer
+![](banner.png)
 
 This was originally the project that helped me learn Python!
 Now, I'm returning to it because
   
-  1. The code is embarrassing
-  2. I want to use it as a way to learn how to scrape *properly*
+* The code is embarrassing
+* I want to use it as a way to learn how to scrape *properly*
 
-## Current state
+## Objectives
 
-* Can now run both locally and from Lambda
-* Exports data to JSON files
-  * Exporting to *legacy* format since the site also needs some serious TLC.. (on the to-do list)
+- [X] Fix errors caused by an update to the website
+- [X] Scrape using library -> Beautiful Soup was chosen
+- [X] Scrape to *proper* json (i.e. using **KEYS** not ordered lists...)
+- [X] Compress output file

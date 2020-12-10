@@ -24,4 +24,4 @@ def get_beers(test=False):
 
     beers = [beer['href'] for beer in raw_beers]
 
-    return beers
+    return list(set(beers))

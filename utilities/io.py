@@ -3,6 +3,17 @@ from gzip import open
 from boto3 import resource
 from os import listdir, environ
 from pathlib import Path
+from time import time
+
+
+def dump_bad_data(data):
+    if 'bucket_name' in environ:
+        return
+
+    print(data)
+
+    # with open('data/error_dump_%d' % time(), 'w') as fl:
+    #     fl.write(data)
 
 
 def save_compressed(data, filename, directory='data/'):

@@ -1,4 +1,5 @@
 from requests import post, get
+from requests.exceptions import ReadTimeout
 from multiprocessing.dummy import Pool
 from functools import partial
 from time import sleep
@@ -13,24 +14,34 @@ def_headers = {
     'Referer': 'http://www.thebeerstore.ca/',
     'Accept-Language': 'en-CA,en-GB;q=0.9,en-US;q=0.8,en;q=0.7'
 }
-num_workers = 5
-timeout = 5
+timeout = 10
 
 
-# TODO add error handling
-def make_request(url, headers=def_headers, data=None, sleep_process=False, processor=None):
+def make_request(url, headers=None, data=None, sleep_process=False, processor=None, retries=1):
     """
     Makes GET or POST requests
-    :param url: URL of target site
-    :param headers: request headers, optional
-    :param data: POST request data, optional
-    :return: webpage
+    :param str url: URL of target site
+    :param dict headers: request headers, optional
+    :param dict data: POST request data, optional
+    :param bool sleep_process: Whether to sleep after making request (rough rate limiting)
+    :param function processor: Function to be applied to the data
+    :param int retries: Number of retries for the request
+    :return str: webpage
     """
 
-    if data is None:
-        tmp = get(url, headers=headers, timeout=timeout).text
-    else:
-        tmp = post(url, data=data, headers=headers, timeout=timeout).text
+    if headers is None:
+        headers = def_headers
+
+    for i in range(retries + 1):
+        try:
+            if data is None:
+                tmp = get(url, headers=headers, timeout=timeout).text
+            else:
+                tmp = post(url, data=data, headers=headers, timeout=timeout).text
+            break
+        except ReadTimeout:
+            print('WARNING: %s request timed-out' % url)
+            tmp = ''
 
     if sleep_process:
         sleep(.5)
@@ -39,14 +50,18 @@ def make_request(url, headers=def_headers, data=None, sleep_process=False, proce
     return processor(tmp, url)
 
 
-def make_requests(urls, headers=def_headers, n_workers=num_workers, processor=None):
+def make_requests(urls, headers=None, n_workers=4, processor=None):
     """
     Makes multiple requests
     :param urls: list of URLs to get
     :param headers: request headers, optional
     :param n_workers: number of worker threads, optional
+    :param processor: Function to apply to the downloaded page
     :return: list of webpages
     """
+    if headers is None:
+        headers = def_headers
+
     workers = Pool(n_workers)
     responses = workers.map(partial(make_request, headers=headers, processor=processor), urls)
     workers.close()

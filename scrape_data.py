@@ -15,11 +15,12 @@ info_keys = ['quantity', 'container_type', 'volume', 'volume_unit']
 
 index_pattern = compile(r'^(\d+)')
 price_index_pattern = compile(r'Price_Metadata_(\d+)')
+name_pattern = compile(r'(.+)~\d+')
 
 
 def get_general_information(raw_beer):
     beer = {
-        'name': raw_beer['name'],
+        'name': name_pattern.search(raw_beer['page_title'])[1].title(),
         'description': raw_beer['description'],
         'url_extension': raw_beer['custom_url']['url']
     }
@@ -42,6 +43,9 @@ def digest_container(container_info, extra_price_info, beer):
         'container_index': index_pattern.search(container_info['sku'])[1],
         'sale_percent': (container_info['price'] - container_info['sale_price']) / container_info['price']
     }
+    if container['sale_percent'] > 0:
+        container['sale_price'] = container_info['sale_price']
+
     for index, key in enumerate(info_keys):
         value = container_info_match[index + 1]
         if value.isnumeric():
@@ -92,6 +96,7 @@ def digest_beer(raw_beer):
         return None
 
     best_value = values.index(max(values))
+    beer['main'] = best_value
 
     for key in beer_level_keys:
         beer[key] = containers[best_value][key]

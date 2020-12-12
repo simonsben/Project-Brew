@@ -1,5 +1,6 @@
 from utilities import make_request
 from json import loads
+from json.decoder import JSONDecodeError
 from time import sleep
 
 URL = 'https://www.thebeerstore.ca/wp-admin/admin-ajax.php'
@@ -21,10 +22,17 @@ def get_num_pages(response):
     return meta['total_pages']
 
 
-def requester(page):
-    request_data = make_request(URL, data=build_payload(page))
+def requester(page, retries=1):
+    for retry_number in range(retries + 1):
+        try:
+            request_data = make_request(URL, data=build_payload(page))
+            return loads(request_data)
+        except JSONDecodeError:
+            print('WARNING: decode error, pausing before retry %d' % (retry_number + 1))
+            sleep(2)
+            continue
 
-    return loads(request_data)
+    return
 
 
 def get_beers(processor, test=False):

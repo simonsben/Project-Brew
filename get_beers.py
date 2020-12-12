@@ -1,8 +1,5 @@
-from utilities import make_request, dump_bad_data
-from multiprocessing.dummy import Pool
-from os import cpu_count
-from json import loads, dumps
-from json.decoder import JSONDecodeError
+from utilities import make_request
+from json import loads
 from time import sleep
 
 URL = 'https://www.thebeerstore.ca/wp-admin/admin-ajax.php'
@@ -44,9 +41,9 @@ def get_beers(processor, test=False):
 
     # Get remainder of the pages
     for index in range(2, total_pages):
-        print('Requesting page %d' % index)
-        beers += requester(index)
+        print('%2d of %d' % (index, total_pages))
+        beers += processor(requester(index))
 
-        sleep(500)
+        sleep(1)
 
     return beers

@@ -17,7 +17,9 @@ def handler(event, context):
     print('Scraped all beers in', round(end - start), 's')
 
     # Sort beers by value
+    beers = [beer for beer in beers if beer is not None]
     beers = sorted(beers, key=lambda beer: beer['alcohol_value'], reverse=True)
+
     for index, _ in enumerate(beers):
         beers[index]['rank'] = index + 1
 

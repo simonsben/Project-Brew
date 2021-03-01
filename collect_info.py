@@ -1,8 +1,9 @@
-from get_beers import get_beers
+from utilities import save_compressed, transfer_to_s3
 from scrape_data import digest_beers
-from time import time
-from utilities import save_compressed, commit_to_s3
+from get_beers import get_beers
 from datetime import date
+from os import environ
+from time import time
 
 
 def handler(event, context):
@@ -29,8 +30,8 @@ def handler(event, context):
         'collection_date': str(date.today())
     }
 
-    save_compressed(beer_data, 'beers.json.gz')
-    commit_to_s3()
-
-
-handler(None, None)
+    filename = 'beers.json.gz'
+    if 'bucket_name' in environ:
+        transfer_to_s3(beer_data, filename)
+    else:
+        save_compressed(beer_data, filename)

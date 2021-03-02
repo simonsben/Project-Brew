@@ -36,7 +36,6 @@ def transfer_to_s3(data, filename):
     response = s3_client.put_object(
         Body=compressed_data,
         Bucket=environ['bucket_name'],
-        ContentEncoding='gzip',
         Key=f'data/{filename}'
     )
 
